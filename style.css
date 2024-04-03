@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway";
+}
+body::-webkit-scrollbar {
+  width: 9px;
+}
+body::-webkit-scrollbar-track {
+  background: #515151;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #9d4c4c;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: #b58181;
+}
+body {
+  background-color: rgb(29, 21, 21);
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+.logo {
+  color: white;
+  font-size: 2rem;
+  transition: all 1s ease;
+  margin-left: 2rem;
+}
+.logo:hover {
+  font-size: 2.5rem;
+}
+.nav-content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  font-size: 1.4rem;
+}
+
+.bgimg {
+  width: auto;
+  height: 100vh;
+  object-fit: cover;
+  width: 100%;
+  opacity: 0.2;
+  z-index: 100;
+  position: absolute;
+}
+.title {
+  z-index: 200;
+  color: white;
+  text-align: center;
+  margin-top: calc(50vh - 6rem);
+  margin-inline: 2rem;
+  font-size: 5rem;
+}
+.background-home-page {
+  width: 100%;
+  height: 100vh;
+}
+.info {
+  height: 100vh;
+  background-color: white;
+}
