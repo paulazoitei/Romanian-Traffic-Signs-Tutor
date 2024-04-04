@@ -37,23 +37,64 @@
 
 .nav-list {
   list-style-type: none;
+  display: inline;
 }
-.nav-list a {
-  display: inline-block;
-  position: relative;
-  text-decoration: none;
+.nav-list li {
+  display: inline;
   color: white;
   margin-right: 3rem;
   transition: all 0.1s ease-in;
 }
-
-.nav-list a:hover {
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.1s ease-in;
+}
+.nav-list li a :visited {
+  text-decoration: none;
+  color: white;
+}
+.nav-list li a:hover {
   color: rgb(255, 253, 135);
 }
-.nav-list a:last-child:hover {
+.nav-list li:last-child a:hover {
   color: rgb(84, 172, 255);
 }
+.dropdown-container {
+  border-radius: 10px;
+  position: absolute;
+  top: 80%;
+  left: 0;
+  width: 20rem;
+  font-size: 1.1rem;
+  opacity: 0;
+  transition: all 0.1s ease-in;
+  height: auto;
+  background: rgb(92, 30, 39);
 
+  -webkit-box-shadow: -6px 5px 28px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -6px 5px 28px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: -6px 5px 28px -9px rgba(0, 0, 0, 0.75);
+}
+
+.dropdown-list {
+  list-style-type: none;
+  padding: 1rem;
+}
+
+.dropdown {
+  padding: 0;
+  position: relative;
+}
+.dropdown:hover .dropdown-container {
+  top: 120%;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+}
+.dropdown-list li {
+  margin-top: 20px;
+}
 @media (max-width: 1100px) {
 }
 @media (max-width: 750px) {
