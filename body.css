@@ -18,5 +18,7 @@ body::-webkit-scrollbar-thumb:hover {
   background: #b58181;
 }
 body {
-  background-color: rgb(29, 21, 21);
+  background-image: url(./bg.jpg);
+  background-size: cover;
+  background-position: center;
 }
