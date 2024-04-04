@@ -98,10 +98,16 @@
 }
 .dropdown-list li a {
   display: block;
-  border-radius: 10px;
+
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+}
+.dropdown-list li:first-child a {
+  border-radius: 10px 10px 0px 0px;
+}
+.dropdown-list li:last-child a {
+  border-radius: 0px 0px 10px 10px;
 }
 .dropdown-list li a:hover {
   background: rgb(128, 49, 61);
