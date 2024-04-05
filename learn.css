@@ -54,3 +54,9 @@
 .option-title {
   font-size: 1.5rem;
 }
+@media (max-width: 1100px) {
+  .options {
+    flex-wrap: wrap;
+    row-gap: 2rem;
+  }
+}
