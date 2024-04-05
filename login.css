@@ -14,6 +14,8 @@
   position: absolute;
   top: 10rem;
 }
+  
+
 .separator {
   height: 500px;
   background: rgb(128, 33, 44);
@@ -32,6 +34,7 @@
   border-radius: 20px;
   margin-left: 3rem;
 }
+
 .register {
   margin-right: 3rem;
   background: rgb(128, 33, 44);
@@ -44,6 +47,25 @@
   width: 400px;
   border-radius: 20px;
 }
+@media (max-width: 768px) {
+  .login-or-register {
+    flex-direction: column;
+    position: relative; 
+    top: 0; 
+    align-items: center; 
+  }
+
+  .login, .register {
+    width: 90%; 
+    margin: 20px auto; 
+  }
+
+  .separator {
+    height: 3px; 
+    width: 50%; 
+    margin: 20px auto; 
+  }
+}  
 .login-text {
   color: white;
   text-align: center;
