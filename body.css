@@ -10,7 +10,16 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-track {
   background: #515151;
 }
-
+.bg-image-container {
+  z-index: -100;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.2;
+}
+.bg-image {
+  width: 100%;
+}
 body::-webkit-scrollbar-thumb {
   background: #9d4c4c;
 }
