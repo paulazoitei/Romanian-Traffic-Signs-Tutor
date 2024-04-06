@@ -8,11 +8,8 @@
   color: white;
   font-size: 2rem;
   transition: all 1s ease;
-  margin-left: 2rem;
 }
-.logo:hover {
-  font-size: 2.5rem;
-}
+
 .nav-content {
   display: flex;
   justify-content: flex-end;

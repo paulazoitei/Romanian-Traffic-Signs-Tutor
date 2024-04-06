@@ -52,6 +52,11 @@
   width: 400px;
   border-radius: 20px;
 }
+@media (max-width: 970px) {
+  .form-block {
+    width: 35%;
+  }
+}
 @media (max-width: 768px) {
   .login-or-register {
     flex-direction: column;
