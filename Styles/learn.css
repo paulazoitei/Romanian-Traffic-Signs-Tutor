@@ -15,6 +15,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 10rem;
 }
 .options a:first-child .option {
   background-color: rgba(3, 24, 255, 0.1);

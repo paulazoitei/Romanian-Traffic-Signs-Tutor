@@ -2,6 +2,7 @@
   display: flex;
   flex-flow: column;
   width: 100%;
+  height: fit-content;
 }
 
 .login-or-register {
@@ -11,16 +12,20 @@
   justify-content: space-around;
   align-items: center;
   margin: 0;
-  position: absolute;
-  top: 10rem;
+  position: relative;
+  margin-top: 10rem;
+
+  margin-bottom: 10rem;
 }
-  
 
 .separator {
   height: 500px;
   background: rgb(128, 33, 44);
   width: 3px;
   border-radius: 20px;
+}
+.form-block {
+  position: relative;
 }
 .login {
   background: rgb(128, 33, 44);
@@ -50,22 +55,23 @@
 @media (max-width: 768px) {
   .login-or-register {
     flex-direction: column;
-    position: relative; 
-    top: 0; 
-    align-items: center; 
+    position: relative;
+    top: 0;
+    align-items: center;
   }
 
-  .login, .register {
-    width: 90%; 
-    margin: 20px auto; 
+  .login,
+  .register {
+    width: 90%;
+    margin: 20px auto;
   }
 
   .separator {
-    height: 3px; 
-    width: 50%; 
-    margin: 20px auto; 
+    height: 3px;
+    width: 50%;
+    margin: 20px auto;
   }
-}  
+}
 .login-text {
   color: white;
   text-align: center;
