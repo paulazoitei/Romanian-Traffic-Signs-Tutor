@@ -2,7 +2,7 @@
   position: absolute;
   z-index: 1001;
   right: 0;
-  bottom: 15%;
+  top: 30%;
   display: none;
   visibility: hidden;
 }
@@ -158,12 +158,15 @@
   }
   .menu {
     visibility: initial;
+    position: relative;
   }
   .nav ul li:not(.menu) {
     display: none;
+    text-align: center;
     visibility: hidden;
     height: fit-content;
     margin-bottom: 1rem;
+    margin-inline: auto;
   }
   .nav {
     margin: 0;

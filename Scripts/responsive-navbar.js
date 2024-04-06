@@ -9,15 +9,13 @@ document.addEventListener("DOMContentLoaded", function () {
       for (let item of listItems) {
         item.style.display = "block";
         item.style.visibility = "initial";
-      }
-      for (let item of dropdownList) {
-        item.style.display = "block";
-        item.style.visibility = "visible";
+        menu.style.opacity = "0.5";
       }
     } else {
       for (let item of listItems) {
         item.style.display = "none";
         item.style.visibility = "hidden";
+        menu.style.opacity = "1";
       }
     }
     visible = !visible;
@@ -33,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
       for (let item of listItems) {
         item.style.visibility = "hidden";
         item.style.display = "none";
+        menu.style.opacity = "1";
       }
     }
   };
