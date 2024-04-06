@@ -1,3 +1,11 @@
+.menu {
+  position: absolute;
+  z-index: 1001;
+  right: 0;
+  bottom: 15%;
+  display: none;
+  visibility: hidden;
+}
 .nav {
   z-index: 1000;
   position: fixed;
@@ -146,10 +154,17 @@
 }
 @media (max-width: 750px) {
   .logo {
-    transition: none;
-    margin: 0;
+    margin-left: 0;
   }
-
+  .menu {
+    visibility: initial;
+  }
+  .nav ul li:not(.menu) {
+    display: none;
+    visibility: hidden;
+    height: fit-content;
+    margin-bottom: 1rem;
+  }
   .nav {
     margin: 0;
     z-index: 1000;

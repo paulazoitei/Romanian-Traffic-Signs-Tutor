@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href=".././Styles/style.css" />
     <link rel="stylesheet" href=".././Styles/navstyle.css" />
     <link rel="stylesheet" href=".././Styles/body.css" />
@@ -13,6 +14,7 @@
     <title>RoTST</title>
   </head>
   <body>
+    <script src="../Scripts/responsive-navbar.js"></script>
     <div class="bg-image-container">
       <img src=".././Assets/Images/bodybg.jpg" class="bg-image" alt="bg-img" />
     </div>
@@ -21,50 +23,61 @@
         <div class="logo">
           <a href=".././Html Components/index.html">
             <svg width="100" height="100" viewBox="0 0 100 100">
-              <image href=".././Assets/Icons/logo-rot.svg" width="100" height="100" />
+              <image
+                href=".././Assets/Icons/logo-rot.svg"
+                width="100"
+                height="100"
+              />
             </svg>
           </a>
         </div>
         <div class="nav-content">
           <ul class="nav-list">
-            <li class="item"><a href="">Chestionare</a></li>
-            <li class="item"><a href="">Clasament</a></li>
-            <li class="item"><a href="">Comunitate</a></li>
-            <li class="dropdown">
-              <a href=".././Html Components/Mediu de invatare/mediu-invatare.html">Mediu Invatare</a>
+            <li class="item toDisplay"><a href="">Chestionare</a></li>
+            <li class="item toDisplay"><a href="">Clasament</a></li>
+            <li class="item toDisplay"><a href="">Comunitate</a></li>
+            <li class="dropdown toDisplay">
+              <a href=".././Html Components/mediu-invatare.html"
+                >Mediu Invatare</a
+              >
               <div class="dropdown-container">
                 <ul class="dropdown-list">
-                  <li><a href="">Chestionare de practica</a></li>
+                  <li class="dropdown-item">
+                    <a href="">Chestionare de practica</a>
+                  </li>
 
-                  <li><a href="">Legislatie</a></li>
+                  <li class="dropdown-item"><a href="">Legislatie</a></li>
 
-                  <li><a href="">Semne rutiere</a></li>
+                  <li class="dropdown-item"><a href="">Semne rutiere</a></li>
                 </ul>
               </div>
             </li>
-            <li class="item"><a href=".././Html Components/auth.html">Accesare Cont</a></li>
+            <li class="item toDisplay">
+              <a href=".././Html Components/auth.html">Accesare Cont</a>
+            </li>
+            <li class="menu">
+              <a href="" id="menu-button">
+                <svg width="50" height="50" viewBox="0 0 50 50">
+                  <image
+                    href=".././Assets/Icons/menu.svg"
+                    width="50"
+                    height="50"
+                  />
+                </svg>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
       <div class="background-home-page">
-      
-        <p class="title">Bun venit pe Romanian Traffic Signs Tutor!
-        </p>
+        <p class="title">Bun venit pe Romanian Traffic Signs Tutor!</p>
       </div>
-      <div class ="home-page-content">
-        <p class="content">
-    
-          khaskfjahsdkjhakdjhak
-        </p>
+      <div class="home-page-content">
+        <p class="content">khaskfjahsdkjhakdjhak</p>
       </div>
-      <div class="extra-space">
-   
-      </div>
+      <div class="extra-space"></div>
 
-      <footer class="about-section">
-        About 
-        
-      </footer>
+      <footer class="about-section">About</footer>
     </div>
   </body>
 </html>

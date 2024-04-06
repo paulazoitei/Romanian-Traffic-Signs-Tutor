@@ -11,6 +11,7 @@
   </head>
 
   <body>
+    <script src="../Scripts/responsive-navbar.js"></script>
     <div class="bg-image-container">
       <img src=".././Assets/Images/bodybg.jpg" class="bg-image" alt="bg-img" />
     </div>
@@ -29,26 +30,38 @@
         </div>
         <div class="nav-content">
           <ul class="nav-list">
-            <li class="item"><a href="">Chestionare</a></li>
-            <li class="item"><a href="">Clasament</a></li>
-            <li class="item"><a href="">Comunitate</a></li>
-            <li class="dropdown">
-              <a
-                href=".././Html Components/Mediu de invatare/mediu-invatare.html"
+            <li class="item toDisplay"><a href="">Chestionare</a></li>
+            <li class="item toDisplay"><a href="">Clasament</a></li>
+            <li class="item toDisplay"><a href="">Comunitate</a></li>
+            <li class="dropdown toDisplay">
+              <a href=".././Html Components/mediu-invatare.html"
                 >Mediu Invatare</a
               >
               <div class="dropdown-container">
                 <ul class="dropdown-list">
-                  <li><a href="">Chestionare de practica</a></li>
+                  <li class="dropdown-item">
+                    <a href="">Chestionare de practica</a>
+                  </li>
 
-                  <li><a href="">Legislatie</a></li>
+                  <li class="dropdown-item"><a href="">Legislatie</a></li>
 
-                  <li><a href="">Semne rutiere</a></li>
+                  <li class="dropdown-item"><a href="">Semne rutiere</a></li>
                 </ul>
               </div>
             </li>
-            <li class="item">
+            <li class="item toDisplay">
               <a href=".././Html Components/auth.html">Accesare Cont</a>
+            </li>
+            <li class="menu">
+              <a href="" id="menu-button">
+                <svg width="50" height="50" viewBox="0 0 50 50">
+                  <image
+                    href=".././Assets/Icons/menu.svg"
+                    width="50"
+                    height="50"
+                  />
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
