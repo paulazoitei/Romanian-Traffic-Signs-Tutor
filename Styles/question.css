@@ -40,15 +40,22 @@
 }
 .variant-container input {
   opacity: 0;
+  z-index: -9999;
 }
 .q-image-container {
-  width: 30%;
-  object-fit: cover;
+  width: 40%;
+  border-radius: 20px;
+
+  overflow: hidden;
+
+  position: relative;
 }
 .q-image {
   border-radius: 20px;
-  max-width: 70%;
-  max-height: 70%;
+  object-fit: cover;
+  opacity: 1;
+  width: 100%;
+  object-position: center;
   position: absolute;
 }
 .send {
