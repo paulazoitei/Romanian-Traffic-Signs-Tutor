@@ -64,7 +64,126 @@
   font-size: 2rem;
   color: white;
 }
+
+
+    .content-container {
+  display: flex;
+  justify-content: center; 
+  align-items: stretch; 
+  width: 100vw;
+} 
+
+.content-list {
+  list-style-type: none; 
+  padding-left: 0;
+  margin: 0;
+  flex: 0 0 60%; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+}
+
 .content {
-  margin-left: 4rem;
   color: white;
+  font-size: 1.6rem;
+  word-spacing: 0.15rem; 
+  line-height: 3rem; 
+  font-family: "Raleway", sans-serif;
+  padding: 1rem; 
+}
+
+.home-page-image {
+  flex: 0 0 40%; 
+  height: auto; 
+  margin-top: 3.5vh;
+}
+
+.home-page-image img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 20px;
+  
+}
+
+
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+  }
+
+  .content-list, .home-page-image {
+    flex: 0 0 auto; 
+    width: 100%; 
+  }
+}  
+.logo-about
+{
+  position: relative;
+  margin-left:2rem;
+}
+.despre-noi{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  column-gap:10px;
+}
+.about-section {
+  text-align: center;
+  position: relative;
+  display: flex;
+  width: 100%;
+  
+  flex-direction: column;
+  justify-content: space-around;
+  /* Restul proprietăților rămân neschimbate */
+}
+.about-text{
+  margin-top:0;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.social-media-icons {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+
+
+.fa {
+  font-size: 30px; /* Sau orice altă mărime preferi */
+  color: white; /* Culoarea implicită pentru text */
+  padding: 10px; /* Spacing în jurul iconițelor */
+  margin: 0 5px; /* Spacing între iconițe */
+  text-align: center;
+  text-decoration: none; /* Scoate sublinierea pentru link-uri */
+}
+
+.fa-facebook {
+  color:#316FF6; /* Culoarea Facebook */
+}
+
+.fa-twitter {
+  color:#1DA1F2; /* Culoarea Twitter */
+}
+
+.fa-linkedin {
+  color:#0762C8; /* Culoarea LinkedIn */
+}
+
+.fa-instagram {
+  background: -webkit-linear-gradient(#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block; /* Required for gradients in some browsers */
+}
+
+
+
+.fa:hover {
+    opacity: 0.7;
 }
