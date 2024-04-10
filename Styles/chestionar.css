@@ -1,0 +1,56 @@
+.info-container {
+  position: relative;
+  margin-top: 8rem;
+}
+
+.title-container {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.text-quiz-title {
+  font-size: 1.7rem;
+}
+.title-quiz {
+  color: white;
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+}
+.text-container {
+  margin-inline: 2rem;
+  color: white;
+  font-size: 1.6rem;
+}
+.text-quiz {
+}
+.point-list {
+  margin-left: 4rem;
+}
+.start-button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5rem;
+  width: 16rem;
+  height: 6rem;
+  border-radius: 6px;
+  background-color: rgb(167, 39, 64);
+}
+
+.start-button-clickable {
+  text-decoration: none;
+}
+.start-button-clickable:hover .icon-circle {
+  transform: translateX(10px);
+}
+.start-button-clickable:active .start-button {
+  background-color: rgb(191, 59, 86);
+}
+.icon-circle {
+  width: 3rem;
+  transition: all 0.2s;
+}
+.start-button p {
+  color: white;
+
+  font-size: 2rem;
+}

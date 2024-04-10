@@ -3,19 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href=".././Styles/navstyle.css" rel="stylesheet" />
-    <link href=".././Styles/body.css" rel="stylesheet" />
-    <link rel="stylesheet" href=".././Styles/login.css" />
     <link rel="stylesheet" href=".././Styles/style.css" />
+    <link rel="stylesheet" href=".././Styles/navstyle.css" />
+    <link rel="stylesheet" href=".././Styles/body.css" />
+    <link rel="stylesheet" href=".././Styles/question.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Raleway"
       rel="stylesheet"
     />
-    <title>RoTST</title>
+    <title>Chestionar</title>
   </head>
-
   <body>
     <script src="../Scripts/responsive-navbar.js"></script>
+    <script src="../Scripts/background-options.js"></script>
     <div class="bg-image-container">
       <img src=".././Assets/Images/bodybg.jpg" class="bg-image" alt="bg-img" />
     </div>
@@ -55,7 +55,7 @@
               </div>
             </li>
             <li class="item toDisplay">
-              <a href=".././Html Components/auth.html">Accesare Cont</a>
+              <a href="../Html Components/auth.html">Accesare Cont</a>
             </li>
             <li class="menu">
               <a href="" id="menu-button">
@@ -72,54 +72,50 @@
         </div>
       </div>
 
-      <div class="login-or-register">
-        <div class="login form-block">
-          <p class="login-text">Login</p>
-          <form class="login-form">
-            <div class="input-field">
-              <label for="username">Username:</label><br />
-              <input type="text" id="username" /> <br /><br />
-            </div>
-            <div class="input-field">
-              <label for="password">Password:</label><br />
-              <input type="password" id="password" />
-            </div>
-            <div class="submit-container">
-              <input type="submit" class="submit-button" />
-            </div>
-          </form>
+      <div class="question-container">
+        <div class="header">
+          <span class="information">Intrebari corecte:</span>
+          <span class="information">Intrebari gresite:</span>
+          <span class="information">Intrebari ramase:</span>
         </div>
-        <div class="separator"></div>
-        <div class="register form-block">
-          <p class="login-text">Register</p>
-          <form class="login-form">
-            <div class="input-field">
-              <label for="register-username">Username:</label><br />
-              <input type="text" id="register-username" /> <br /><br />
+        <div class="question-and-image">
+          <div class="question">
+            <div class="question-text">
+              <p>Intrebare demo</p>
             </div>
-            <div class="input-field">
-              <label for="email">Email:</label><br />
-              <input type="email" id="email" /> <br /><br />
+            <div class="question-form">
+              <form>
+                <label for="variant1">
+                  <div class="variant-container" id="v1cont">
+                    <input type="checkbox" id="variant1" key="variant1" />
+                    Varianta 1
+                  </div>
+                </label>
+                <label for="variant2">
+                  <div class="variant-container" id="v2cont">
+                    <input type="checkbox" id="variant2" key="variant2" />
+                    Varianta 2
+                  </div>
+                </label>
+                <label for="variant3">
+                  <div class="variant-container" id="v3cont">
+                    <input type="checkbox" id="variant3" key="variant3" />
+                    Varianta 3
+                  </div>
+                </label>
+                <input type="button" class="send" value="Trimitere Raspuns" />
+              </form>
             </div>
-            <div class="input-field">
-              <label for="register-password">Password:</label><br />
-              <input type="password" id="register-password" /> <br /><br />
-            </div>
-            <div class="input-field">
-              <label for="confirm-password">Confirm Password:</label><br />
-              <input type="password" id="confirm-password" /> <br /><br />
-            </div>
-            <div class="input-field">
-              <label for="phone">Phone number:</label><br />
-              <input type="text" id="phone" />
-            </div>
-            <div class="submit-container">
-              <input type="submit" class="submit-button" />
-            </div>
-          </form>
+          </div>
+          <div class="q-image-container">
+            <img
+              class="q-image"
+              src="../Assets/Images/question-image.jpg"
+              alt="question image"
+            />
+          </div>
         </div>
       </div>
     </div>
-    <footer class="about-section">About</footer>
   </body>
 </html>

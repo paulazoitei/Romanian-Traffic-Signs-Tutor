@@ -3,17 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href=".././Styles/navstyle.css" rel="stylesheet" />
-    <link href=".././Styles/body.css" rel="stylesheet" />
-    <link rel="stylesheet" href=".././Styles/login.css" />
     <link rel="stylesheet" href=".././Styles/style.css" />
+    <link rel="stylesheet" href=".././Styles/navstyle.css" />
+    <link rel="stylesheet" href=".././Styles/body.css" />
+    <link rel="stylesheet" href=".././Styles/chestionar.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Raleway"
       rel="stylesheet"
     />
-    <title>RoTST</title>
+    <title>Chestionare</title>
   </head>
-
   <body>
     <script src="../Scripts/responsive-navbar.js"></script>
     <div class="bg-image-container">
@@ -55,7 +54,7 @@
               </div>
             </li>
             <li class="item toDisplay">
-              <a href=".././Html Components/auth.html">Accesare Cont</a>
+              <a href="../Html Components/auth.html">Accesare Cont</a>
             </li>
             <li class="menu">
               <a href="" id="menu-button">
@@ -71,53 +70,59 @@
           </ul>
         </div>
       </div>
-
-      <div class="login-or-register">
-        <div class="login form-block">
-          <p class="login-text">Login</p>
-          <form class="login-form">
-            <div class="input-field">
-              <label for="username">Username:</label><br />
-              <input type="text" id="username" /> <br /><br />
-            </div>
-            <div class="input-field">
-              <label for="password">Password:</label><br />
-              <input type="password" id="password" />
-            </div>
-            <div class="submit-container">
-              <input type="submit" class="submit-button" />
-            </div>
-          </form>
+      <div class="info-container">
+        <div class="title-container">
+          <p class="title-quiz">Chestionare</p>
         </div>
-        <div class="separator"></div>
-        <div class="register form-block">
-          <p class="login-text">Register</p>
-          <form class="login-form">
-            <div class="input-field">
-              <label for="register-username">Username:</label><br />
-              <input type="text" id="register-username" /> <br /><br />
-            </div>
-            <div class="input-field">
-              <label for="email">Email:</label><br />
-              <input type="email" id="email" /> <br /><br />
-            </div>
-            <div class="input-field">
-              <label for="register-password">Password:</label><br />
-              <input type="password" id="register-password" /> <br /><br />
-            </div>
-            <div class="input-field">
-              <label for="confirm-password">Confirm Password:</label><br />
-              <input type="password" id="confirm-password" /> <br /><br />
-            </div>
-            <div class="input-field">
-              <label for="phone">Phone number:</label><br />
-              <input type="text" id="phone" />
-            </div>
-            <div class="submit-container">
-              <input type="submit" class="submit-button" />
-            </div>
-          </form>
+        <div class="text-container">
+          <p class="text-quiz">
+            <strong class="text-quiz-title"
+              >Bine te-am gasit pe sectiunea chestionarelor oficiale!</strong
+            ><br /><br />
+            Aceste chestionare vor fi metoda principala pentru a-ti testa
+            capacitatile in urma invatarii temeinice a teoriei. Fiecare
+            chestionar va fi compus din 26 de intrebari, din care minimul pentru
+            a fi admis este de 22 raspunsuri corecte.
+            <br />
+            Pentru a-ti monitoriza progresul si pentru a-ti demonstra
+            capacitatea, aceste chestionare vor fi punctate pozitiv sau negativ,
+            in functie de corectitudinea raspunsurilor tale.
+            <br /><br />
+            Punctajele vor fi acordate in felul urmator:
+            <br />
+          </p>
+          <br />
+          <ul class="point-list">
+            <li>Chestionar admis 26/26 : +20 puncte</li>
+            <li>Chestionar admis : +10 puncte</li>
+            <li>Chestionar picat : -5 puncte</li>
+            <li>Intrebare corecta : +0.5 puncte</li>
+            <li>Intrebare gresita : -0.5 puncte</li>
+          </ul>
+          <br />
+          <p class="text-quiz">
+            Cand te simti pregatit, apasa pe start pentru a porni chestionarul.
+          </p>
         </div>
+      </div>
+      <div class="wrapper">
+        <a class="start-button-clickable" href="chestionar-started.html">
+          <div class="start-button">
+            <p>START</p>
+            <svg
+              class="icon-circle"
+              width="100"
+              height="100"
+              viewBox="0 0 100 100"
+            >
+              <image
+                href="../Assets/Icons/right-arrow.svg"
+                width="100"
+                height="100"
+              />
+            </svg>
+          </div>
+        </a>
       </div>
     </div>
     <footer class="about-section">About</footer>

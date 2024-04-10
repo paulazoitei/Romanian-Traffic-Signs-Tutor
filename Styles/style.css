@@ -2,6 +2,7 @@
   display: flex;
   flex-flow: column;
   width: 100%;
+  margin-bottom: 10rem;
 }
 
 .logo {
@@ -67,4 +68,17 @@
 .content {
   margin-left: 4rem;
   color: white;
+}
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  margin-left: 4rem;
+}
+@media (max-width: 750px) {
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
 }
