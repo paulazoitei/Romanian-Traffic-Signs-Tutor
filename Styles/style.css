@@ -133,7 +133,7 @@
   position: relative;
   display: flex;
   width: 100%;
-  
+  margin-bottom:0;
   flex-direction: column;
   justify-content: space-around;
   /* Restul proprietăților rămân neschimbate */
