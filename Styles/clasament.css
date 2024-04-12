@@ -1,0 +1,36 @@
+.top-container {
+  margin-top: 8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top-title {
+  font-size: 5rem;
+  color: rgb(237, 228, 51);
+  margin-bottom: 2rem;
+}
+.top {
+  width: 700px;
+  min-height: 500px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.4);
+  position: relative;
+  -webkit-box-shadow: -9px 10px 28px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -9px 10px 28px -14px rgba(0, 0, 0, 0.75);
+  box-shadow: -9px 10px 28px -14px rgba(0, 0, 0, 0.75);
+}
+.trophy {
+  position: absolute;
+  left: auto;
+  width: 170px;
+  transform: rotate(-10deg);
+  top: -30px;
+  left: -60px;
+}
+@media (max-width: 768px) {
+  .top {
+    width: 450px;
+  }
+}
