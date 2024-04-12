@@ -28,6 +28,13 @@
   transform: rotate(-10deg);
   top: -30px;
   left: -60px;
+  transition: all 0.3s ease-out;
+}
+.trophy:hover {
+  transform: rotate(350deg);
+}
+.trophy:active {
+  top: -36px;
 }
 @media (max-width: 768px) {
   .top {
