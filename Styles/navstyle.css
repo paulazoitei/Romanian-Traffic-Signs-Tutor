@@ -15,8 +15,8 @@
   background: rgb(67, 177, 214);
   background: linear-gradient(
     126deg,
-    rgb(77, 195, 235) 0%, 
-    rgb(184, 182, 182) 100% 
+    rgb(77, 195, 235) 0%,
+    rgb(9, 132, 173) 100%
   );
 
   display: flex;

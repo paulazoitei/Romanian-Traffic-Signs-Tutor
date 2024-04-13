@@ -3,7 +3,6 @@
   flex-flow: column;
   width: 100%;
   margin-bottom: 10rem;
-  
 }
 
 .logo {
@@ -58,18 +57,17 @@
   align-items: flex-start;
   justify-content: center;
   padding-top: 1rem;
-  
+
   background: linear-gradient(
     126deg,
-    rgb(77, 195, 235) 0%, 
-    rgba(169, 169, 169, 1) 100% 
+    rgb(77, 195, 235) 0%,
+    rgb(9, 132, 173) 100%
   );
   font-size: 2rem;
   color: white;
   position: relative;
-  margin-top: auto; 
-  height: auto; 
-  
+  margin-top: auto;
+  height: auto;
 }
 
 .content-container {
@@ -135,18 +133,14 @@
 }
 .logo-about {
   position: relative;
-  margin-left:5.5rem;
-  margin-top:1rem;
- 
+  margin-left: 5.5rem;
+  margin-top: 1rem;
 }
 .despre-noi {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   column-gap: 10px;
-  
-  
-  
 }
 .about-section {
   text-align: center;
@@ -156,7 +150,6 @@
   margin-bottom: 0;
   flex-direction: column;
   justify-content: space-around;
- 
 }
 
 .about-text {
@@ -166,7 +159,6 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  
 }
 .social-media-icons {
   position: relative;
@@ -177,25 +169,24 @@
 }
 
 .fa {
-  font-size: 30px; 
-  color: white; 
-  padding: 10px; 
-  margin: 0 2px; 
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+  margin: 0 2px;
   text-align: center;
-  text-decoration: none; 
-  
+  text-decoration: none;
 }
 
 .fa-facebook {
-  color: #316ff6; 
+  color: #316ff6;
 }
 
 .fa-twitter {
-  color: #1da1f2; 
+  color: #1da1f2;
 }
 
 .fa-linkedin {
-  color: #0762c8; 
+  color: #0762c8;
 }
 
 .fa-instagram {
@@ -221,12 +212,9 @@
   margin-left: 4rem;
 }
 .follow-us {
-  
-  margin-left:3.7rem;
+  margin-left: 3.7rem;
   margin-bottom: 0.5rem;
   text-size-adjust: 1rem;
-
-  
 }
 @media (max-width: 750px) {
   .wrapper {
