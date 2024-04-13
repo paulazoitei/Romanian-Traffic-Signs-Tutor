@@ -193,7 +193,6 @@
 @media (max-width: 500px) {
   .title {
     font-size: 3rem;
-    margin-top: calc(50vh - 12rem);
-    margin: 0;
+    margin-top: calc(50vh - 6rem);
   }
 }
