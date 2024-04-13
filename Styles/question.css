@@ -6,6 +6,7 @@
 }
 .question-and-image {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-around;
   width: 100%;
 }
@@ -22,7 +23,7 @@
 }
 .question-text,
 .variant-container {
-  background-color: rgb(137, 67, 67);
+  background-color: rgb(33, 177, 193);
   color: white;
   font-size: 1.5rem;
   text-indent: 2rem;
@@ -70,4 +71,31 @@
 }
 .send:active {
   background-color: rgb(28, 149, 157);
+}
+@media (max-width: 750px) {
+  .question-and-image {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .q-image-container {
+    width: 80%;
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    position: relative;
+  }
+  .q-image {
+    border-radius: 20px;
+    object-fit: cover;
+    opacity: 1;
+    width: 100%;
+    object-position: center;
+    position: relative;
+  }
+  .question {
+    width: 80%;
+    margin-top: 1rem;
+  }
 }
