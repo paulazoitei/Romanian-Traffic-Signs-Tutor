@@ -3,6 +3,7 @@
   flex-flow: column;
   width: 100%;
   margin-bottom: 10rem;
+  min-height: 100vh;
 }
 
 .logo {
