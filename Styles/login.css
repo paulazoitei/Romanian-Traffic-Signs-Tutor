@@ -116,12 +116,12 @@
   z-index: 500;
 }
 .submit-button:hover {
-  background-color: rgb(38, 142, 177);
+  background-color: rgb(115, 193, 218);
   color: white;
   cursor: pointer;
 }
 .submit-button:active {
-  background-color: rgb(38, 142, 177);
+  background-color: rgb(105, 163, 182);
   color: white;
   cursor: pointer;
 }
