@@ -33,7 +33,7 @@
   width: 16rem;
   height: 6rem;
   border-radius: 6px;
-  background-color: rgb(167, 39, 64);
+  background-color: rgb(77, 195, 235);
 }
 
 .start-button-clickable {
@@ -43,7 +43,7 @@
   transform: translateX(10px);
 }
 .start-button-clickable:active .start-button {
-  background-color: rgb(191, 59, 86);
+  background-color: rgb(77, 195, 235);
 }
 .icon-circle {
   width: 3rem;

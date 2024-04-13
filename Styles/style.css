@@ -3,6 +3,7 @@
   flex-flow: column;
   width: 100%;
   margin-bottom: 10rem;
+  
 }
 
 .logo {
@@ -57,13 +58,18 @@
   align-items: flex-start;
   justify-content: center;
   padding-top: 1rem;
+  
   background: linear-gradient(
     126deg,
-    rgb(141, 37, 49) 0%,
-    rgba(41, 41, 41, 1) 100%
+    rgb(77, 195, 235) 0%, 
+    rgba(169, 169, 169, 1) 100% 
   );
   font-size: 2rem;
   color: white;
+  position: relative;
+  margin-top: auto; 
+  height: auto; 
+  
 }
 
 .content-container {
@@ -129,13 +135,18 @@
 }
 .logo-about {
   position: relative;
-  margin-left: 2rem;
+  margin-left:5.5rem;
+  margin-top:1rem;
+ 
 }
 .despre-noi {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   column-gap: 10px;
+  
+  
+  
 }
 .about-section {
   text-align: center;
@@ -145,8 +156,9 @@
   margin-bottom: 0;
   flex-direction: column;
   justify-content: space-around;
-  /* Restul proprietăților rămân neschimbate */
+ 
 }
+
 .about-text {
   margin-top: 0;
   width: 100%;
@@ -154,33 +166,36 @@
   text-align: center;
   justify-content: center;
   align-items: center;
+  
 }
 .social-media-icons {
   position: relative;
   bottom: 0;
   left: 0;
   padding: 1rem;
+  padding-bottom: 0;
 }
 
 .fa {
-  font-size: 30px; /* Sau orice altă mărime preferi */
-  color: white; /* Culoarea implicită pentru text */
-  padding: 10px; /* Spacing în jurul iconițelor */
-  margin: 0 5px; /* Spacing între iconițe */
+  font-size: 30px; 
+  color: white; 
+  padding: 10px; 
+  margin: 0 2px; 
   text-align: center;
-  text-decoration: none; /* Scoate sublinierea pentru link-uri */
+  text-decoration: none; 
+  
 }
 
 .fa-facebook {
-  color: #316ff6; /* Culoarea Facebook */
+  color: #316ff6; 
 }
 
 .fa-twitter {
-  color: #1da1f2; /* Culoarea Twitter */
+  color: #1da1f2; 
 }
 
 .fa-linkedin {
-  color: #0762c8; /* Culoarea LinkedIn */
+  color: #0762c8; 
 }
 
 .fa-instagram {
@@ -204,6 +219,14 @@
   justify-content: flex-start;
   text-decoration: none;
   margin-left: 4rem;
+}
+.follow-us {
+  
+  margin-left:3.7rem;
+  margin-bottom: 0.5rem;
+  text-size-adjust: 1rem;
+
+  
 }
 @media (max-width: 750px) {
   .wrapper {

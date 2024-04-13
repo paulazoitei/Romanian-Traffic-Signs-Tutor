@@ -35,10 +35,10 @@ body::-webkit-scrollbar-track {
   min-height: 100%;
 }
 body::-webkit-scrollbar-thumb {
-  background: #9d4c4c;
+  background: rgb(12, 145, 189);
 }
 body::-webkit-scrollbar-thumb:hover {
-  background: #b58181;
+  background: rgb(101, 205, 239);
 }
 body {
   background-color: rgb(29, 21, 21);
