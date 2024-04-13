@@ -52,7 +52,7 @@
 
 .about-section {
   width: 100%;
-  height: 225px;
+
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -67,7 +67,11 @@
   color: white;
   position: relative;
   margin-top: auto;
-  height: auto;
+  height: 120px;
+  text-align: center;
+  margin-bottom: 0;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .content-container {
@@ -138,18 +142,12 @@
 }
 .despre-noi {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  column-gap: 10px;
-}
-.about-section {
-  text-align: center;
-  position: relative;
-  display: flex;
-  width: 100%;
-  margin-bottom: 0;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 5px;
 }
 
 .about-text {
@@ -164,16 +162,21 @@
   position: relative;
   bottom: 0;
   left: 0;
-  padding: 1rem;
+
   padding-bottom: 0;
 }
 
 .fa {
+  border-radius: 10px;
+  width: 3rem;
+  background-color: rgba(255, 255, 255, 0.548);
   font-size: 30px;
   color: white;
   padding: 10px;
+  padding-bottom: 0;
   margin: 0 2px;
   text-align: center;
+  margin-bottom: 5px;
   text-decoration: none;
 }
 
@@ -190,16 +193,8 @@
 }
 
 .fa-instagram {
-  background: -webkit-linear-gradient(
-    #feda75,
-    #fa7e1e,
-    #d62976,
-    #962fbf,
-    #4f5bd5
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #d62976;
+
   display: inline-block; /* Required for gradients in some browsers */
 }
 
@@ -214,7 +209,7 @@
 }
 .follow-us {
   margin-left: 3.7rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
   text-size-adjust: 1rem;
 }
 @media (max-width: 750px) {
