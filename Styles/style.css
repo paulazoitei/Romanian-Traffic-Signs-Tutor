@@ -197,6 +197,7 @@
     #962fbf,
     #4f5bd5
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block; /* Required for gradients in some browsers */
