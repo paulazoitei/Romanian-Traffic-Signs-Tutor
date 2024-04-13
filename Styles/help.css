@@ -30,12 +30,15 @@
   text-indent: 2rem;
   align-items: center;
   font-size: 1.4rem;
+  
 }
 .question {
   background-color: rgb(81, 150, 224);
+  
 }
 .answer {
   background-color: rgb(60, 110, 164);
   visibility: hidden;
   position: absolute;
+ 
 }
