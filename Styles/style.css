@@ -51,30 +51,6 @@
   background-color: white;
 }
 
-.about-section {
-  width: 100%;
-
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding-top: 1rem;
-
-  background: linear-gradient(
-    126deg,
-    rgb(77, 195, 235) 0%,
-    rgb(9, 132, 173) 100%
-  );
-  font-size: 2rem;
-  color: white;
-  position: relative;
-  margin-top: auto;
-  height: 120px;
-  text-align: center;
-  margin-bottom: 0;
-
-  justify-content: flex-start;
-  align-items: center;
-}
 
 .content-container {
   display: flex;
@@ -137,11 +113,32 @@
     margin-inline: auto;
   }
 }
-.logo-about {
+ .about-section {
+  width: 100%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 1rem;
+
+  background: linear-gradient(
+    126deg,
+    rgb(77, 195, 235) 0%,
+    rgb(9, 132, 173) 100%
+  );
+  font-size: 2rem;
+  color: white;
   position: relative;
-  margin-left: 5.5rem;
-  margin-top: 1rem;
+  margin-top: auto;
+  height: 120px;
+  text-align: center;
+  margin-bottom: 0;
+
+  justify-content: flex-start;
+  align-items: center;
 }
+
+
 .despre-noi {
   display: flex;
   flex-direction: row;
@@ -197,7 +194,7 @@
 .fa-instagram {
   color: #d62976;
 
-  display: inline-block; /* Required for gradients in some browsers */
+  
 }
 
 .fa:hover {
@@ -210,8 +207,13 @@
   margin-left: 4rem;
 }
 .follow-us {
-  margin-left: 3.7rem;
+  
   margin-bottom: 0.2rem;
+  margin-right: 4rem;
+
+
+
+  margin-bottom: 1rem;
 }
 
 .about-buttons {
@@ -222,7 +224,8 @@
   column-gap: 10%;
 }
 .button-footer {
-  width: 9rem;
+  width: 5.7rem;
+   
   height: 4rem;
   display: flex;
   justify-content: center;
@@ -231,6 +234,11 @@
   background-color: rgba(255, 255, 255, 0.694);
   color: rgb(0, 100, 159);
   font-size: 1.5rem;
+
+ 
+
+
+  margin: 10px;
 }
 .about-buttons a {
   text-decoration: none;
@@ -247,22 +255,19 @@
     column-gap: 1rem;
   }
 }
-@media (max-width: 1010px) {
+
+@media (max-width: 600px) {
   .about-section {
+   
     flex-direction: column;
-    row-gap: 2rem;
-    justify-content: center;
-    height: fit-content;
-    align-items: center;
-  }
-  .about-section * {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .about-buttons {
-    margin-bottom: 2rem;
-    width: 100%;
-    justify-content: center;
+
+    width: auto;
+    
+    padding: 1rem;
+    
+    height: auto;
+    
+    text-align: center;
   }
 }
 @media (max-width: 750px) {
@@ -270,5 +275,76 @@
     display: flex;
     justify-content: center;
     margin-left: 0;
+  }
+} 
+ .despre-noi, .about-buttons, .wrapper {
+  
+  width: 100%;
+  
+  justify-content: center;
+  
+  margin: 0;
+}
+
+.social-media-icons, .about-text {
+ 
+  justify-content: center;
+} 
+
+@media (max-width: 280px) {
+  .container {
+    margin-bottom: 5rem; 
+  }
+
+  .logo {
+    font-size: 1.5rem; 
+  }
+
+  .nav-content {
+    font-size: 1rem;
+  }
+
+  .bgimg {
+    height: 150vh; 
+  }
+
+  .title {
+    font-size: 3rem; 
+    margin-top: calc(40vh - 4rem); 
+  }
+
+  .content-container {
+    flex-direction: column; 
+  }
+
+  .content {
+    font-size: 1.2rem; 
+    line-height: 2rem; 
+  }
+
+  .home-page-image, .home-page-image img {
+    width: 90%; 
+  }
+
+  .about-section {
+    padding-top: 0.5rem; 
+    height: auto; 
+  }
+
+  .social-media-icons .fa {
+    width: 2.5rem; 
+    font-size: 25px; 
+  }
+
+  .about-buttons {
+    margin-left: 0;
+    width: 100%; 
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .button-footer {
+    width: auto; 
+    margin: 5px; 
   }
 }

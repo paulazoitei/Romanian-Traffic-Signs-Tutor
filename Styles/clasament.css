@@ -47,3 +47,46 @@
     left: 0;
   }
 }
+@media (max-width: 768px) {
+  .top {
+    width: 90%; 
+    min-height: 400px; 
+  }
+  .top-container {
+    margin-top: 4rem; 
+  }
+  .top-title {
+    font-size: 3rem; 
+  }
+}
+
+@media (max-width: 600px) {
+  .top {
+    width: 100%; 
+    padding: 1rem; 
+  }
+  .trophy {
+    width: 100px; 
+    top: 1rem; 
+    left: 1rem; 
+    transform: rotate(0deg); 
+  }
+  .top-title {
+    margin-bottom: 1rem; 
+  }
+  .top-container {
+    margin-top: 2rem; 
+  }
+}
+
+
+@media (max-width: 280px) {
+  .top {
+    
+    min-height: 300px; 
+  }
+  .top-title {
+    font-size: 2rem; 
+  }
+
+}
