@@ -5,11 +5,11 @@ document.addEventListener("DOMContentLoaded", function () {
     let question = questions[i];
 
     question.addEventListener("click", function () {
-      question.active = question.active === "true" ? "false" : "true";
+      question.isactive = question.isactive === "true" ? "false" : "true";
 
       let answer = question.querySelector(".answer");
 
-      if (question.active === "true") {
+      if (question.isactive === "true") {
         answer.style.visibility = "visible";
         answer.style.position = "relative";
       } else {
