@@ -20,23 +20,27 @@
   margin-bottom: 2rem;
   cursor: pointer;
 }
+
 .question,
 .answer {
   width: 100%;
   min-height: 6rem;
 
-  display: flex;
   color: white;
   text-indent: 2rem;
-  align-items: center;
+
   font-size: 1.4rem;
 }
+
 .question {
   background-color: rgb(81, 150, 224);
+  display: flex;
+  align-items: center;
 }
 .answer {
   background-color: rgb(60, 110, 164);
   visibility: hidden;
   position: absolute;
   display: none;
+  padding: 2rem;
 }

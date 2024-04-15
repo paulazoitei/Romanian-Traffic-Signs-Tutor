@@ -12,9 +12,11 @@ document.addEventListener("DOMContentLoaded", function () {
       if (question.isactive === "true") {
         answer.style.visibility = "visible";
         answer.style.position = "relative";
+        answer.style.display = "block";
       } else {
         answer.style.visibility = "hidden";
         answer.style.position = "absolute";
+        answer.style.display = "none";
       }
     });
   }
