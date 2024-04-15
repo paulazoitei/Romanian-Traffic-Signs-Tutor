@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   for (let i = 0; i < questions.length; i++) {
     let question = questions[i];
-
-    question.addEventListener("click", function () {
+    let questionMain = question.querySelector(".question");
+    questionMain.addEventListener("click", function () {
       question.isactive = question.isactive === "true" ? "false" : "true";
 
       let answer = question.querySelector(".answer");
