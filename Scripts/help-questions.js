@@ -4,10 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
   for (let i = 0; i < questions.length; i++) {
     let question = questions[i];
     let questionMain = question.querySelector(".question");
-    questionMain.addEventListener("click", function () {
+    let answer = question.querySelector(".answer");
+    function clickEvent() {
       question.isactive = question.isactive === "true" ? "false" : "true";
-
-      let answer = question.querySelector(".answer");
 
       if (question.isactive === "true") {
         answer.style.visibility = "visible";
@@ -18,6 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
         answer.style.position = "absolute";
         answer.style.display = "none";
       }
-    });
+    }
+    questionMain.addEventListener("click", clickEvent);
+    answer.addEventListener("click", clickEvent);
   }
 });
