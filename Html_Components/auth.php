@@ -18,6 +18,7 @@
     <script src="../Scripts/profile-switch.js"></script>
     <script src="../Scripts/responsive-navbar.js"></script>
     <script src="../Scripts/accesare-cont.js"></script>
+    <script src="../Scripts/register-validation.js" defer></script>
     <div class="bg-image-container">
       <img src=".././Assets/Images/bodybg.jpg" class="bg-image" alt="bg-img" />
     </div>
@@ -115,55 +116,40 @@
         <div class="separator"></div>
         <div class="register form-block">
           <p class="login-text">Register</p>
-          <form class="login-form">
-            <div class="input-field">
-              <label for="register-username">Username:</label><br />
-              <input
-                type="text"
-                id="register-username"
-                placeholder="ex: AlexDriver"
-              />
-              <br /><br />
-            </div>
-            <div class="input-field">
-              <label for="email">Email:</label><br />
-              <input
-                type="email"
-                id="email"
-                placeholder="Introdu un email valid..."
-              />
-              <br /><br />
-            </div>
-            <div class="input-field">
-              <label for="register-password">Password:</label><br />
-              <input
-                type="password"
-                id="register-password"
-                placeholder="Introdu o parola puternica..."
-              />
-              <br /><br />
-            </div>
-            <div class="input-field">
-              <label for="confirm-password">Confirm Password:</label><br />
-              <input
-                type="password"
-                id="confirm-password"
-                placeholder="Introdu din nou parola ta "
-              />
-              <br /><br />
-            </div>
-            <div class="input-field">
-              <label for="phone">Phone number:</label><br />
-              <input
-                type="text"
-                id="phone"
-                placeholder="Introdu un numar de telefon..."
-              />
-            </div>
-            <div class="submit-container">
-              <input type="submit" class="submit-button" id="submit-register" />
-            </div>
-          </form>
+            <form class="login-form" id="register-form" action="/php/Romanian-Traffic-Signs-Tutor/Public/auth/register" method="post">
+                <div class="input-field">
+                    <label for="register-username">Username:</label><br>
+                    <input type="text" id="register-username" name="username" placeholder="ex: AlexDriver"><br>
+                    <div class="error-message" id="username-error"></div>
+                    <br>
+                </div>
+                <div class="input-field">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Introdu un email valid..."><br>
+                    <div class="error-message" id="email-error"></div>
+                    <br>
+                </div>
+                <div class="input-field">
+                    <label for="register-password">Password:</label><br>
+                    <input type="password" id="register-password" name="password" placeholder="Introdu o parola puternica..."><br>
+                    <div class="error-message" id="password-error"></div>
+                    <br>
+                </div>
+                <div class="input-field">
+                    <label for="confirm-password">Confirm Password:</label><br>
+                    <input type="password" id="confirm-password" name="password_confirmation" placeholder="Introdu din nou parola ta"><br>
+                    <div class="error-message" id="confirm-password-error"></div>
+                    <br>
+                </div>
+                <div class="input-field">
+                    <label for="phone">Phone number:</label><br>
+                    <input type="text" id="phone" name="phone" placeholder="Introdu un numar de telefon..."><br>
+                    <div class="error-message" id="phone-error"></div>
+                </div>
+                <div class="submit-container">
+                    <input type="submit" class="submit-button" id="submit-register" value="Trimite">
+                </div>
+            </form>
         </div>
       </div>
     </div>

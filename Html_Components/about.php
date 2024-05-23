@@ -24,7 +24,7 @@
     <div class="container">
       <div class="nav">
         <div class="logo">
-          <a href="home.html">
+          <a href="home">
             <svg width="100" height="100" viewBox="0 0 100 100">
               <image
                 href=".././Assets/Icons/logo-rot.svg"
