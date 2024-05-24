@@ -13,7 +13,7 @@ class Auth extends Controller
     {
         if(empty($_POST["username"]))
         {
-            die("Name is required!");
+            die("Username is required!");
         }
         if( ! filter_var($_POST["email"],FILTER_VALIDATE_EMAIL))
         {
@@ -49,8 +49,41 @@ class Auth extends Controller
 
 
 
-        print_r($_POST);
 
-        var_dump($password_hash);
+
+        $mysqli= require __DIR__ . "/../database/database.php";
+
+        $sql ="INSERT INTO users (username,email,password,phone)
+        VALUES(?,?,?,?)";
+
+        $stmt =$mysqli->stmt_init();
+
+        if(! $stmt->prepare($sql))
+        {
+            die("SQL error: " . $mysqli->error);
+        }
+        $stmt->bind_param("ssss",
+            $_POST["username"],
+            $_POST["email"],
+            $password_hash,
+            $_POST["phone"]);
+
+
+
+        try {
+
+            if ($stmt->execute()) {
+                echo "You have successfully registered";
+            } else {
+                throw new Exception($stmt->error, $stmt->errno);
+            }
+        } catch (Exception $e) {
+            if ($e->getCode() == 1062) {
+                echo " Email already exists.";
+            } else {
+                echo "Error: " . $e->getMessage();
+            }
+        }
+
     }
 }
