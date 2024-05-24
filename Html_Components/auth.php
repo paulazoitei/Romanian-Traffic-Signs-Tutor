@@ -1,3 +1,6 @@
+<?php
+include_once __DIR__ . '/../app/core/Controller.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -90,12 +93,18 @@
       <div class="login-or-register">
         <div class="login form-block">
           <p class="login-text">Login</p>
-          <form class="login-form">
+            <?php if (isset($is_invalid) && $is_invalid): ?>
+                <div class="error-message">Invalid login attempt.</div>
+            <?php endif; ?>
+
+
+          <form class="login-form" action="/php/Romanian-Traffic-Signs-Tutor/Public/auth/login" method="post">
             <div class="input-field">
               <label for="username">Username:</label><br />
               <input
                 type="text"
                 id="username"
+                name="username"
                 placeholder="Introdu username-ul tau..."
               />
               <br /><br />
@@ -105,6 +114,7 @@
               <input
                 type="password"
                 id="password"
+                name="password"
                 placeholder="Introdu parola ta..."
               />
             </div>

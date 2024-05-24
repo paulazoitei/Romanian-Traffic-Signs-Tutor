@@ -1,4 +1,5 @@
 <?php
+session_start();
 class Controller
 {
   public function model($model)

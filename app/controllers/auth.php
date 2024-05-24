@@ -86,4 +86,33 @@ class Auth extends Controller
         }
 
     }
+
+    public function login()
+    {
+        $is_invalid = false;
+        if ($_SERVER["REQUEST_METHOD"] === "POST") {
+            $mysqli = require __DIR__ . "/../database/database.php";
+
+            $sql = sprintf("SELECT * FROM users where username='%s'",
+                $mysqli->real_escape_string($_POST["username"]));
+            $result = $mysqli->query($sql);
+            $user = $result->fetch_assoc();
+
+            if ($user) {
+                if (password_verify($_POST["password"], $user["password"])) {
+
+                    $_SESSION['user_id'] = $user['id'];
+                    $_SESSION['username'] = $user['username'];
+
+
+                    header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/profil");
+                    exit();
+
+                }
+            }
+                $is_invalid = true;
+            }
+
+        }
+
 }
