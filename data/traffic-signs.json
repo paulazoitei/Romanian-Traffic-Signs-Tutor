@@ -1,0 +1,1132 @@
+[
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/d/de/Romania_road_sign_A1.svg",
+    "title": "Curb\u0103 la st\u00e2nga",
+    "explanation": "Folosit la presemnalizarea curbei, la st\u00e2nga.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/3/37/Romania_road_sign_A2.svg",
+    "title": "Curb\u0103 la dreapta",
+    "explanation": "Folosit la presemnalizarea curbei, la dreapta.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/b/b7/Romania_road_sign_A3.svg",
+    "title": "Curb\u0103 dubl\u0103 la st\u00e2nga",
+    "explanation": "Presemnalizeaz\u0103 o succesiune de curbe, sau o curb\u0103 dubl\u0103, unde prima curb\u0103 este la st\u00e2nga. Succesiunea de curbe trebuie s\u0103 nu fie mai mare de 250 m.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/4/43/Romania_road_sign_A4.svg",
+    "title": "Curb\u0103 dubl\u0103 la dreapta",
+    "explanation": "Presemnalizeaz\u0103 o succesiune de curbe, sau o curb\u0103 dubl\u0103, unde prima curb\u0103 este la dreapta. Succesiunea de curbe trebuie s\u0103 nu fie mai mare de 250 m.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/8/8c/Romania_road_sign_A6_R.svg",
+    "title": "Curb\u0103 deosebit de periculoas\u0103 (versiunea panouri succesive)",
+    "explanation": "Sunt amplasate \u00een curbe deosebit de periculoase (c\u00e2te 5 buc\u0103\u021bi), dac\u0103 curba are o raz\u0103 mai mic\u0103 de 100 m, sau \u00een curbe periculoase precedate de aliniamente mai lungi de 1000 m.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/6/6f/RomanianTrafficSign_A05a-PerilousCurvesPanel-v1_2011.svg",
+    "title": "Curb\u0103 deosebit de periculoas\u0103 (versiunea panou simplu)",
+    "explanation": "Identic cu indicatorul anterior, aceast\u0103 variant\u0103 adesea se amplaseaz\u0103 doar pe doi st\u00e2lpi de sus\u021binere din cauza lungimii sale.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/f/f2/Romania_road_sign_A7.svg",
+    "title": "Drum \u00een cobor\u00e2re periculoas\u0103 (Pant\u0103)",
+    "explanation": "Presemnalizeaz\u0103 o pant\u0103 abrupt\u0103 (cu declivitatea mai mare de 7%) \u00een urcare. Toate maneverele sunt interzise, iar vehiculele care urc\u0103 au prioritate fa\u021b\u0103 de cele care coboar\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/8/89/Romania_road_sign_A8.svg",
+    "title": "Drum \u00een urcare periculoas\u0103 (Ramp\u0103)",
+    "explanation": "Presemnalizeaz\u0103 o ramp\u0103 abrupt\u0103 (cu declivitatea mai mare de 7%) \u00een cobor\u00e2re. Toate maneverele sunt interzise, iar vehiculele care urc\u0103 au prioritate fa\u021b\u0103 de cele care coboar\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/1/15/Romania_road_sign_A9.svg",
+    "title": "\u00cengustarea \u0219oselei din ambele sensuri",
+    "explanation": "Presemnalizeaz\u0103 o \u00eengustare a carosabilului din ambele sensuri de circula\u021bie. \u00cen sectorul de drum respectiv, doar dep\u0103\u0219irea este perimis\u0103 (sta\u021bionarea, oprirea, \u0219i mersul \u00een mar\u0219arier fiind interzise).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/8/8c/Romania_road_sign_A10.svg",
+    "title": "\u00cengustarea \u0219oselei din dreapta",
+    "explanation": "Presemnalizeaz\u0103 o \u00eengustare a carosabilului din partea dreapt\u0103. Impune reguli identice fa\u021b\u0103 de cele men\u021bionate la indicatorul de sus.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/1/17/Romania_road_sign_A11.svg",
+    "title": "\u00cengustarea \u0219oselei din st\u00e2nga",
+    "explanation": "Presemnalizeaz\u0103 o \u00eengustare a carosabilului din partea st\u00e2ng\u0103. Impune reguli identice fa\u021b\u0103 de cele men\u021bionate la indicatorul de sus.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/a/ad/Romania_road_sign_A12.svg",
+    "title": "Acostament periculos",
+    "explanation": "Presemnalizeaz\u0103 un drum cu marginea (acostamentul) periculoas\u0103, din diverse cauze.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/f/fa/Romania_road_sign_A13.svg",
+    "title": "Coad\u0103",
+    "explanation": "Presemnalizeaz\u0103 un sector de drum aglomerat.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/2/24/Romania_road_sign_A14.svg",
+    "title": "Tunel",
+    "explanation": "Presemnalizeaz\u0103 intrarea \u00eentr-un tunel.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/b/b2/Romania_road_sign_A15.svg",
+    "title": "Pod mobil",
+    "explanation": "Presemnalizeaz\u0103 un pod mobil, dac\u0103 acesta este deschis, participantul la trafic trebuie s\u0103 opreasc\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/8/80/Romania_road_sign_A16.svg",
+    "title": "C\u0103dere \u00een chei sau \u00een mal abrupt",
+    "explanation": "Presemnalizeaz\u0103 terminarea drumului, iar \u00een fa\u021ba sa, se afl\u0103 un chei (splai) sau mal abrupt.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/b/bb/Romania_road_sign_A17.svg",
+    "title": "Drum denivelat",
+    "explanation": "Presemnalizeaz\u0103 un sector de \u0219osea cu multe denivel\u0103ri (gropi, defecte \u00een asfalt, etc). Acesta poate fi \u00eenso\u021bit de un panou adi\u021bional dac\u0103 sectorul dep\u0103\u0219e\u0219te 0,3 km. Participantul la trafic este obligat s\u0103 circule cu 50 km/h (30 km/h \u00een localit\u0103\u021bi).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/1/17/Romania_road_sign_A18.svg",
+    "title": "Denivelare",
+    "explanation": "Presemnalizeaz\u0103 o denivelare (artifical\u0103).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/9/9c/Romania_road_sign_A19.svg",
+    "title": "Drum alunecos",
+    "explanation": "Presemnalizeaz\u0103 un sector de drum alunecos, iar \u0219oferul este obligat s\u0103 nu bruscheze vehicului pentru a evita accidentele. Acesta poate fi \u00eenso\u021bit de panouri adi\u021bionale pentru ploaie sau ghea\u021b\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/0/04/Romania_road_sign_A20.svg",
+    "title": "\u00cempro\u0219care cu pietri\u0219",
+    "explanation": "Presemnalizeaz\u0103 un sector de drum unde pietri\u0219ul sl\u0103bit poate fi \u00eempro\u0219cat de vehiculele care circul\u0103 peste el. \u00cen unele zone, \u00eempro\u0219carea cu pietri\u0219 prezint\u0103 un risc de a lovi al\u021bi participan\u021bi la trafic.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/4/48/Romania_road_sign_A21.svg",
+    "title": "C\u0103deri de pietre",
+    "explanation": "Presemnalizeaz\u0103 posibile c\u0103deri de pietre peste sectorul de drum. Acesta poate fi \u00eenso\u021bit de un panou adi\u021bional dac\u0103 sectorul dep\u0103\u0219e\u0219te 0,3 km.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/c/ca/Romania_road_sign_A22.svg",
+    "title": "Trecere de pietoni",
+    "explanation": "Presemnalizeaz\u0103 o trecere cu pietoni, \u00een sectoare de drum cu pericol sporit pentru pietoni (\u0219osele Europene, zone cu vizibilitate redus\u0103, etc).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/b/b9/Romania_road_sign_A23.svg",
+    "title": "Copii",
+    "explanation": "Presemnalizeaz\u0103 o zon\u0103 frecventat\u0103 de copii/minori (\u0219coli, licee, locuri de joac\u0103, etc).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/3/31/Romania_road_sign_A24.svg",
+    "title": "Bicicli\u0219ti",
+    "explanation": "Presemnalizeaz\u0103 o intersectare cu o pist\u0103 de bicicli\u0219ti.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/2/2d/Romania_road_sign_A25.svg",
+    "title": "Animale (varianta 1)",
+    "explanation": "Presemnalizeaz\u0103 un sector de drum cu riscul travers\u0103rii din partea animalelor domestice.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/3/3f/Romania_road_sign_A26.svg",
+    "title": "Animale (varianta 2)",
+    "explanation": "Presemnalizeaz\u0103 un sector de drum cu riscul travers\u0103rii din partea animalelor s\u0103lbatice.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/d/df/Romania_road_sign_A27.svg",
+    "title": "Lucr\u0103ri",
+    "explanation": "Presemnalizeaz\u0103 lucr\u0103ri la sectorul de drum, care va fi \u00eenso\u021bit de marcaje temporare \u0219i alte obiecte folosite la lucr\u0103rile rutiere.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/b/ba/Romania_road_sign_A28.svg",
+    "title": "Semafor",
+    "explanation": "Presemnalizeaz\u0103 un semafor rutier, dar se amplaseaz\u0103 \u00een locuri care sunt considerate c\u0103 ar surprinde participan\u021bii la trafic de existen\u021ba semaforului.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/0/0c/Romania_road_sign_A29.svg",
+    "title": "Zon\u0103 aeroportuar\u0103",
+    "explanation": "Presemnalizeaz\u0103 trecerea l\u00e2ng\u0103 un aeroport sau un culoar aerian, pentru a avertiza \u0219oferul de avioane la joas\u0103 \u00een\u0103l\u021bime sau de zgomote puternice.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/f/f4/Romania_road_sign_A30.svg",
+    "title": "V\u00e2nturi laterale",
+    "explanation": "Presemnalizeaz\u0103 posibilitatea unor rafale de v\u00e2nt laterale periculoase (cu risc ridicat de r\u0103sturnare sau cu risc de aftectare a circula\u021biei rutiere).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/6/61/Romania_road_sign_A31.svg",
+    "title": "Circula\u021bie \u00een ambele sensuri",
+    "explanation": "Presemnalizeaz\u0103 intrarea \u00eentr-un sector de drum cu sens dublu de circula\u021bie (\u00een ambele sensuri), amplasat la ie\u0219irea str\u0103zilor cu sens unic.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/6/60/Romania_road_sign_A32.svg",
+    "title": "Alte pericole",
+    "explanation": "Presemnalizeaz\u0103 pericole care nu sunt indicate printr-un indicator rutier specific. Pot fi \u00eenso\u021bite de panouri adi\u021bionale.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/b/b5/Romania_road_sign_A33.svg",
+    "title": "Accident",
+    "explanation": "Presemnalizeaz\u0103 o zon\u0103 unde a avut loc un accident rutier. Sunt amplasate de Poli\u021bia Rutier\u0103, \u0219i au caracter temporar, chiar dac\u0103 semnul are fundal alb.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/3/31/Romania_road_sign_A34.svg",
+    "title": "Intersec\u021bie",
+    "explanation": "Presemnalizeaz\u0103 o intersec\u021bie nedirijat\u0103, unde se aplic\u0103 regula priorit\u0103\u021bii de dreapta.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/0/02/Romania_road_sign_A35.svg",
+    "title": "Intersec\u021bie cu un drum f\u0103r\u0103 prioritate",
+    "explanation": "Presemnalizeaz\u0103 o intersec\u021bie nedirijat\u0103, confirm\u00e2nd prioritatea celui care \u00eent\u00e2lne\u0219te acest indicator. Aici, participantul la trafic are prioritate fa\u021b\u0103 de cei din dreapta \u0219i st\u00e2nga.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/7/7d/Romania_road_sign_A36.svg",
+    "title": "Intersec\u021bie cu un drum f\u0103r\u0103 prioritate (dreapta)",
+    "explanation": "Presemnalizeaz\u0103 o intersec\u021bie nedirijat\u0103, confirm\u00e2nd prioritatea celui care \u00eent\u00e2lne\u0219te acest indicator. Aici, participantul la trafic are prioritate fa\u021b\u0103 de cei din dreapta.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/5/59/Romania_road_sign_A37.svg",
+    "title": "Intersec\u021bie cu un drum f\u0103r\u0103 prioritate (st\u00e2nga)",
+    "explanation": "Presemnalizeaz\u0103 o intersec\u021bie nedirijat\u0103, confirm\u00e2nd prioritatea celui care \u00eent\u00e2lne\u0219te acest indicator. Aici, participantul la trafic are prioritate fa\u021b\u0103 de cei din st\u00e2nga.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/8/88/Romania_road_sign_A38.svg",
+    "title": "Intersec\u021bie cu un drum f\u0103r\u0103 prioritate (decalare)",
+    "explanation": "Presemnalizeaz\u0103 o intersec\u021bie nedirijat\u0103, confirm\u00e2nd prioritatea celui care \u00eent\u00e2lne\u0219te acest indicator. Aici, participantul la trafic are prioritate fa\u021b\u0103 de cei din dreapta \u0219i st\u00e2nga la o intersec\u021bie decalat\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/1/17/Romania_road_sign_A40.svg",
+    "title": "Giratoriu",
+    "explanation": "Presemnalizeaz\u0103 un sens giratoriu.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/6/6c/Romania_road_sign_A41.svg",
+    "title": "Trecere la nivel cu calea ferat\u0103, cu bariere",
+    "explanation": "Presemnalizeaz\u0103 o trecere la nivel cu calea ferat\u0103, cu bariere. Panoul adi\u021bional indic\u0103 prezen\u021ba luminilor clipitoare din instala\u021bia de avertizare pentru trecerea trenurilor.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/f/f1/Romania_road_sign_A42.svg",
+    "title": "Trecere la nivel cu calea ferat\u0103, f\u0103r\u0103 bariere",
+    "explanation": "Presemnalizeaz\u0103 o trecere la nivel cu calea ferat\u0103, f\u0103r\u0103 bariere. La fel ca \u00een cazul anterior, se poate ad\u0103uga un panou adi\u021bional.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/3/3e/Romania_road_sign_A43.svg",
+    "title": "Trecere la nivel cu \u0219inele de tramvai",
+    "explanation": "Presemnalizeaz\u0103 o trecere la nivel cu \u0219inele de tramvai.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/0/0e/Romania_road_sign_A53.svg",
+    "title": "Trecerea utilajelor agricole",
+    "explanation": "Presemnalizeaz\u0103 posibilitatea utiliz\u0103rii a sectorului de drum de c\u0103tre utilaje agricole.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/c/cb/Romania_road_sign_A54.svg",
+    "title": "\u00centoarcere din drum spre sens opus",
+    "explanation": "Presemnalizeaz\u0103 posibilitatea unui spa\u021biu amenajat \u00een drum care indic\u0103 \u00eentoarcerea spre sensul opus.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/c/cb/RomanianTrafficSign_A55-BlackDot_2011.svg",
+    "title": "Risc ridicat de accidente",
+    "explanation": "Presemnalizeaz\u0103 un sector de drum cu un risc ridicat de accidente (mai mult de 10 accidente \u00eentr-un an).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/a/ad/Romania_road_sign_A44.svg",
+    "title": "Panouri de distan\u021b\u0103 pentru trecerea la nivel cu calea ferat\u0103",
+    "explanation": "Indic\u0103 distan\u021ba (\u00een 300, 200, 100m respectiv) p\u00e2n\u0103 la trecerea la nivel cu calea ferat\u0103\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/7/7c/Romania_road_sign_A45.svg",
+    "title": "Panouri de distan\u021b\u0103 pentru ie\u0219irea din autostrad\u0103",
+    "explanation": "Indic\u0103 distan\u021ba (\u00een 300, 200, 100m respectiv) p\u00e2n\u0103 la \u00eenceperea benzii de decelerare din nodul rutier.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/4/4a/Romania_road_sign_A46-47.svg",
+    "title": "Balize direc\u021bionale",
+    "explanation": "Indic\u0103 ocolirea respectivului obstacol prin dreapta, st\u00e2nga sau prin ambele sensuri.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/5/50/Romania_road_sign_A49.svg",
+    "title": "Trecere la nivel cu calea ferat\u0103 (simpl\u0103 \u0219i dubl\u0103)",
+    "explanation": "Semnalizeaz\u0103 o trecere la nivel cu calea ferat\u0103, cu sau f\u0103r\u0103 bariere, f\u0103r\u0103 semnale luminoase. Crucea Sf. Andrei, cum este denumit\u0103 \"prin popor\", poate avea lam\u0103 simpl\u0103 inferioar\u0103 (o linie feroviare) sau o lam\u0103 dubl\u0103 inferioar\u0103 (dou\u0103 linii feroviare).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/7/79/Romania_road_sign_A51.svg",
+    "title": "Trecere la nivel cu calea ferat\u0103 (simpl\u0103 \u0219i dubl\u0103, cu semnale luminoase)",
+    "explanation": "Semnalizeaz\u0103 o trecere la nivel cu calea ferat\u0103, cu sau f\u0103r\u0103 bariere, cu semnale luminoase.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/0/06/RomanianTrafficSign_B1-GiveWay_2011.svg",
+    "title": "Cedeaz\u0103 trecerea",
+    "explanation": "Semnific\u0103 cedarea trecerii pentru participan\u021bii la trafic de pe drumul prioritar.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/7/7a/RomanianTrafficSign_B1-GiveWay-a_2011.svg",
+    "title": "Cedeaz\u0103 trecerea la distan\u021ba inscrip\u021bionat\u0103",
+    "explanation": "Semnific\u0103 cedarea trecerii pentru participan\u021bii la trafic de pe drumul prioritar, \u00eentr-o distan\u021b\u0103 inscrip\u021bionat\u0103 pe indicator.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/e/ed/RomanianTrafficSign_B2-Stop_2011.svg",
+    "title": "STOP",
+    "explanation": "Semnific\u0103 oprirea total\u0103 a circula\u021biei rutiere, amplasat la intrarea \u00eentr-un drum prioritar.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/1/15/RomanianTrafficSign_B3-PriorityRoad_2011.svg",
+    "title": "Drum cu prioritate",
+    "explanation": "Indic\u0103 sectorul de drum cu prioritate.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/5/52/RomanianTrafficSign_B4-EndOfPriorityRoad_2011.svg",
+    "title": "Sf\u00e2r\u0219itul drumului cu prioritate",
+    "explanation": "Indic\u0103 ie\u0219irea din sectorul de drum cu prioritate.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/a/a8/RomanianTrafficSign_B5-PriorityForOncomingTraffic_2011.svg",
+    "title": "Prioritate pentru vehiculele din sens invers",
+    "explanation": "Indic\u0103 prioritatea vehiculelor din sens opus (invers) pentru cele adresate participantului la trafic.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/5/50/RomanianTrafficSign_B6-PriorityOverOncomingTraffic_2011.svg",
+    "title": "Prioritate fa\u021b\u0103 de vehiculele din sens invers",
+    "explanation": "Indic\u0103 prioritatea vehiculelor din sens opus (invers) fa\u021b\u0103 de cele adresate participantului la trafic.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/3/38/RomanianTrafficSign_C01-NoEntry_2011.svg",
+    "title": "Acces interzis",
+    "explanation": "Interzice intrarea \u00eentr-o strad\u0103 cu sens unic. Un panou adi\u021bional derestric\u021bioneaz\u0103 drumul pentru categoria de vehicule reprezentat\u0103 prin respectivul panou.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/d/dd/RomanianTrafficSign_C02-NoVehicles_2011.svg",
+    "title": "Circula\u021bie interzis\u0103",
+    "explanation": "Interzice circula\u021bia tuturor vehicule pe ambele sensuri \u00een respectivul sector de drum. Regula panoului suplimentar prezentat\u0103 mai sus se aplic\u0103 \u0219i aici.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/d/dd/RomanianTrafficSign_C03-NoMotorVehicles_2011.svg",
+    "title": "Circula\u021bie interzis\u0103 pentru autovehicule",
+    "explanation": "Interzice circula\u021bia autovehiculelor, dar except\u0103 vehiculele f\u0103r\u0103 motor.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/1/1d/RomanianTrafficSign_C04-NoMotorcycles_2011.svg",
+    "title": "Circula\u021bie interzis\u0103 pentru motociclete",
+    "explanation": "Interzice circula\u021bia vehiculelor cu dou\u0103 ro\u021bi \u0219i cu motor.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/0/0a/RomanianTrafficSign_C05-NoBicycles_2011.svg",
+    "title": "Circula\u021bie interzis\u0103 pentru biciclete",
+    "explanation": "Interzice circula\u021bia bicicletelor.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/0/04/RomanianTrafficSign_C06-NoMopeds_2011.svg",
+    "title": "Circula\u021bie interzis\u0103 pentru ciclomotoare",
+    "explanation": "Interzice circula\u021bia ciclomotoarelor (mopedelor).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/f/f0/RomanianTrafficSign_C07-NoTrucks_2011.svg",
+    "title": "Circula\u021bie interzis\u0103 vehiculelor pentru transportul de marf\u0103",
+    "explanation": "Interzice circula\u021bia vehiculelor pentru transportul de m\u0103rfuri (autocamioane, dube, etc). Un panou adi\u021bional poate fi instalat pentru a excepta vehiculele care au masa sub cea inscrip\u021bionat\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/3/36/RomanianTrafficSign_C08-NoTrailers_2011.svg",
+    "title": "Circula\u021bie interzis\u0103 pentru vehicule cu remorc\u0103",
+    "explanation": "Interzice circula\u021bia vehiculelor cu remorc\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/3/3b/RomanianTrafficSign_C09-NoBuses_2011.svg",
+    "title": "Circula\u021bie interzis\u0103 pentru autobuze",
+    "explanation": "Interzice circula\u021bia autobuzelor, autocarelor, etc.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/3/34/RomanianTrafficSign_C10-NoPedestrians_2011.svg",
+    "title": "Circula\u021bie interzis\u0103 pietonilor",
+    "explanation": "Interzice circula\u021bia pietonilor.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/4/4b/Romania_road_sign_C11.svg",
+    "title": "Circula\u021bie interzis\u0103 vehiculelor cu trac\u021biune animal\u0103",
+    "explanation": "Interzice circula\u021bia vehiculelor tractate de animale (spre exemplu, c\u0103ru\u021bele tractate de cai).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/7/7e/Romania_road_sign_C12.svg",
+    "title": "Circula\u021bie interzis\u0103 vehiculelor cu trac\u021biune uman\u0103",
+    "explanation": "Interzice circula\u021bia vehiculelor tractate (sau \u00eempinse) de oameni.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/9/97/Romania_road_sign_C13.svg",
+    "title": "Circula\u021bie interzis\u0103 utilajelor agricole",
+    "explanation": "Interzice circula\u021bia vehiculelor agricole (utilaje, ma\u0219in\u0103rii, etc).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/f/f7/Romania_road_sign_C14.svg",
+    "title": "Circula\u021bie interzis\u0103 motocicletelor, \u0219i a vehiculelor motorizate",
+    "explanation": "Interzice circula\u021bia tuturor vehiculelor motorii (motociclete, automobile, autobuze, autocamioane, etc).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/5/5d/Romania_road_sign_C15.svg",
+    "title": "Circula\u021bia interzis\u0103 motocicletelor, vehiculelor motorizate \u0219i a vehiculelor cu trac\u021biune animal\u0103",
+    "explanation": "Interzice circula\u021bia tuturor vehiculelor motorii men\u021bionate anterior, dar \u0219i a vehiculelor cu trac\u021biune animal\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/0/01/Romania_road_sign_C16.svg",
+    "title": "L\u0103\u021bime maxim\u0103",
+    "explanation": "Indic\u0103 l\u0103\u021bimea maxim\u0103 a vehiculelor permise pe sectorul respectiv de drum; vehiculele care dep\u0103\u0219esc limita respectiv\u0103 sunt interzise de a circula pe sectorul de drum.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/e/eb/Romania_road_sign_C17.svg",
+    "title": "\u00cen\u0103l\u021bimea maxim\u0103",
+    "explanation": "Indic\u0103 \u00een\u0103l\u021bimea maxim\u0103 a vehiculelor permise pe sectorul respectiv de drum; vehiculele care dep\u0103\u0219esc limita respectiv\u0103 sunt interzise de a circula pe sectorul de drum.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/8/8f/Romania_road_sign_C18.svg",
+    "title": "Greutatea maxim\u0103",
+    "explanation": "Indic\u0103 greutatea maxim\u0103 a vehiculelor permise pe sectorul respectiv de drum; vehiculele care dep\u0103\u0219esc limita respectiv\u0103 sunt interzise de a circula pe sectorul de drum.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/e/e5/Romania_road_sign_C19.svg",
+    "title": "Greutatea maxim\u0103 pe osie simpl\u0103",
+    "explanation": "Indic\u0103 greutatea maxim\u0103 pe o osie simpl\u0103 a vehiculelor permise pe sectorul respectiv de drum; vehiculele care dep\u0103\u0219esc limita respectiv\u0103 sunt interzise de a circula pe sectorul de drum.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/5/50/Romania_road_sign_C20.svg",
+    "title": "Greutatea maxim\u0103 pe osie dubl\u0103",
+    "explanation": "Indic\u0103 greutatea maxim\u0103 pe o osie dubl\u0103 a vehiculelor permise pe sectorul respectiv de drum; vehiculele care dep\u0103\u0219esc limita respectiv\u0103 sunt interzise de a circula pe sectorul de drum.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/b/b7/Romania_road_sign_C21.svg",
+    "title": "Greutatea maxim\u0103 pe osie tripl\u0103",
+    "explanation": "Indic\u0103 greutatea maxim\u0103 pe o osie tripl\u0103 a vehiculelor permise pe sectorul respectiv de drum; vehiculele care dep\u0103\u0219esc limita respectiv\u0103 sunt interzise de a circula pe sectorul de drum.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/c/c4/Romania_road_sign_C22.svg",
+    "title": "Lungime maxim\u0103",
+    "explanation": "Indic\u0103 lungimea maxim\u0103 a vehiculelor permise pe sectorul respectiv de drum; vehiculele care dep\u0103\u0219esc limita respectiv\u0103 sunt interzise de a circula pe sectorul de drum.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/b/b3/Romania_road_sign_C23.svg",
+    "title": "Distan\u021ba minim\u0103",
+    "explanation": "Indic\u0103 distan\u021ba minim\u0103 care trebuie p\u0103strat\u0103 \u00eentre autovehicule, fiind interzis\u0103 \u00eenc\u0103lcarea limitei din indicator.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/e/eb/Romania_road_sign_C24.svg",
+    "title": "Virajul la st\u00e2nga interzis",
+    "explanation": "Interzice maneverele de virare la st\u00e2nga.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/2/20/Romania_road_sign_C25.svg",
+    "title": "Virajul la dreapta interzis",
+    "explanation": "Interzice maneverele de virare la dreapta.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/1/1f/Romania_road_sign_C26.svg",
+    "title": "\u00centoarcerea interzis\u0103",
+    "explanation": "Interzice maneverele de \u00eentoarcere (\u00een U).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/3/3c/Romania_road_sign_C27.svg",
+    "title": "Dep\u0103\u0219irea interzis\u0103",
+    "explanation": "Interzice dep\u0103\u0219irea altor autovehicule (except\u00e2nd vehiculele cu dou\u0103 ro\u021bi).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/7/7c/Romania_road_sign_C28.svg",
+    "title": "Dep\u0103\u0219irea interzis\u0103 pentru vehicule mari",
+    "explanation": "Interzice dep\u0103\u0219irea de c\u0103tre vehicule mare (\u00een mare parte autocamioane, dar autocarele pot intra \u00een aceast\u0103 categorie).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/f/fd/RomanianTrafficSign_C29-SpeedLimit-040_2011.svg",
+    "title": "Viteza maxim\u0103",
+    "explanation": "Indic\u0103 limita de vitez\u0103 \u00een kilometri pe or\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/6/64/RomanianTrafficSign_C30-SpeedLimitPerVehicleCategory-50-30_2011.svg",
+    "title": "Viteza maxim\u0103 pe categorii de vehicule",
+    "explanation": "Indic\u0103 limita de vitez\u0103 \u00een kilometri pe or\u0103, cu diferen\u021be \u00eentre categoriile de vehicule.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/1/14/Romania_road_sign_C31.svg",
+    "title": "Claxonatul interzis",
+    "explanation": "Interzice utilizarea semnalelor acustice (claxoane, etc).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/f/f7/Romania_road_sign_C32.svg",
+    "title": "Vam\u0103",
+    "explanation": "Oblig\u0103 participan\u021bii la trafic s\u0103 opreasc\u0103 la punctul vamal. Inscrip\u021bii \u00een Rom\u00e2n\u0103 \u0219i Francez\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/d/da/Romania_road_sign_C33.svg",
+    "title": "Taxa rutier\u0103",
+    "explanation": "Oblig\u0103 participan\u021bii la trafic s\u0103 opreasc\u0103 la sta\u021bia de taxare. Inscrip\u021bii \u00een Rom\u00e2n\u0103 \u0219i Francez\u0103\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/2/2f/Romania_road_sign_C34.svg",
+    "title": "Controlul poli\u021biei",
+    "explanation": "Oblig\u0103 participan\u021bii la trafic s\u0103 opreasc\u0103 la punctul de control al Poli\u021biei Rutiere. Inscrip\u021bii \u00een Rom\u00e2n\u0103 \u0219i Francez\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/9/9c/RomanianTrafficSign_C35-EndOfAllLimits_2011.svg",
+    "title": "Sf\u00e2r\u0219itul tuturor restric\u021bilor",
+    "explanation": "Indic\u0103 sf\u00e2r\u0219itul restric\u021bilor care se aplicau pe sectorul de drum.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/d/d5/RomanianTrafficSign_C36-SpeedLimit-040_2011.svg",
+    "title": "Sf\u00e2r\u0219itul limitei de viteze",
+    "explanation": "Indic\u0103 sf\u00e2r\u0219itul restric\u021bilor de vitez\u0103 care se aplicau pe sectorul de drum.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/9/90/Romania_road_sign_C37.svg",
+    "title": "Sf\u00e2r\u0219itul restric\u021biei de dep\u0103\u0219ire",
+    "explanation": "Indic\u0103 sf\u00e2r\u0219itul restric\u021bilor de dep\u0103\u0219ire care se aplicau pe sectorul de drum.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/f/f7/RomanianTrafficSign_C38-NoParking_2011.svg",
+    "title": "Sta\u021bionarea interzis\u0103",
+    "explanation": "Interzice sta\u021bionarea pe drum. C\u00e2nd este acompaniat de s\u0103ge\u021bi, indic\u0103 zona unde activeaz\u0103 indicatorul.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/5/53/RomanianTrafficSign_C39-NoStopping_2011.svg",
+    "title": "Oprirea interzis\u0103",
+    "explanation": "Interzice oprirea pe drum. C\u00e2nd este acompaniat de s\u0103ge\u021bi, indic\u0103 zona unde activeaz\u0103 indicatorul.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/f/f8/RomanianTrafficSign_C40-AlternateParkingOdd_2011.svg",
+    "title": "Sta\u021bionarea interzis\u0103 (alternativ\u0103)",
+    "explanation": "Interzice sta\u021bionarea de orice fel \u00een zilele pare (sus) \u0219i impare (jos).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/b/bb/RomanianTrafficSign_C42-NoParkingZone_2011.svg",
+    "title": "Zon\u0103 cu sta\u021bionare interzis\u0103",
+    "explanation": "Indic\u0103 o zon\u0103 \u00een care este interzis\u0103 sta\u021bionarea \u00eentre un anumit interval inscrip\u021bionat.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/7/78/RomanianTrafficSign_C43-EndOfNoParkingZone_2011.svg",
+    "title": "Sf\u00e2r\u0219itul zonei cu sta\u021bionare interzis\u0103",
+    "explanation": "Indic\u0103 sf\u00e2r\u0219itul zonei \u00een care este interzis\u0103 sta\u021bionarea \u00eentre un anumit interval inscrip\u021bionat.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/6/67/RomanianTrafficSign_C44-SpeedLimitZone-030_2011.svg",
+    "title": "Zon\u0103 cu vitez\u0103 limitat\u0103",
+    "explanation": "Indic\u0103 o zon\u0103 unde exist\u0103 o limit\u0103 de vitez\u0103. Adesea limita este de 30 km/h.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/b/b6/RomanianTrafficSign_C45-EndOfSpeedLimitZone-030_2011.svg",
+    "title": "Sf\u00e2r\u0219itul zonei cu vitez\u0103 limitat\u0103",
+    "explanation": "Indic\u0103 sf\u00e2r\u0219itul zonei unde exist\u0103 o limit\u0103 de vitez\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/3/30/Romania_road_sign_C46.svg",
+    "title": "Circula\u021bia interzis\u0103 vehiculelor cu material exploziv/inflamabil",
+    "explanation": "Interzice circula\u021bia vehiculelor cu material exploziv (TNT, C4, etc) sau cu material inflamabil (automobile cu GPL, GNC, etc) pe sectorul de drum respectiv.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/2/2a/Romania_road_sign_C47.svg",
+    "title": "Circula\u021bia interzis\u0103 vehiculelor cu m\u0103rfuri periculoase",
+    "explanation": "Interzice circula\u021bia vehiculelor cu marf\u0103 periculoas\u0103 (benzin\u0103, materiale toxice, radioactive, etc) pe sectorul de drum respectiv.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/e/eb/Romania_road_sign_C48.svg",
+    "title": "Circula\u021bia interzis\u0103 vehiculelor cu m\u0103rfuri care polueaz\u0103 apa",
+    "explanation": "Interzice circula\u021bia vehiculelor cu substan\u021be care pot contamina apele pe sectorul de drum respectiv.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/e/eb/Romania_road_sign_D1.svg",
+    "title": "\u00cenainte",
+    "explanation": "Oblig\u0103 participantul la trafic s\u0103 mearg\u0103 drept \u00eenainte.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/8/8b/Romania_road_sign_D2.svg",
+    "title": "La dreapta/st\u00e2nga",
+    "explanation": "Oblig\u0103 participantul la trafic s\u0103 o ia la dreapta (sau \u00een alt\u0103 variant\u0103, la st\u00e2nga).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/4/46/Romania_road_sign_D3.svg",
+    "title": "Avertizare pentru direc\u021bia obligatorie (dreapta/st\u00e2nga)",
+    "explanation": "Presemnalizeaz\u0103 o obilga\u021bie pentru a lua pe la dreapta (sau \u00een alt\u0103 variant\u0103, la st\u00e2nga).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/8/89/Romania_road_sign_D4.svg",
+    "title": "\u00cenainte \u0219i/sau la dreapta",
+    "explanation": "Oblig\u0103 participantul la trafic s\u0103 mearg\u0103 drept \u00eenainte, \u0219i/sau la dreapta (sau \u00een alt\u0103 variant\u0103, la st\u00e2nga).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/8/86/Romania_road_sign_D5.svg",
+    "title": "Ocolire pe la dreapta/st\u00e2nga",
+    "explanation": "Oblig\u0103 participantul la trafic s\u0103 ocoleasc\u0103 semnul pe la dreapta (sau \u00een alt\u0103 variant\u0103, la st\u00e2nga).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/a/a2/Romania_road_sign_D6.svg",
+    "title": "Ocolire pe la dreapta \u0219i st\u00e2nga",
+    "explanation": "Oblig\u0103 participantul la trafic s\u0103 ocoleasc\u0103 semnul, \u0219i pe la dreapta, \u0219i pe la st\u00e2nga.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/7/7b/Romania_road_sign_D7.svg",
+    "title": "Giratoriu",
+    "explanation": "Oblig\u0103 participantul la trafic s\u0103 urmeze circula\u021bia \u00een sensul giratoriu.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/a/a1/Romania_road_sign_D11.svg",
+    "title": "Pist\u0103 de bicicli\u0219ti",
+    "explanation": "Oblig\u0103 biciclistul s\u0103 utilizeze pista special amenajat\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/c/cb/Romania_road_sign_D13.svg",
+    "title": "Circula\u021bie pentru autobuz",
+    "explanation": "Oblig\u0103 autobuzele s\u0103 foloseasc\u0103 o band\u0103 special destinat\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/6/6c/Romania_road_sign_D8.svg",
+    "title": "Pist\u0103 pietonal\u0103",
+    "explanation": "Oblig\u0103 pietonii s\u0103 utilizeze pista special amenajat\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/4/4b/Romania_road_sign_D9.svg",
+    "title": "Delimitarea pistei pietonale \u0219i pistei de bicicli\u0219ti",
+    "explanation": "Oblig\u0103 pietonii \u0219i bicicli\u0219ti s\u0103 respecte \u00eenceputul \u0219i sf\u00e2r\u0219itul pistelor special amenajate.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/6/60/Romania_road_sign_D12.svg",
+    "title": "Pist\u0103 combinat\u0103",
+    "explanation": "Oblig\u0103 pietonii \u0219i bicicli\u0219tii s\u0103 utilizeze pista special amenajat\u0103 \u0219i comun\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/a/a2/Romania_road_sign_D14-40.svg",
+    "title": "Vitez\u0103 minim\u0103",
+    "explanation": "Oblig\u0103 participantul la trafic s\u0103 nu mearg\u0103 cu o vitez\u0103 mai joas\u0103 fa\u021b\u0103 de cea indicat\u0103 \u00een indicator.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/0/04/Romania_road_sign_D15-40.svg",
+    "title": "Sf\u00e2r\u0219itul vitezei minime",
+    "explanation": "Indic\u0103 finalul oblig\u0103rii de vitez\u0103 minim\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/7/72/Romania_road_sign_D16.svg",
+    "title": "Lan\u021buri de iarn\u0103",
+    "explanation": "Oblig\u0103 participantul la trafic s\u0103 aib\u0103 lan\u021buri la cauciucuri iarna pentru a preveni \u00eempotmolirea\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/9/9e/RO_road_sign_D15a.svg",
+    "title": "Pneuri de iarn\u0103",
+    "explanation": "Oblig\u0103 participantul la trafic s\u0103 circule cu pneuri de iarn\u0103 pe un anumit tronson de drum pentru a preveni \u00eempotmolirea. Variant\u0103 a indicatorului D16 de mai sus.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/4/40/Romania_road_sign_D17.svg",
+    "title": "Direc\u021bia pentru categoria de vehicule",
+    "explanation": "Oblig\u0103 respectiva categorie de vehicule indicat\u0103 s\u0103 urmeze un traseu specificat.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/0/00/Semnalizare_rutiera_IO_1.svg",
+    "title": "Intersec\u021bie de drumuri",
+    "explanation": "Presemnalizeaz\u0103 o intersec\u021bie \u00eentre (cel pu\u021bin) dou\u0103 drumuri.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/b/bb/Semnalizare_rutiera_IO_2.svg",
+    "title": "Intersec\u021bie de drumuri, denivelat\u0103",
+    "explanation": "Presemnalizeaz\u0103 o intersec\u021bie denivelat\u0103 \u00eentre (cel pu\u021bin) dou\u0103 drumuri.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/c/c1/Semnalizare_rutiera_IO_3.svg",
+    "title": "Direc\u021bii indicate",
+    "explanation": "Presemnalizeaz\u0103 direc\u021biile indicate.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/2/25/Romania_road_sign_F4.svg",
+    "title": "\u0218osea de ocolire",
+    "explanation": "Presemnalizeaz\u0103 un drum ocolitor pentru un ora\u0219.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/1/10/Romania_road_sign_F5.svg",
+    "title": "Direc\u021bii indicate cu un giratoriu",
+    "explanation": "Presemnalizeaz\u0103 o intersec\u021bie cu sens giratoriu \u0219i direc\u021bile sale.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/b/b4/Semnalizare_rutiera_IO_6.svg",
+    "title": "Drum \u00eenchis",
+    "explanation": "Indic\u0103 \u00eenchiderea drumului pe un anumit sector al acestuia.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/f/f4/Romania_road_sign_F7.svg",
+    "title": "Drum cu limit\u0103ri \u0219i varianta sa ocolitoare",
+    "explanation": "Indic\u0103 un sector de drum restric\u021bionat pentru o anumit\u0103 categorie de trafic rutier, \u0219i varianta sa ocolitoare pentru vehiculele restric\u021bionate.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/1/19/Semnalizare_rutiera_IO_8.svg",
+    "title": "Ie\u0219ire de pe autostrad\u0103",
+    "explanation": "Presemnalizeaz\u0103 o ie\u0219ire din autostrad\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/6/61/Semnalizare_rutiera_IO_52.svg",
+    "title": "Distan\u021ba p\u00e2n\u0103 la localit\u0103\u021bi",
+    "explanation": "Indic\u0103 distan\u021ba p\u00e2n\u0103 la c\u00e2teva ora\u0219e \u0219i localit\u0103\u021bi enumerate.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/6/6f/Romania_road_sign_F11.svg",
+    "title": "Distan\u021ba p\u00e2n\u0103 la localit\u0103\u021bi (autostrad\u0103)",
+    "explanation": "Indic\u0103 distan\u021ba p\u00e2n\u0103 la c\u00e2teva ora\u0219ie \u0219i localit\u0103\u021bi enumerate pe autostrad\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/6/65/Romania_road_sign_F12.svg",
+    "title": "Intersec\u021bie cu trecere la nivel cu calea ferat\u0103",
+    "explanation": "Indic\u0103 o intersec\u021bie, unde o cale ferat\u0103 face parte din componen\u021ba sa sau calea ferat\u0103 se aproprie foarte mult de respectiva intersec\u021bie.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/3/37/Romania_road_sign_F13.svg",
+    "title": "Alternativ\u0103 la viraj interzis",
+    "explanation": "Indic\u0103 manevra sugerat\u0103 pentru un viraj interzis.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/2/2e/Romania_road_sign_F14.svg",
+    "title": "Band\u0103 rezervat\u0103 transportului public",
+    "explanation": "Indic\u0103 \u00eenceperea benzii rezervat\u0103 exclusiv transportului public.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/c/c4/Romania_road_sign_F15.svg",
+    "title": "Fund\u0103tur\u0103",
+    "explanation": "Indic\u0103 o strad\u0103 f\u0103r\u0103 ie\u0219ire. Variante alternative ale acestui indicator exist\u0103 \u00een diverse forme.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/7/71/Romania_road_sign_F21.svg",
+    "title": "Utilizarea benzilor",
+    "explanation": "Indic\u0103 utilizarea benzilor pe direc\u021bii.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/c/cb/Romania_road_sign_F22.svg",
+    "title": "Band\u0103 pentru vehicule lente",
+    "explanation": "Indic\u0103 \u00eenceputul \u0219i existen\u021ba benzii pentru vehicule lente.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/6/6b/Romania_road_sign_F23.svg",
+    "title": "Sf\u00e2r\u0219itul benzii",
+    "explanation": "Indic\u0103 \u00eengustarea unei benzi a carosabilului.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/b/bb/Romania_road_sign_F27.svg",
+    "title": "Utilizarea benzilor",
+    "explanation": "Indic\u0103 utilizarea benzilor dup\u0103 limita de vitez\u0103 sau categoria vehiculelor.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/0/09/Romania_road_sign_F29.svg",
+    "title": "S\u0103geat\u0103 indicatoare pentru destina\u021bie",
+    "explanation": "Indic\u0103 traseul urmat pentru a ajunge \u00eentr-o localitate.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/5/5c/Romania_road_sign_F30.svg",
+    "title": "S\u0103geat\u0103 indicatoare pentru intrarea \u00een autostrad\u0103",
+    "explanation": "Indic\u0103 traseul urmat pentru a ajunge la intrarea autostr\u0103zii.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/7/79/Romania_road_sign_F33.svg",
+    "title": "S\u0103geat\u0103 indicatoare pentru categorie de vehicule",
+    "explanation": "Indic\u0103 traseul urmat pentru respectiva categorie.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/d/dd/Romania_road_sign_F34.svg",
+    "title": "S\u0103geat\u0103 indicatoare pentru obiectiv turistic",
+    "explanation": "Indic\u0103 traseul urmat pentru a ajunge la obiectivul turistic.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/7/7f/Romania_road_sign_F35.svg",
+    "title": "S\u0103geat\u0103 indicatoare pentru destina\u021bie din ora\u0219",
+    "explanation": "Indic\u0103 traseul urmat pentru a ajunge \u00een centru sau \u00eentr-un cartier/\u00eentr-o zon\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/b/bc/Romania_road_sign_F36.svg",
+    "title": "S\u0103geat\u0103 indicatoare pentru aeroport",
+    "explanation": "Indic\u0103 traseul urmat pentru a ajunge la aeroport.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/d/d1/Romania_road_sign_F38.svg",
+    "title": "S\u0103geat\u0103 indicatoare \u00een cazul devierii temporare a circula\u021biei",
+    "explanation": "Indic\u0103 traseul deviat. Alte variante includ semne de orientare \u00een form\u0103 de p\u0103trat.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/c/ca/RO_Roadsign_1.svg",
+    "title": "Drum Na\u021bional (DN)",
+    "explanation": "Indic\u0103 drumul na\u021bional parcurs de participantul la trafic.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/c/cc/DJ703B-RO.svg",
+    "title": "Drum Jude\u021bean (DJ)",
+    "explanation": "Indic\u0103 drumul jude\u021bean parcurs de participantul la trafic.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/8/8a/DC148-RO.svg",
+    "title": "Drum Comunal (DC)",
+    "explanation": "Indic\u0103 drumul comunal parcurs de participantul la trafic.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/a/a5/E70-RO.svg",
+    "title": "\u0218osea European\u0103 (E)",
+    "explanation": "Indic\u0103 \u0219oseaua european\u0103 parcurs\u0103 de participantul la trafic.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/4/42/A3-RO.svg",
+    "title": "Autostrad\u0103 (A)",
+    "explanation": "Indic\u0103 autostrada parcurs\u0103 de participantul la trafic.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/6/6c/Semnalizare_rutiera_IO_46.svg",
+    "title": "Intrare \u00een localitate (varianta 1)",
+    "explanation": "Indic\u0103 intrarea \u00eentr-o localitate slab populat\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/7/7a/Romania_road_sign_F47.svg",
+    "title": "Intrare \u00een localitate (varianta 2)",
+    "explanation": "Indic\u0103 intrarea \u00eentr-o localitate des populat\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/e/ee/Semnalizare_rutiera_IO_48.svg",
+    "title": "Ie\u0219ire din localitate (varianta 1)",
+    "explanation": "Indic\u0103 ie\u0219irea dintr-o localitate slab populat\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/a/a4/Romania_road_sign_F49.svg",
+    "title": "Ie\u0219ire din localitate (varianta 2)",
+    "explanation": "Indic\u0103 ie\u0219irea dintr-o localitate des populat\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/4/44/Romania_road_sign_F50.svg",
+    "title": "Intrare \u00een jude\u021b",
+    "explanation": "Indic\u0103 intrarea \u00een jude\u021b. O variant\u0103 indic\u0103 ie\u0219irea din jude\u021b.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/e/e9/Romania_road_sign_F51.svg",
+    "title": "Ap\u0103 curg\u0103toare/vale",
+    "explanation": "Indic\u0103 numele apei curg\u0103toare sau a v\u0103ii traversate de \u0219osea.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/7/79/Romania_road_sign_F53.svg",
+    "title": "Utilizarea benzilor",
+    "explanation": "Interzice intrarea camioanelor pe banda cea mai apropriat\u0103 de axul drumului pe autostr\u0103zi.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/a/a3/Romania_road_sign_F54.svg",
+    "title": "Spa\u021biu de urgen\u021b\u0103",
+    "explanation": "Indic\u0103 o zon\u0103 cu un telefon de urgen\u021b\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/9/9b/Romania_road_sign_G1.svg",
+    "title": "Trecere de pietoni",
+    "explanation": "Indic\u0103 o trecere de pietoni, fiind amplasat\u0103 \u00een dreptul ei. Pentru vizibilitate sporit\u0103, aceasta poate include l\u0103mpi de proximitate sau margine reflectorizant\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/7/7c/Romania-Speedlimit.svg",
+    "title": "Limite de vitez\u0103 generale",
+    "explanation": "Amplasat la intrarea \u00een \u021bar\u0103, indic\u0103 limitele de vitez\u0103 pentru categorii de drumuri \u0219i de vehicule.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/a/ac/Romania_road_sign_G4.svg",
+    "title": "Sens unic",
+    "explanation": "Indic\u0103 inceperea sectorului de drum cu sens unic.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/d/da/Romania_road_sign_G5.svg",
+    "title": "Sens unic",
+    "explanation": "Indic\u0103 drumul cu sens unic la intersec\u021bie cu el, amplasat pentru a fi vizibil de pe str\u0103zile care se intersecteaz\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/6/64/Romania_road_sign_G6.svg",
+    "title": "Autostrad\u0103",
+    "explanation": "Indic\u0103 \u00eenceputul (intrarea) autostr\u0103zii.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/9/93/Romania_road_sign_G7.svg",
+    "title": "Sf\u00e2r\u0219itul autostr\u0103zii",
+    "explanation": "Indic\u0103 sf\u00e2r\u0219itul (ie\u0219irea) autostr\u0103zii.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/2/29/Romania_road_sign_G8.svg",
+    "title": "Limite de vitez\u0103 din autostrad\u0103",
+    "explanation": "Indic\u0103 limitele de vitez\u0103 din autostrad\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/b/ba/Romania_road_sign_G9.svg",
+    "title": "Spital",
+    "explanation": "Indic\u0103 prezen\u021ba unui spital.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/3/34/Romania_road_sign_G10.svg",
+    "title": "Prim-ajutor",
+    "explanation": "Indic\u0103 prezen\u021ba unui post de prim ajutor.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/d/dc/Romania_road_sign_G11.svg",
+    "title": "Poli\u021bia",
+    "explanation": "Indic\u0103 prezen\u021ba unei sec\u021bii de poli\u021bie.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/1/1b/Romania_road_sign_G12.svg",
+    "title": "Subpasaj pietonal",
+    "explanation": "Indic\u0103 un sub-pasaj pietonal.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/d/d2/Romania_road_sign_G14.svg",
+    "title": "Sta\u021bie de autobuz",
+    "explanation": "Indic\u0103 o sta\u021bie de autobuz.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/e/eb/Romania_road_sign_G15.svg",
+    "title": "Sta\u021bie de tramvai",
+    "explanation": "Indic\u0103 o sta\u021bie de tramvai.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/4/46/Romania_road_sign_G16.svg",
+    "title": "Sta\u021bie de taxi",
+    "explanation": "Indic\u0103 o sta\u021bie de taxiuri.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/d/d7/Romania_road_sign_G17.svg",
+    "title": "Drum rapid / Drum expres",
+    "explanation": "Indic\u0103 \u00eenceputul (intrarea) \u00een \u0219oseaua pentru traficul motor (drum express).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/3/34/Romania_road_sign_G18.svg",
+    "title": "Terminare Drum rapid / Drum expres",
+    "explanation": "Indic\u0103 sf\u00e2r\u0219itul (ie\u0219irea) \u0219oselei rezervate exclusiv traficului motor.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/8/89/Romania_road_sign_G19.svg",
+    "title": "Vulcanizare",
+    "explanation": "Indic\u0103 prezen\u021ba unui serviciu de vulcanizare.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/6/60/Romania_road_sign_G20.svg",
+    "title": "Telefon",
+    "explanation": "Indic\u0103 un telefon public.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/a/af/Romania_road_sign_G21.svg",
+    "title": "Benzin\u0103rie",
+    "explanation": "Indic\u0103 prezen\u021ba unei sta\u021bii de alimentare (benzin\u0103rii).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/e/ee/Romania_road_sign_G23.svg",
+    "title": "Benzin\u0103rie cu pompe pentru GPL \u0219i benzin\u0103 cu plumb",
+    "explanation": "Indic\u0103 prezen\u021ba unei sta\u021bii de alimentare cu GPL \u0219i benzin\u0103 cu plumb.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/6/6d/Romania_road_sign_G24.svg",
+    "title": "Hotel",
+    "explanation": "Indic\u0103 prezen\u021ba unui hotel/motel.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/1/15/Romania_road_sign_G25.svg",
+    "title": "Restaurant",
+    "explanation": "Indic\u0103 prezen\u021ba unui restaurant.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/3/37/Romania_road_sign_G26.svg",
+    "title": "Bufet/Cofet\u0103rie",
+    "explanation": "Indic\u0103 prezen\u021ba unui bufet sau a unei cofet\u0103rii.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/c/ce/Romania_road_sign_G27.svg",
+    "title": "Teren pentru camping",
+    "explanation": "Indic\u0103 prezen\u021ba unui teren pentru camping\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/a/af/Romania_road_sign_G28.svg",
+    "title": "Teren pentru caravane (rulote)",
+    "explanation": "Indic\u0103 prezen\u021ba unui teren pentru rulote tractare (caravane, motorhomes).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/3/32/Romania_road_sign_G29.svg",
+    "title": "Tab\u0103r\u0103 turistic\u0103",
+    "explanation": "Indic\u0103 prezen\u021ba unei tabere turistice pentru camping \u0219i caravane.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/d/dc/Romania_road_sign_G30.svg",
+    "title": "Popas (picnic)",
+    "explanation": "Indic\u0103 prezen\u021ba unui loc de popas (picnic).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/5/56/Romania_road_sign_G31.svg",
+    "title": "Caban\u0103",
+    "explanation": "Indic\u0103 prezen\u021ba unei cabane turistice.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/8/87/Romania_road_sign_G32.svg",
+    "title": "Toalete publice",
+    "explanation": "Indic\u0103 prezen\u021ba b\u0103ilor publice (WC).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/1/13/Romania_road_sign_G33.svg",
+    "title": "Service auto",
+    "explanation": "Indic\u0103 prezen\u021ba unui service auto. Programul poate fi inscrip\u021bionat pe indicator.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/e/e9/Romania_road_sign_G34.svg",
+    "title": "Parcare",
+    "explanation": "Indic\u0103 o parcare autorizat\u0103. Programul poate fi inscrip\u021bionat pe indicator.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/f/fc/Romania_road_sign_G36.svg",
+    "title": "Parcheggio coperto",
+    "explanation": "Indic\u0103 o parcare autorizat\u0103 acoperit\u0103. Prigramul poate fi inscrip\u021bionat pe indicator.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/e/eb/Romania_road_sign_G38.svg",
+    "title": "Zon\u0103 reziden\u021bial\u0103",
+    "explanation": "Indic\u0103 \u00eenceputul unei zone reziden\u021biale.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/e/e6/Romania_road_sign_G39.svg",
+    "title": "Sf\u00e2r\u0219itul zonei reziden\u021biale",
+    "explanation": "Indic\u0103 sf\u00e2r\u0219itul unei zone reziden\u021biale.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/1/12/Romania_road_sign_G40.svg",
+    "title": "Zon\u0103 cu vitez\u0103 recomandat\u0103",
+    "explanation": "Indic\u0103 \u00eenceputul unei zone cu viteza recomandat\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/a/ae/Romania_road_sign_G41.svg",
+    "title": "Sf\u00e2r\u0219itul zonei cu vitez\u0103 recomandat\u0103",
+    "explanation": "Indic\u0103 sf\u00e2r\u0219itul unei zone cu viteza recomandat\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/c/c1/Romania_road_sign_G42.svg",
+    "title": "Tunel",
+    "explanation": "Indic\u0103 intrarea \u00een tunel, cu lungimea \u0219i numele s\u0103u inscrip\u021bionate pe indicator.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/2/24/Romania_road_sign_G43.svg",
+    "title": "Sf\u00e2r\u0219itul tunelului",
+    "explanation": "Indic\u0103 ie\u0219irea din tunel.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/0/08/Romania_road_sign_G45.svg",
+    "title": "Feribot",
+    "explanation": "Indic\u0103 prezen\u021ba unui port-feribot.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/b/b3/Romania_road_sign_G46.svg",
+    "title": "Port",
+    "explanation": "Indic\u0103 prezen\u021ba unui port.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/6/66/Romania_road_sign_G56.svg",
+    "title": "Ap\u0103 potabil\u0103",
+    "explanation": "Indic\u0103 prezen\u021ba unei surse de ap\u0103 potabil\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/a/a1/Romania_road_sign_G64.svg",
+    "title": "Radar",
+    "explanation": "Indic\u0103 prezen\u021ba unui radar rutier (detector de vitez\u0103).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/d/d1/Romania_road_sign_G65.svg",
+    "title": "Post de radio",
+    "explanation": "Indic\u0103 un post de radio, care red\u0103 informa\u021bii rutiere, cu numele \u0219i frecven\u021ba sa.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/6/6f/Romania_road_sign_G66.svg",
+    "title": "Vitez\u0103 recomandat\u0103",
+    "explanation": "Indic\u0103 viteza recomandat\u0103 (sub limita maxim\u0103) pe un sector de drum.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/a/ad/Romania_road_sign_G67.svg",
+    "title": "Punct de informa\u021bii",
+    "explanation": "Indic\u0103 prezen\u021ba unui punct de informa\u021bii, adesea pentru turi\u0219ti.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/7/72/Romania_road_sign_G68.svg",
+    "title": "Numele str\u0103zii",
+    "explanation": "Indic\u0103 numele str\u0103zii pe care se afl\u0103 \u0219oferul. Forma standardizat\u0103 este rar \u00eent\u00e2lnit\u0103, \u0219i indicatorul str\u0103zii variaz\u0103 de la ora\u0219 la ora\u0219.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/0/06/Romania_road_sign_G71.svg",
+    "title": "Zon\u0103 pietonal\u0103",
+    "explanation": "Indic\u0103 \u00eenceputul zonei pietonale.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/b/b7/Romania_road_sign_G72.svg",
+    "title": "Sf\u00e2r\u0219itul zonei pietonale",
+    "explanation": "Indic\u0103 finalul zonei pietonale.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/2/2c/Romania_road_sign_G73.svg",
+    "title": "Monitorizarea traficului",
+    "explanation": "Indic\u0103 monitorizarea traficului printr-un centru de control.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/f/f9/Romania_road_sign_G74.svg",
+    "title": "Refugiu pentru depanare",
+    "explanation": "Indic\u0103 un refugiu destinat depan\u0103rii.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/5/5f/Romania_road_sign_G75.svg",
+    "title": "Poli\u021bia Autostr\u0103zilor",
+    "explanation": "Indic\u0103 prezen\u021ba Poli\u021biei Autostr\u0103zilor, \u0219i distan\u021ba p\u00e2n\u0103 la postul respectiv.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/9/99/Romania_road_sign_P1.svg",
+    "title": "Distan\u021ba",
+    "explanation": "Reprezint\u0103 distan\u021ba dintre indicator \u0219i locul de unde el ac\u021bioneaz\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/4/49/Romania_road_sign_P3.svg",
+    "title": "Timpul",
+    "explanation": "Indic\u0103 orele c\u00e2nd indicatorul respectiv activeaz\u0103.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/8/8b/Romania_road_sign_P5.svg",
+    "title": "Categoria vehiculului",
+    "explanation": "Indic\u0103 categoria care la care se refer\u0103 indicatorul.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/f/f0/Romania_road_sign_P8.svg",
+    "title": "Lungimea",
+    "explanation": "Indic\u0103 lungimea sectorului de drum la care se refer\u0103 indicatorul.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/f/f2/Romania_road_sign_P10.svg",
+    "title": "\u00cencepere, Confirmare, Ie\u0219ire",
+    "explanation": "Indic\u0103 intrarea (\u00eenceperea), continuarea (confirmarea) \u0219i ie\u0219irea (sf\u00e2r\u0219irea) sectorului de drum unde ac\u021bioneaz\u0103 indicatorul.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/8/84/Romania_road_sign_P13.svg",
+    "title": "Persoane cu dizabilit\u0103\u021bi",
+    "explanation": "Indic\u0103 o zon\u0103 care se refer\u0103 la persoanele cu dizabilit\u0103\u021bi (handicap).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/7/71/Romania_road_sign_P15.svg",
+    "title": "Parcare cu plat\u0103",
+    "explanation": "Indic\u0103 o parcare cu plat\u0103 (uneori nu se afi\u0219eaz\u0103 intervalul).\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/5/5a/Romania_road_sign_P17.svg",
+    "title": "Distan\u021ba p\u00e2n\u0103 la stop",
+    "explanation": "Indic\u0103 distan\u021ba p\u00e2n\u0103 la semnul de stop.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/f/fa/Romania_road_sign_P20.svg",
+    "title": "Intersec\u021bia cu drumul cu prioritate",
+    "explanation": "Linia \u00eengro\u0219at\u0103 reprezint\u0103 drumul cu prioritate.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/e/e2/Romania_road_sign_P25.svg",
+    "title": "Ridicarea vehiculelor parcate neregulamentar",
+    "explanation": "Indic\u0103 o ridicare a vehiculelor parcate neregulamentar.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/0/0f/Romania_road_sign_P26.svg",
+    "title": "Folosirea luminilor",
+    "explanation": "Indic\u0103 necesitatea luminilor de \u00eent\u00e2lnire pe respectivul sector de drum.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/5/54/Romania_road_sign_P27.svg",
+    "title": "Ghea\u021b\u0103 \u0219i ninsoare",
+    "explanation": "Indic\u0103 condi\u021bile c\u00e2nd drumul devine periculos.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/0/08/Romania_road_sign_P29.svg",
+    "title": "Pioaie",
+    "explanation": "Indic\u0103 condi\u021bile c\u00e2nd drumul devine periculos.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/e/ed/Romania_road_sign_P38.svg",
+    "title": "Executarea parc\u0103rii",
+    "explanation": "Indic\u0103 modalit\u0103\u021bile \u00een care se execut\u0103 parcarea.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/8/85/Romania_road_sign_P44.svg",
+    "title": "Rampa",
+    "explanation": "Indic\u0103 prezen\u021ba unei rampe pentru persoanele cu dizabilit\u0103\u021bi.\n"
+  },
+  {
+    "img": "//upload.wikimedia.org/wikipedia/commons/9/9e/Romania_road_sign_P46.svg",
+    "title": "Num\u0103rul ie\u0219irii de pe autostrad\u0103",
+    "explanation": "Indic\u0103 num\u0103rul ie\u0219irii de pe autostrad\u0103, sau a nodului rutier.\n"
+  }
+]
