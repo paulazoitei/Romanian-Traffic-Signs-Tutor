@@ -7,7 +7,6 @@
     <link rel="stylesheet" href=".././Styles/style.css" />
     <link rel="stylesheet" href=".././Styles/navstyle.css" />
     <link rel="stylesheet" href=".././Styles/body.css" />
-    <link rel="stylesheet" href="../Styles/profile.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Raleway"
       rel="stylesheet"
@@ -15,16 +14,15 @@
     <title>RoTST</title>
   </head>
   <body>
-    <script src="../Scripts/accesare-cont.js"></script>
     <script src="../Scripts/responsive-navbar.js"></script>
-    <script src="../Scripts/profile-switch-false.js"></script>
+    <script src="../Scripts/accesare-cont.js"></script>
     <div class="bg-image-container">
       <img src=".././Assets/Images/bodybg.jpg" class="bg-image" alt="bg-img" />
     </div>
     <div class="container">
       <div class="nav">
         <div class="logo">
-          <a href="home.html">
+          <a href="home">
             <svg width="100" height="100" viewBox="0 0 100 100">
               <image
                 href=".././Assets/Icons/logo-rot.svg"
@@ -37,39 +35,29 @@
         <div class="nav-content">
           <ul class="nav-list">
             <li class="item toDisplay">
-              <a href="../Html_Components/chestionar.html">Chestionare</a>
+              <a href="chestionar">Chestionare</a>
             </li>
             <li class="item toDisplay">
-              <a href="../Html_Components/clasament.html">Clasament</a>
+              <a href="clasament">Clasament</a>
             </li>
             <li class="dropdown toDisplay">
-              <a href=".././Html_Components/mediu-invatare.html"
+              <a href="mediu_invatare"
                 >Mediu Invatare</a
               >
               <div class="dropdown-container">
                 <ul class="dropdown-list">
                   <li class="dropdown-item">
-                    <a href="../Html_Components/chestionar_practica.html"
-                      >Chestionare de practica</a
-                    >
+                    <a href="chestionar_practica">Chestionare de practica</a>
                   </li>
 
-                  <li class="dropdown-item">
-                    <a href="../Html_Components/legislatie.html">Legislatie</a>
-                  </li>
+                  <li class="dropdown-item"><a href="legislatie">Legislatie</a></li>
 
-                  <li class="dropdown-item">
-                    <a href="../Html_Components/semne-rutiere.html"
-                      >Semne rutiere</a
-                    >
-                  </li>
+                  <li class="dropdown-item"><a href="semne_rutiere">Semne rutiere</a></li>
                 </ul>
               </div>
             </li>
             <li class="item toDisplay">
-              <a href=".././Html_Components/auth.html" id="profile-switcher"
-                >Accesare Cont</a
-              >
+              <a href="auth" id="profile-switcher">Accesare Cont</a>
             </li>
             <li class="menu">
               <a href="" id="menu-button">
@@ -85,16 +73,40 @@
           </ul>
         </div>
       </div>
-      <div class="profile-container">
-        <div class="profile">
-          <img class="avatar" src="../Assets/Images/avatar.webp" alt="avatar" />
-          <p class="username">NumeUtilizator</p>
-          <p class="rank">Incepator</p>
-          <p class="points">Puncte: 0</p>
-          <p class="remaining">Puncte ramase pana la urmatorul rank : 50</p>
-          <p class="admise">Total chestionare admise: 0</p>
-          <p class="picate">Total chestionare picate: 0</p>
-          <div id="sign-out">Sign Out</div>
+      <div class="background-home-page">
+        <p class="title">Bun venit pe Romanian Traffic Signs Tutor!</p>
+      </div>
+      <div class="home-page-content">
+        <div class="content-container">
+          <ul class="content-list">
+            <li class="content">
+              🚗 Aici este locul unde vei învăța semnele rutiere, legislația în
+              vigoare din România și vei putea să îți testezi cunoștințele
+              făcând chestionare de antrenament sau chestionare cu care poți
+              concura cu ceilalți utilizatori ai aplicației.
+            </li>
+            <li class="content">
+              🚗 Progresul tău va fi salvat și vei putea să îți monitorizezi
+              evoluția în timp.
+            </li>
+            <li class="content">
+              🚗 În cazul în care ai neclarități cu privire la folosirea
+              aplicației poți accesa secțiunea help pe care o găsești în partea
+              de jos a site-ului.
+            </li>
+            <li class="content">
+              🚗Dacă ai probleme cu aplicația sau dorești să ne transmiti
+              reclamații, poți să ne contactezi folosind formularul de contact
+              pe care îl găsești în secțiunea about, care se află de asemenea în
+              partea de jos a site-ului.
+            </li>
+          </ul>
+          <div class="home-page-image"> 
+            <img
+              src=".././Assets/Images/poza_home.webp"
+              alt="Descriere imagine"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -115,16 +127,17 @@
       </div>
 
       <div class="about-buttons">
-        <a href="../Html_Components/about.html">
+        <a href="about">
           <div class="button-footer">About</div>
         </a>
-        <a href="../Html_Components/help.html">
+        <a href="help">
           <div class="button-footer">Help</div>
         </a>
-        <a href="../Html_Components/contact.html">
+        <a href="contact">
           <div class="button-footer">Contact</div>
         </a>
       </div>
     </footer>
+  
   </body>
 </html>

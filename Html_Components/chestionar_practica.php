@@ -7,23 +7,21 @@
   <link rel="stylesheet" href=".././Styles/style.css" />
   <link rel="stylesheet" href=".././Styles/navstyle.css" />
   <link rel="stylesheet" href=".././Styles/body.css" />
-  <link rel="stylesheet" href=".././Styles/learn.css" />
-
+  <link rel="stylesheet" href=".././Styles/chestionar.css" />
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
-  <title>RoTST</title>
+  <title>Chestionare de practica</title>
 </head>
 
 <body>
   <script src="../Scripts/responsive-navbar.js"></script>
   <script src="../Scripts/accesare-cont.js"></script>
   <div class="bg-image-container">
-    <img class="bg-image" src=".././Assets/Images/bodybg.jpg" alt="background">
+    <img src=".././Assets/Images/bodybg.jpg" class="bg-image" alt="bg-img" />
   </div>
-
   <div class="container">
     <div class="nav">
       <div class="logo">
-        <a href="home.html">
+        <a href="home">
           <svg width="100" height="100" viewBox="0 0 100 100">
             <image
               href=".././Assets/Icons/logo-rot.svg"
@@ -36,29 +34,29 @@
       <div class="nav-content">
         <ul class="nav-list">
           <li class="item toDisplay">
-            <a href="../Html_Components/chestionar.html">Chestionare</a>
+            <a href="chestionar">Chestionare</a>
           </li>
           <li class="item toDisplay">
-            <a href="../Html_Components/clasament.html">Clasament</a>
+            <a href="clasament">Clasament</a>
           </li>
           <li class="dropdown toDisplay">
-            <a href=".././Html_Components/mediu-invatare.html"
+            <a href="mediu_invatare"
               >Mediu Invatare</a
             >
             <div class="dropdown-container">
               <ul class="dropdown-list">
                 <li class="dropdown-item">
-                  <a href="../Html_Components/chestionar_practica.html">Chestionare de practica</a>
+                  <a href="chestionar_practica">Chestionare de practica</a>
                 </li>
 
-                <li class="dropdown-item"><a href="../Html_Components/legislatie.html">Legislatie</a></li>
+                <li class="dropdown-item"><a href="legislatie">Legislatie</a></li>
 
-                <li class="dropdown-item"><a href="../Html_Components/semne-rutiere.html">Semne rutiere</a></li>
+                <li class="dropdown-item"><a href="semne_rutiere">Semne rutiere</a></li>
               </ul>
             </div>
           </li>
           <li class="item toDisplay">
-            <a href=".././Html_Components/auth.html" id="profile-switcher">Accesare Cont</a>
+            <a href="auth" id="profile-switcher">Accesare Cont</a>
           </li>
           <li class="menu">
             <a href="" id="menu-button">
@@ -74,49 +72,31 @@
         </ul>
       </div>
     </div>
-    <div class="mediu-container">
-      <p class="info-title">
-        Aceasta pagina este dedicata mediului de invatare a semnelor de
-        circulatie si a legislatiei rutiere.
-      </p>
-      <br />
-      <p class="info-description">
-        Pentru inceput, selecteaza una din categoriile de mai jos pentru a
-        incepe procesul de invatare:
-      </p>
+    <div class="info-container">
+      <div class="title-container">
+        <p class="title-quiz">Chestionare de practica</p>
+      </div>
+      <div class="text-container">
+        <p class="text-quiz">
+          <strong class="text-quiz-title">Bine te-am gasit pe sectiunea chestionarelor de practica!</strong><br /><br />
+          Folosindu-te de aceste chestionare vei reusi sa intelegi mai aprofundat regulile rutiere. Nu exista limita de
+          timp, limita de raspunsuri gresite sau limita de intrebari disponibile.<br>
+          Prin urmare, nu castigi sau pierzi nimic pe baza raspunsurilor tale.<br><br>
+          Cand te simti pregatit pentru a incepe o noua sesiune de chestionare de practica, apasa pe butonul "Start".<br>
+          </p>
+      </div>
     </div>
-
-    <div class="options">
-      <a href="../Html_Components/chestionar_practica.html">
-        <div class="option">
-          <p class="option-title">Chestionare de practica</p>
-          <svg width="200" height="200" viewBox="0 0 200 200">
-            <image href="../Assets/Icons/quiz.svg" width="200" height="200" />
-          </svg>
-        </div>
-      </a>
-
-      <a href="../Html_Components/legislatie.html">
-        <div class="option">
-          <p class="option-title">Legislatie</p>
-          <svg width="200" height="200" viewBox="0 0 200 200">
-            <image href="../Assets/Icons/document.svg" width="200" height="200" />
-          </svg>
-        </div>
-      </a>
-      <a href="../Html_Components/semne-rutiere.html">
-        <div class="option">
-          <p class="option-title">Semne rutiere</p>
-          <svg width="200" height="200" viewBox="0 0 200 200">
-            <image href="../Assets/Icons/stop.svg" width="200" height="200" />
+    <div class="wrapper">
+      <a class="start-button-clickable" href="chestionar_practica_started">
+        <div class="start-button">
+          <p>START</p>
+          <svg class="icon-circle" width="100" height="100" viewBox="0 0 100 100">
+            <image href="../Assets/Icons/right-arrow.svg" width="100" height="100" />
           </svg>
         </div>
       </a>
     </div>
-
   </div>
-
- 
   <footer class="about-section">
     <div class="despre-noi">
       <div class="follow-us">Follow us:</div>
@@ -133,13 +113,13 @@
     </div>
 
     <div class="about-buttons">
-      <a href="../Html_Components/about.html">
+      <a href="about">
         <div class="button-footer">About</div>
       </a>
-      <a href="../Html_Components/help.html">
+      <a href="help">
         <div class="button-footer">Help</div>
       </a>
-      <a href="../Html_Components/contact.html">
+      <a href="contact">
         <div class="button-footer">Contact</div>
       </a>
     </div>

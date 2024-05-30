@@ -10,15 +10,12 @@ require_once __DIR__ . '/../core/Controller.php';
 
 class Home extends Controller
 {
-  public function index($name ='')
+  public function index()
   {
-     $user= $this->model('User');
-     $user->name=$name;
-
-     $this->view('home' , ['name' => $user->name]);
-
+     $this->view('home' );
 
   }
+
 
 }
 

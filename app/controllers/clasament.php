@@ -1,14 +1,14 @@
 <?php
 require_once __DIR__ . '/../core/Controller.php';
 
-class Chestionar extends Controller
+class Clasament extends Controller
 
 {
     public function index()
     {
 
 
-        $this->view('chestionar' );
+        $this->view('clasament' );
 
 
     }

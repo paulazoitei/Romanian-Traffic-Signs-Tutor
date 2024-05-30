@@ -6,15 +6,16 @@
     <link rel="stylesheet" href=".././Styles/style.css" />
     <link rel="stylesheet" href=".././Styles/navstyle.css" />
     <link rel="stylesheet" href=".././Styles/body.css" />
-    <link rel="stylesheet" href=".././Styles/chestionar.css" />
+    <link rel="stylesheet" href=".././Styles/question.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Raleway"
       rel="stylesheet"
     />
-    <title>Chestionare</title>
+    <title>Chestionar</title>
   </head>
   <body>
     <script src="../Scripts/responsive-navbar.js"></script>
+    <script src="../Scripts/background-options.js"></script>
     <script src="../Scripts/accesare-cont.js"></script>
     <div class="bg-image-container">
       <img src=".././Assets/Images/bodybg.jpg" class="bg-image" alt="bg-img" />
@@ -22,7 +23,7 @@
     <div class="container">
       <div class="nav">
         <div class="logo">
-          <a href="home.html">
+          <a href="home">
             <svg width="100" height="100" viewBox="0 0 100 100">
               <image
                 href=".././Assets/Icons/logo-rot.svg"
@@ -35,29 +36,39 @@
         <div class="nav-content">
           <ul class="nav-list">
             <li class="item toDisplay">
-              <a href="../Html_Components/chestionar.html">Chestionare</a>
+              <a href="chestionar">Chestionare</a>
             </li>
             <li class="item toDisplay">
-              <a href="../Html_Components/clasament.html">Clasament</a>
+              <a href="clasament">Clasament</a>
             </li>
             <li class="dropdown toDisplay">
-              <a href=".././Html_Components/mediu-invatare.html"
+              <a href="mediu_invatare"
                 >Mediu Invatare</a
               >
               <div class="dropdown-container">
                 <ul class="dropdown-list">
                   <li class="dropdown-item">
-                    <a href="../Html_Components/chestionar_practica.html">Chestionare de practica</a>
+                    <a href="chestionar_practica"
+                      >Chestionare de practica</a
+                    >
                   </li>
 
-                  <li class="dropdown-item"><a href="../Html_Components/legislatie.html">Legislatie</a></li>
+                  <li class="dropdown-item">
+                    <a href="legislatie">Legislatie</a>
+                  </li>
 
-                  <li class="dropdown-item"><a href="../Html_Components/semne-rutiere.html">Semne rutiere</a></li>
+                  <li class="dropdown-item">
+                    <a href="semne_rutiere"
+                      >Semne rutiere</a
+                    >
+                  </li>
                 </ul>
               </div>
             </li>
             <li class="item toDisplay">
-              <a href=".././Html_Components/auth.html" id="profile-switcher">Accesare Cont</a>
+              <a href="auth" id="profile-switcher"
+                >Accesare Cont</a
+              >
             </li>
             <li class="menu">
               <a href="" id="menu-button">
@@ -73,59 +84,44 @@
           </ul>
         </div>
       </div>
-      <div class="info-container">
-        <div class="title-container">
-          <p class="title-quiz">Chestionare</p>
+
+      <div class="question-container">
+        <div class="header">
+          <span class="information">Intrebari corecte:</span>
+          <span class="information">Intrebari gresite:</span>
+          <span class="information">Intrebari ramase:</span>
         </div>
-        <div class="text-container">
-          <p class="text-quiz">
-            <strong class="text-quiz-title"
-              >Bine te-am gasit pe sectiunea chestionarelor oficiale!</strong
-            ><br /><br />
-            Aceste chestionare vor fi metoda principala pentru a-ti testa
-            capacitatile in urma invatarii temeinice a teoriei. Fiecare
-            chestionar va fi compus din 26 de intrebari, din care minimul pentru
-            a fi admis este de 22 raspunsuri corecte.
-            <br />
-            Pentru a-ti monitoriza progresul si pentru a-ti demonstra
-            capacitatea, aceste chestionare vor fi punctate pozitiv sau negativ,
-            in functie de corectitudinea raspunsurilor tale.
-            <br /><br />
-            Punctajele vor fi acordate in felul urmator:
-            <br />
-          </p>
-          <br />
-          <ul class="point-list">
-            <li>Chestionar admis 26/26 : +20 puncte</li>
-            <li>Chestionar admis : +10 puncte</li>
-            <li>Chestionar picat : -5 puncte</li>
-            <li>Intrebare corecta : +0.5 puncte</li>
-            <li>Intrebare gresita : -0.5 puncte</li>
-          </ul>
-          <br />
-          <p class="text-quiz">
-            Cand te simti pregatit, apasa pe start pentru a porni chestionarul.
-          </p>
-        </div>
-      </div>
-      <div class="wrapper">
-        <a class="start-button-clickable" href="../Html_Components/chestionar-started.html">
-          <div class="start-button">
-            <p>START</p>
-            <svg
-              class="icon-circle"
-              width="100"
-              height="100"
-              viewBox="0 0 100 100"
-            >
-              <image
-                href="../Assets/Icons/right-arrow.svg"
-                width="100"
-                height="100"
-              />
-            </svg>
+        <div class="question-and-image">
+          <div class="q-image-container">
+            <img
+              class="q-image"
+              src="../Assets/Images/question-image.jpg"
+              alt="question image"
+            />
           </div>
-        </a>
+          <div class="question">
+            <div class="question-text">
+              <p>Intrebare demo</p>
+            </div>
+            <div class="question-form">
+              <form>
+                <label for="variant1" class="variant-container" id="v1cont">
+                  <input type="checkbox" id="variant1" />
+                  Varianta 1
+                </label>
+                <label for="variant2" class="variant-container" id="v2cont">
+                  <input type="checkbox" id="variant2" />
+                  Varianta 2
+                </label>
+                <label for="variant3" class="variant-container" id="v3cont">
+                  <input type="checkbox" id="variant3" />
+                  Varianta 3
+                </label>
+                <input type="button" class="send" value="Trimitere Raspuns" />
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <footer class="about-section">
@@ -144,13 +140,13 @@
       </div>
 
       <div class="about-buttons">
-        <a href="../Html_Components/about.html">
+        <a href="about">
           <div class="button-footer">About</div>
         </a>
-        <a href="../Html_Components/help.html">
+        <a href="help">
           <div class="button-footer">Help</div>
         </a>
-        <a href="../Html_Components/contact.html">
+        <a href="contact">
           <div class="button-footer">Contact</div>
         </a>
       </div>

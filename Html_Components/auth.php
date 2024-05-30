@@ -1,3 +1,6 @@
+<?php
+include_once __DIR__ . '/../app/core/Controller.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,13 +21,14 @@
     <script src="../Scripts/profile-switch.js"></script>
     <script src="../Scripts/responsive-navbar.js"></script>
     <script src="../Scripts/accesare-cont.js"></script>
+    <script src="../Scripts/register-validation.js" defer></script>
     <div class="bg-image-container">
       <img src=".././Assets/Images/bodybg.jpg" class="bg-image" alt="bg-img" />
     </div>
     <div class="container">
       <div class="nav">
         <div class="logo">
-          <a href="home.html">
+          <a href="home">
             <svg width="100" height="100" viewBox="0 0 100 100">
               <image
                 href=".././Assets/Icons/logo-rot.svg"
@@ -37,29 +41,29 @@
         <div class="nav-content">
           <ul class="nav-list">
             <li class="item toDisplay">
-              <a href="../Html_Components/chestionar.html">Chestionare</a>
+              <a href="chestionar">Chestionare</a>
             </li>
             <li class="item toDisplay">
-              <a href="../Html_Components/clasament.html">Clasament</a>
+              <a href="clasament">Clasament</a>
             </li>
             <li class="dropdown toDisplay">
-              <a href=".././Html_Components/mediu-invatare.html"
+              <a href="mediu_invatare"
                 >Mediu Invatare</a
               >
               <div class="dropdown-container">
                 <ul class="dropdown-list">
                   <li class="dropdown-item">
-                    <a href="../Html_Components/chestionar_practica.html"
+                    <a href="chestionar_practica"
                       >Chestionare de practica</a
                     >
                   </li>
 
                   <li class="dropdown-item">
-                    <a href="../Html_Components/legislatie.html">Legislatie</a>
+                    <a href="legislatie">Legislatie</a>
                   </li>
 
                   <li class="dropdown-item">
-                    <a href="../Html_Components/semne-rutiere.html"
+                    <a href="semne_rutiere"
                       >Semne rutiere</a
                     >
                   </li>
@@ -67,7 +71,7 @@
               </div>
             </li>
             <li class="item toDisplay">
-              <a href=".././Html_Components/auth.html" id="profile-switcher"
+              <a href="auth" id="profile-switcher"
                 >Accesare Cont</a
               >
             </li>
@@ -89,12 +93,18 @@
       <div class="login-or-register">
         <div class="login form-block">
           <p class="login-text">Login</p>
-          <form class="login-form">
+            <?php if (isset($is_invalid) && $is_invalid): ?>
+                <div class="error-message">Invalid login attempt.</div>
+            <?php endif; ?>
+
+
+          <form class="login-form" action="/php/Romanian-Traffic-Signs-Tutor/Public/auth/login" method="post">
             <div class="input-field">
               <label for="username">Username:</label><br />
               <input
                 type="text"
                 id="username"
+                name="username"
                 placeholder="Introdu username-ul tau..."
               />
               <br /><br />
@@ -104,6 +114,7 @@
               <input
                 type="password"
                 id="password"
+                name="password"
                 placeholder="Introdu parola ta..."
               />
             </div>
@@ -115,55 +126,40 @@
         <div class="separator"></div>
         <div class="register form-block">
           <p class="login-text">Register</p>
-          <form class="login-form">
-            <div class="input-field">
-              <label for="register-username">Username:</label><br />
-              <input
-                type="text"
-                id="register-username"
-                placeholder="ex: AlexDriver"
-              />
-              <br /><br />
-            </div>
-            <div class="input-field">
-              <label for="email">Email:</label><br />
-              <input
-                type="email"
-                id="email"
-                placeholder="Introdu un email valid..."
-              />
-              <br /><br />
-            </div>
-            <div class="input-field">
-              <label for="register-password">Password:</label><br />
-              <input
-                type="password"
-                id="register-password"
-                placeholder="Introdu o parola puternica..."
-              />
-              <br /><br />
-            </div>
-            <div class="input-field">
-              <label for="confirm-password">Confirm Password:</label><br />
-              <input
-                type="password"
-                id="confirm-password"
-                placeholder="Introdu din nou parola ta "
-              />
-              <br /><br />
-            </div>
-            <div class="input-field">
-              <label for="phone">Phone number:</label><br />
-              <input
-                type="text"
-                id="phone"
-                placeholder="Introdu un numar de telefon..."
-              />
-            </div>
-            <div class="submit-container">
-              <input type="submit" class="submit-button" id="submit-register" />
-            </div>
-          </form>
+            <form class="login-form" id="register-form" action="/php/Romanian-Traffic-Signs-Tutor/Public/auth/register" method="post">
+                <div class="input-field">
+                    <label for="register-username">Username:</label><br>
+                    <input type="text" id="register-username" name="username" placeholder="ex: AlexDriver"><br>
+                    <div class="error-message" id="username-error"></div>
+                    <br>
+                </div>
+                <div class="input-field">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Introdu un email valid..."><br>
+                    <div class="error-message" id="email-error"></div>
+                    <br>
+                </div>
+                <div class="input-field">
+                    <label for="register-password">Password:</label><br>
+                    <input type="password" id="register-password" name="password" placeholder="Introdu o parola puternica..."><br>
+                    <div class="error-message" id="password-error"></div>
+                    <br>
+                </div>
+                <div class="input-field">
+                    <label for="confirm-password">Confirm Password:</label><br>
+                    <input type="password" id="confirm-password" name="password_confirmation" placeholder="Introdu din nou parola ta"><br>
+                    <div class="error-message" id="confirm-password-error"></div>
+                    <br>
+                </div>
+                <div class="input-field">
+                    <label for="phone">Phone number:</label><br>
+                    <input type="text" id="phone" name="phone" placeholder="Introdu un numar de telefon..."><br>
+                    <div class="error-message" id="phone-error"></div>
+                </div>
+                <div class="submit-container">
+                    <input type="submit" class="submit-button" id="submit-register" value="Trimite">
+                </div>
+            </form>
         </div>
       </div>
     </div>
@@ -183,13 +179,13 @@
       </div>
 
       <div class="about-buttons">
-        <a href="../Html_Components/about.html">
+        <a href="about">
           <div class="button-footer">About</div>
         </a>
-        <a href="../Html_Components/help.html">
+        <a href="help">
           <div class="button-footer">Help</div>
         </a>
-        <a href="../Html_Components/contact.html">
+        <a href="contact">
           <div class="button-footer">Contact</div>
         </a>
       </div>

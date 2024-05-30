@@ -3,20 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="stylesheet" href=".././Styles/style.css" />
     <link rel="stylesheet" href=".././Styles/navstyle.css" />
     <link rel="stylesheet" href=".././Styles/body.css" />
+    <link rel="stylesheet" href=".././Styles/question.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Raleway"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../Styles/about.css" />
-    <title>RoTST</title>
+    <title>Chestionar</title>
   </head>
-
   <body>
     <script src="../Scripts/responsive-navbar.js"></script>
+    <script src="../Scripts/background-options.js"></script>
     <script src="../Scripts/accesare-cont.js"></script>
     <div class="bg-image-container">
       <img src=".././Assets/Images/bodybg.jpg" class="bg-image" alt="bg-img" />
@@ -24,7 +23,7 @@
     <div class="container">
       <div class="nav">
         <div class="logo">
-          <a href="home.html">
+          <a href="home">
             <svg width="100" height="100" viewBox="0 0 100 100">
               <image
                 href=".././Assets/Icons/logo-rot.svg"
@@ -37,29 +36,29 @@
         <div class="nav-content">
           <ul class="nav-list">
             <li class="item toDisplay">
-              <a href="../Html_Components/chestionar.html">Chestionare</a>
+              <a href="chestionar">Chestionare</a>
             </li>
             <li class="item toDisplay">
-              <a href="../Html_Components/clasament.html">Clasament</a>
+              <a href="clasament">Clasament</a>
             </li>
             <li class="dropdown toDisplay">
-              <a href=".././Html_Components/mediu-invatare.html"
+              <a href="mediu_invatare"
                 >Mediu Invatare</a
               >
               <div class="dropdown-container">
                 <ul class="dropdown-list">
                   <li class="dropdown-item">
-                    <a href="../Html_Components/chestionar_practica.html"
+                    <a href="chestionar_practica"
                       >Chestionare de practica</a
                     >
                   </li>
 
                   <li class="dropdown-item">
-                    <a href="../Html_Components/legislatie.html">Legislatie</a>
+                    <a href="legislatie">Legislatie</a>
                   </li>
 
                   <li class="dropdown-item">
-                    <a href="../Html_Components/semne-rutiere.html"
+                    <a href="semne_rutiere"
                       >Semne rutiere</a
                     >
                   </li>
@@ -67,7 +66,9 @@
               </div>
             </li>
             <li class="item toDisplay">
-              <a href=".././Html_Components/auth.html" id="profile-switcher">Accesare Cont</a>
+              <a href="auth" id="profile-switcher"
+                >Accesare Cont</a
+              >
             </li>
             <li class="menu">
               <a href="" id="menu-button">
@@ -84,31 +85,44 @@
         </div>
       </div>
 
-      <div class="about-us-container">
-        <div class="about-us">
-          <p class="about-us-title">Despre acest site</p>
-          <hr />
-          <br /><br />
-          <p class="about-us-text">
-            RoTST (Romanian Traffic Signs Tutor) este o aplicatie web conceputa
-            cu scopul de a asista la educatia soferilor din Romania cu privire
-            la legislatia rutiera, semne rutiere intr-un mod distractiv si
-            competitiv. <br /><br />
-            Prin intermediul chestionarelor oficiale utilizatorii vor putea sa
-            isi demonstreze cunostintele prin acumularea (sau pierderea!) de
-            puncte.<br /><br />
-            Pe sectiunea "Clasament" vor fi afisati in ordinea descrescatoare a
-            punctajelor top-ul celor mai descurcareti utilizatori, deci
-            antreneaza-te folosind chestionarele de practica, legislatia si
-            semnele rutiere dispuse la noi pe site (in sectiunea Mediu de
-            invatare) pentru a-ti vedea numele in acest top! <br /><br />Pentru
-            mai multe detalii acceseaza sectiunea de
-            <a href="../Html_Components/help.html">Help</a>.<br /><br />
-          </p>
+      <div class="question-container">
+        <div class="header">
+          <span class="information">Intrebari corecte:</span>
+          <span class="information">Intrebari gresite:</span>
+        </div>
+        <div class="question-and-image">
+          <div class="q-image-container">
+            <img
+              class="q-image"
+              src="../Assets/Images/question-image.jpg"
+              alt="question image"
+            />
+          </div>
+          <div class="question">
+            <div class="question-text">
+              <p>Intrebare demo</p>
+            </div>
+            <div class="question-form">
+              <form>
+                <label for="variant1" class="variant-container" id="v1cont">
+                  <input type="checkbox" id="variant1" />
+                  Varianta 1
+                </label>
+                <label for="variant2" class="variant-container" id="v2cont">
+                  <input type="checkbox" id="variant2" />
+                  Varianta 2
+                </label>
+                <label for="variant3" class="variant-container" id="v3cont">
+                  <input type="checkbox" id="variant3" />
+                  Varianta 3
+                </label>
+                <input type="button" class="send" value="Trimitere Raspuns" />
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-
     <footer class="about-section">
       <div class="despre-noi">
         <div class="follow-us">Follow us:</div>
@@ -125,13 +139,13 @@
       </div>
 
       <div class="about-buttons">
-        <a href="../Html_Components/about.html">
+        <a href="about">
           <div class="button-footer">About</div>
         </a>
-        <a href="../Html_Components/help.html">
+        <a href="help">
           <div class="button-footer">Help</div>
         </a>
-        <a href="../Html_Components/contact.html">
+        <a href="contact">
           <div class="button-footer">Contact</div>
         </a>
       </div>
