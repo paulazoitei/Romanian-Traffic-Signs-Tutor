@@ -7,6 +7,7 @@
     <link rel="stylesheet" href=".././Styles/navstyle.css" />
     <link rel="stylesheet" href=".././Styles/body.css" />
     <link rel="stylesheet" href=".././Styles/question.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css?family=Raleway"
       rel="stylesheet"

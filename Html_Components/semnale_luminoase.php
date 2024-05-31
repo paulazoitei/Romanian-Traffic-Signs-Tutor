@@ -7,6 +7,7 @@
     <link rel="stylesheet" href=".././Styles/navstyle.css" />
     <link rel="stylesheet" href=".././Styles/body.css" />
     <link rel="stylesheet" href=".././Styles/semne-fetch.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
     <title>semne</title>
   </head>
   <body>
