@@ -1,0 +1,267 @@
+[
+  {
+    "url": "https://www.codrutier.ro/storage/images/144c380c44bfc644c51d04d5ddcd5921.png",
+    "title": "Presemnalizarea direcțiilor la o intersecție de drumuri din afara localității",
+    "description": "Este instalat la 100-200 m de o intersectie de drumuri. In general, se instaleaza la intersectii de drumuri judetene, nationale sau la intersectii de drumuri nationale cu drumuri judetene."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/cc66ace05105152df410106f6754fa98.png",
+    "title": "Presemnalizarea direcțiilor la o intersecție denivelată de drumuri",
+    "description": "In localitate se amplaseaza la 50-100 m de intersectia denivelata de drumuri, iar in afara localitatii la 100-200 m. In general, se instaleaza la intersectii de drumuri judetene, nationale sau la intersectii de drumuri nationale cu drumuri judetene."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/a2ee72f114f8d4b1a6a391be470dccac.png",
+    "title": "Presemnalizarea direcțiilor indicate",
+    "description": "Poate fi intalnit in afara localitatilor, la 100-200 m de o intersectie. Are rolul de a informa conducatorul auto despre diferitele trasee pe care le poate urma."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/a8df96b0a93958e3233e2422a56f710c.png",
+    "title": "Presemnalizarea traseului de ocolire a localității",
+    "description": "Conducatorul auto va intalni acest indicator la 100-200 m de intersectia cu drumul de ocolire a localitatii (indicatorul marcand tocmai ruta ce permite evitarea localitatii). Pe indicator mai pot fi scrise si alte trasee, spre alte localitati importante."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/d9fe93e6fdda23cad77a08ba06d0a22a.png",
+    "title": "Presemnalizare direcțiilor într-o intersecție cu sens giratoriu",
+    "description": "Se monteaza in afara localitatilor, la 100-200 m de o intersectie cu sens giratoriu. Are rolul de a informa conducatorul auto asupra diferitelor trasee."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/9c00eb54fa4c32801c4e0b1673ec8b46.png",
+    "title": "Drum închis sau deschis circulației publice",
+    "description": "Se instaleaza pe drumurile publice pentru a-i informa pe conducatorii de vehicule daca un drum este deschis sau nu circulatiei publice."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/974cf7a62b722c10cf521e5ae3a11417.png",
+    "title": "Presemnalizarea traseului de urmat în cazul unei restricții de circulație",
+    "description": "Conducatorul auto poate intalni acest indicator amplasat la 100-200 m de intersectia cu drumul de evitare. Acest indicator poate fi montat si in orase, avand un caracter permanent (cand indicatorul este negru pe un fond alb) sau un caracter temporar (cand indicatorul este negru pe un fond galben)."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/24a09e5eb41a12de094e1999f8144de0.png",
+    "title": "Presemnalizare pe autostradă pentru parcare",
+    "description": "Indicatorul alaturat se monteaza pe o autostrada pentru a indica conducatorilor auto spatiile special amenajate unde pot parca."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/edf7f22779eddc312b755a16841f1ed5.png",
+    "title": "Presemnalizare pe autostradă pentru spațiu de servicii",
+    "description": "Are rolul de a preciza locul unde se afla spatiul de servicii, pe o autostrada."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/9126ef0b64d2f792010df7ac3891182d.png",
+    "title": "Confirmarea direcției de mers pe autostradă spre localități mai importante și distanțele până la acestea",
+    "description": "Confirmarea directiei de mers pe autostrada spre localitati mai importante si distantele pana la acestea"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/56b205ecb76f64e0562db9f9da838774.png",
+    "title": "Presemnalizarea unui loc periculos, o intersecție sau o restricție pe un drum lateral",
+    "description": "In localitate se amplaseaza la 50-100 m, iar in afara localitatii la 100-200 m de un loc periculos sau de o alta restrictie."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/53b13eb2a0e17efa9e36d8eb17d715c7.png",
+    "title": "Bandă rezervată circulației de transport public de persoane",
+    "description": "Indicatorul din imaginea alaturata se amplaseaza in orase, pe drumurile cu mai multe benzi, pentru a informa conducatorul auto ca una dintre benzi este rezervata circulatiei autovehiculelor de transport public de persoane. Zona de actiune a indicatorului se termina la prima intersectie."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/7c3a08e93896e7fd3c629d54c8d28c9d.png",
+    "title": "Drum fără ieșire",
+    "description": "Se amplaseaza la intersectia drumului public cu un drum fara iesire."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/66cf418c7fe00e05c4b9cc45e2b016cd.png",
+    "title": "Presemnalizarea traseului de urmat în vederea efectuării virajului la stânga",
+    "description": "Indicatorul se aseaza inainte unei intersectii, care precede o alta intersectie in care virajul la stanga este interzis. Are rolul de a orienta conducatorul de vehicul asupra traseului pe care trebuie sa-l urmeze daca vrea sa vireze la stanga."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/3476b1a88e6766e4236c35f94f8816b9.png",
+    "title": "Traseu de urmat pentru anumite categorii de autovehicule",
+    "description": "Se monteaza pe drumul public si are rolul de a-i orienta pe conducatorii fiecarei categorii de vehicule reprezentate pe indicator, asupra directiei pe care trebuie sa o urmeze: inainte."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/e9b91dea022285f63c9a12df1e4dc026.png",
+    "title": "Traseu de urmat pentru un anumit tip de autovehicule",
+    "description": "Se monteaza pe drumul public si are rolul de a-i orienta pe conducatorii fiecarei categorii de vehicule reprezentate pe indicator, asupra directiei pe care trebuie sa o urmeze: la dreapta."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/439f5276be19d383de399835b9f08d14.png",
+    "title": "Traseu de urmat pentru un anumit tip de autovehicul",
+    "description": "Se monteaza pe drumul public si are rolul de a-i orienta pe conducatorii fiecarei categorii de vehicule reprezentate pe indicator, asupra directiei pe care trebuie sa o urmeze: la stanga."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/137d49cb82eed2eda78d9d1a15aadcac.png",
+    "title": "Selectarea circulației pe direcții de mers în apropierea intersecției",
+    "description": "Se instaleaza pe drumurile publice, cu mai multe benzi pe sens, pentru ca soferii sa se poata incadra din timp pe banda corespunzatoare directiei de mers pe care vor sa o urmeze."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/2b67fa43f62bcc79bfe25a2abc833879.png",
+    "title": "Selectarea circulației pe direcții de mers în apropierea intersecției",
+    "description": "Se instaleaza pe drumurile publice, cu mai multe benzi pe sens, pentru ca soferii sa se poata incadra din timp pe banda corespunzatoare directiei de mers pe care vor sa o urmeze."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/208d78a5baeacacacfed086c3cfbba8a.png",
+    "title": "Selectarea direcției de mers în apropierea intersecției",
+    "description": "Se instaleaza pe drumurile publice, cu mai multe benzi pe sens, pentru ca soferii sa se poata incadra din timp pe banda corespunzatoare directiei de mers pe care vor sa o urmeze."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/fb86625ed0796f3cf89206a8f71f03ae.png",
+    "title": "Bandă destinată circulației vehiculelor lente",
+    "description": "Este amplasat pe drumurile publice si are rolul de a orienta conducatorii auto asupra benzii pe care se deplaseaza vehiculele lente, cu viteze mai mici decat cea inscriptionata pe panou."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/fc7d1060a7c5f19f07e8b360643a41f0.png",
+    "title": "Terminarea benzii de circulație din dreapta a părții de carosabil",
+    "description": "Indicatorul se monteaza pe drumurile publice avand rolul de a-i obliga pe conducatorii ce se deplaseaza pe o banda care se termina sa acorde prioritate vehiculelor care circula pe banda pe care vor intra."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/3f7521db1596d051ec4fdc4d549b28ff.png",
+    "title": "Terminarea benzii de circulație din stânga părții carosabile",
+    "description": "Indicatorul se monteaza pe drumurile publice avand rolul de a-i obliga pe conducatorii ce se deplaseaza pe o banda care se termina sa acorde prioritate vehiculelor care circula pe banda pe care vor intra."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/1b6d463cf91f41e4cab99d99f286d363.png",
+    "title": "Viteză minimă obligatorie pentru o bandă de circulație",
+    "description": "Poate fi intalnit pe drumurile publice avand rolul de a-i obliga pe conducatorii de vehicule sa se incadreze pe banda corespunzatoare vitezei cu care se deplaseaza."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/0abd73b9a28d8eba33050d892c9f61e0.png",
+    "title": "Viteză minimă obligatorie pentru diferite benzi de circulație",
+    "description": "Poate fi intalnit pe drumurile publice avand rolul de a-i obliga pe conducatorii de vehicule sa se incadreze pe banda corespunzatoare vitezei cu care se deplaseaza."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/1c974e2afd9e7c28e8f41fb20263d4dc.png",
+    "title": "Limitare de viteză pentru diferite benzi de circulație",
+    "description": "Se amplaseaza pe drumurile cu mai multe benzi pe acelasi sens de circulatie. Are rolul de a-i obliga pe conducatorii auto sa circule cu o viteza mai mica decat cea inscrisa pe indicator pentru banda respectiva."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/98d2a8885f60bc03b306dac47b3945d4.png",
+    "title": "Bandă de circulație rezervată autovehiculelor de transport public de persoane",
+    "description": "Acest indicator are rolul de a le interzice conducatorilor de vehicule sa circule pe benzile destinate exclusiv transportului public de persoane."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/a58ba74a3ade3de326ad5c4d844b483c.png",
+    "title": "Direcția spre localitatea indicată",
+    "description": "Se amplaseaza in intersectii pentru a informa conducatorii auto asupra directiei pe care trebuie sa o urmeze pentru a ajunge la localitatea inscriptionata pe indicator."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/f940cf0778722f2300c1d630a818bfc1.png",
+    "title": "Direcție spre autostrada indicată",
+    "description": "Se amplaseaza in intersectii pentru a informa conducatorii auto asupra directiei pe care trebuie sa o urmeze pentru a ajunge la localitatea inscriptionata pe indicator."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/55dae42406fcee7697a9a405b5b3cb5a.png",
+    "title": "Direcția spre localitatea indicată",
+    "description": "Se amplaseaza in intersectii pentru a informa conducatorii auto asupra directiei pe care trebuie sa o urmeze pentru a ajunge la localitatea inscriptionata pe indicator."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/6c984b0380475cfbbdc6229a8571a1f6.png",
+    "title": "Direcția de urmat pentru autovehiculele destinate transportului de mărfuri",
+    "description": "Conducatorul auto poate intalni acest indicator la inceputul unei localitati si pe parcurul acesteia. Are rolul de a informa conducatorii de autovehicule destinate transportului de marfuri asupra traseului pe care trebuie sa-l urmeze."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/0ec73d966c046422a9f20ba9fdccf635.png",
+    "title": "Direcția spre obiectivul turistic",
+    "description": "Acest indicator are rolul de a-i informa pe turisti in ce directie se afla obiectivele turistice."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/4042ac17d399f9740ddd7340ff022602.png",
+    "title": "Direcția spre obiective locale",
+    "description": "Indicatorul din imagine se monteaza in localitati pentru a informa conducatorii de vehicule asupra directiei pe care trebuie sa o urmeze pentru a ajunge la obiectivul local inscriptionat pe indicator."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/b589bc1ec8dc3850bcbf6be3ea2995a1.png",
+    "title": "Direcția spre aeroport",
+    "description": "Se monteaza la intersectia drumului public cu un drum de acces spre aeroport."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/c94c84b5f80157ede22c94e77c0e87e8.png",
+    "title": "Direcția de urmat în cazul devierii temporare a circulației",
+    "description": "Este amplasat in intersectia de la care conducatorul auto trebuie sa urmeze o anumita directie in cazul devierii temporare a circulatiei."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/0fef58361850f5340320a59551e6ae5a.png",
+    "title": "Direcția de urma în cazul devierii temporare a circulației",
+    "description": "Este amplasat in intersectia de la care conducatorul auto trebuie sa urmeze o anumita directie in cazul devierii temporare a circulatiei."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/807775e0c10b2ae262beccd93d0c72db.png",
+    "title": "Drum național",
+    "description": "Are rolul de a confirma ca drumul pe care se afla conducatorul auto este un drum national. Numarul inscriptionat pe indicator reprezinta numarul drumului national."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/e89f81867c06d19b77e79ddbaf6de36c.png",
+    "title": "Drum județean",
+    "description": "Are rolul de a confirma ca drumul pe care se afla conducatorul auto este un drum judetean. Numarul inscriptionat pe indicator reprezinta numarul drumului judetean."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/b50fe31fdfd166109b68d7fd4b69e0a0.png",
+    "title": "Drum comunal",
+    "description": "Se monteaza in vederea confirmarii ca drumul pe care se afla conducatorul auto este un drum comunal. Numarul inscriptionat pe indicator reprezinta numarul drumului comunal."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/b4241dc1dda7363da0cac60b343c5059.png",
+    "title": "Drum deschis traficului internațional",
+    "description": "Drum deschis traficului internațional"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/5fb8262c6a9dd8780ac7a885b13965cd.png",
+    "title": "Direcția drumului deschis traficului internațional",
+    "description": "Se amplaseaza in vederea confirmarii ca drumul pe care se afla conducatorul auto este un drum deschis traficului international."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/ae4394ea4a172a734d24745f84be0c69.png",
+    "title": "Traseu de tranzit european",
+    "description": "Traseu de tranzit european"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/c67ca012c285047c2958613e81dd793f.png",
+    "title": "Simbolul și numărul autostrăzii",
+    "description": "Simbolul și numărul autostrăzii"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/2cf1bcd986c82c4144c93d885181ee5d.png",
+    "title": "Intrare în localitate",
+    "description": "Se amplaseaza la intrarea intr-o localitate, marcand inceputul acesteia."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/ca699ef3cae8e155ca19f67629eda66d.png",
+    "title": "Intrare în localitate",
+    "description": "Se afla montat la intrarea intr-o localitate. Se specifica si viteza maxima admisa in localitatea respectiva."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/198b97d470d54c2ab203ca78fe089ec8.png",
+    "title": "Ieșire din localitate",
+    "description": "Conducatorul auto va intalni acest indicator la iesirea dintr-o localitate, daca pe urmatorii 300 m nu este instalat un alt indicator care sa indice intrarea intr-o alta localitate."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/2ebb9c99d6946ccf125f23f603637c2e.png",
+    "title": "Ieșire din localitate",
+    "description": "Se amplaseaza la iesirea dintr-o localitate."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/a77ba4bb00ed57ac8a2ef182b5da658c.png",
+    "title": "Limitp de județ",
+    "description": "Se amplaseaza la intrarea intr-un judet, marcand granita judeteana."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/4a61889bf05e4327532ac47ac7724240.png",
+    "title": "Curs de apă sau viaduct",
+    "description": "Curs de apă sau viaduct"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/d89a77666c8b65d1c6ff45415c970035.png",
+    "title": "Confirmarea direcției de mers spre o localitate și distanța până la aceasta",
+    "description": "Confirmarea direcției de mers spre o localitate și distanța până la aceasta"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/172b68739a9231a63b6c45fbb2ed0619.png",
+    "title": "Confirmarea direcției de mers spre localități mai importante și distanțele până la acestea",
+    "description": "Confirmarea direcției de mers spre localități mai importante și distanțele până la acestea"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/460f76f9bc09584e928d8ac41aae6c9f.png",
+    "title": "Organizarea traficului pe benzi de circulație",
+    "description": "Organizarea traficului pe benzi de circulație"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/0dafd9b7d7f589eb17715daa1f420b04.png",
+    "title": "Telefon de urgență (Poliție, Ambulanță, Pompieri, Depanare).",
+    "description": "Telefon de urgență (Poliție, Ambulanță, Pompieri, Depanare)."
+  }
+]

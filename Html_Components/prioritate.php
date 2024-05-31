@@ -3,20 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="stylesheet" href=".././Styles/style.css" />
     <link rel="stylesheet" href=".././Styles/navstyle.css" />
     <link rel="stylesheet" href=".././Styles/body.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Raleway"
-      rel="stylesheet"
-    />
-    <title>RoTST</title>
+    <link rel="stylesheet" href=".././Styles/semne-fetch.css" />
+    <title>semne</title>
   </head>
   <body>
     <script src="../Scripts/responsive-navbar.js"></script>
     <script src="../Scripts/traffic-signs-parse.js"></script>
     <script src="../Scripts/accesare-cont.js"></script>
+
     <div class="bg-image-container">
       <img src=".././Assets/Images/bodybg.jpg" class="bg-image" alt="bg-img" />
     </div>
@@ -42,18 +39,20 @@
               <a href="clasament">Clasament</a>
             </li>
             <li class="dropdown toDisplay">
-              <a href="mediu_invatare"
-                >Mediu Invatare</a
-              >
+              <a href="mediu_invatare">Mediu Invatare</a>
               <div class="dropdown-container">
                 <ul class="dropdown-list">
                   <li class="dropdown-item">
                     <a href="chestionar_practica">Chestionare de practica</a>
                   </li>
 
-                  <li class="dropdown-item"><a href="legislatie">Legislatie</a></li>
+                  <li class="dropdown-item">
+                    <a href="legislatie">Legislatie</a>
+                  </li>
 
-                  <li class="dropdown-item"><a href="semne_rutiere">Semne rutiere</a></li>
+                  <li class="dropdown-item">
+                    <a href="semne_rutiere">Semne rutiere</a>
+                  </li>
                 </ul>
               </div>
             </li>
@@ -74,42 +73,8 @@
           </ul>
         </div>
       </div>
-      <div class="background-home-page">
-        <p class="title">Bun venit pe Romanian Traffic Signs Tutor!</p>
-      </div>
-      <div class="home-page-content">
-        <div class="content-container">
-          <ul class="content-list">
-            <li class="content">
-              🚗 Aici este locul unde vei învăța semnele rutiere, legislația în
-              vigoare din România și vei putea să îți testezi cunoștințele
-              făcând chestionare de antrenament sau chestionare cu care poți
-              concura cu ceilalți utilizatori ai aplicației.
-            </li>
-            <li class="content">
-              🚗 Progresul tău va fi salvat și vei putea să îți monitorizezi
-              evoluția în timp.
-            </li>
-            <li class="content">
-              🚗 În cazul în care ai neclarități cu privire la folosirea
-              aplicației poți accesa secțiunea help pe care o găsești în partea
-              de jos a site-ului.
-            </li>
-            <li class="content">
-              🚗Dacă ai probleme cu aplicația sau dorești să ne transmiti
-              reclamații, poți să ne contactezi folosind formularul de contact
-              pe care îl găsești în secțiunea about, care se află de asemenea în
-              partea de jos a site-ului.
-            </li>
-          </ul>
-          <div class="home-page-image"> 
-            <img
-              src=".././Assets/Images/poza_home.webp"
-              alt="Descriere imagine"
-            />
-          </div>
-        </div>
-      </div>
+      <h1>Indicatoare de prioritate</h1>
+      <div class="sign-test" id="sign-container"></div>
     </div>
 
     <footer class="about-section">
@@ -126,7 +91,7 @@
           <a href="https://instagram.com" class="fa fa-instagram"></a>
         </div>
       </div>
-
+      
       <div class="about-buttons">
         <a href="about">
           <div class="button-footer">About</div>
@@ -139,6 +104,5 @@
         </a>
       </div>
     </footer>
-  
   </body>
 </html>

@@ -43,15 +43,11 @@
               <a href="clasament">Clasament</a>
             </li>
             <li class="dropdown toDisplay">
-              <a href="mediu_invatare"
-                >Mediu Invatare</a
-              >
+              <a href="mediu_invatare">Mediu Invatare</a>
               <div class="dropdown-container">
                 <ul class="dropdown-list">
                   <li class="dropdown-item">
-                    <a href="chestionar_practica"
-                      >Chestionare de practica</a
-                    >
+                    <a href="chestionar_practica">Chestionare de practica</a>
                   </li>
 
                   <li class="dropdown-item">
@@ -59,17 +55,13 @@
                   </li>
 
                   <li class="dropdown-item">
-                    <a href="semne_rutiere"
-                      >Semne rutiere</a
-                    >
+                    <a href="semne_rutiere">Semne rutiere</a>
                   </li>
                 </ul>
               </div>
             </li>
             <li class="item toDisplay">
-              <a href="auth" id="profile-switcher"
-                >Accesare Cont</a
-              >
+              <a href="auth" id="profile-switcher">Accesare Cont</a>
             </li>
             <li class="menu">
               <a href="" id="menu-button">
@@ -88,7 +80,7 @@
       <p class="categories-head-title">Selecteaza o categorie de mai jos</p>
       <div class="category-container-wrapper">
         <div class="category-container">
-          <a href="">
+          <a href="avertizare">
             <div class="item-category">
               <img
                 class="item-image"
@@ -99,7 +91,7 @@
             </div>
           </a>
 
-          <a href="">
+          <a href="interzicere">
             <div class="item-category">
               <img
                 class="item-image"
@@ -110,7 +102,7 @@
             </div>
           </a>
 
-          <a href="">
+          <a href="prioritate">
             <div class="item-category">
               <img
                 class="item-image"
@@ -121,7 +113,7 @@
             </div>
           </a>
 
-          <a href="">
+          <a href="obligare">
             <div class="item-category">
               <img
                 class="item-image"
@@ -132,7 +124,7 @@
             </div>
           </a>
 
-          <a href="">
+          <a href="informare">
             <div class="item-category">
               <img
                 class="item-image"
@@ -143,7 +135,7 @@
             </div>
           </a>
 
-          <a href="">
+          <a href="orientare">
             <div class="item-category">
               <img
                 class="item-image"
@@ -154,7 +146,7 @@
             </div>
           </a>
 
-          <a href="">
+          <a href="informare_turistica">
             <div class="item-category">
               <img
                 class="item-image"
@@ -165,18 +157,7 @@
             </div>
           </a>
 
-          <a href="">
-            <div class="item-category">
-              <img
-                class="item-image"
-                alt="item"
-                src="../Assets/Images/panouri-aditionale.jpeg"
-              />
-              <p class="item-title">Panouri aditionale</p>
-            </div>
-          </a>
-
-          <a href="">
+          <a href="semnale_luminoase">
             <div class="item-category">
               <img
                 class="item-image"
@@ -187,7 +168,7 @@
             </div>
           </a>
 
-          <a href="">
+          <a href="trecere_cale_ferata">
             <div class="item-category">
               <img
                 class="item-image"
@@ -198,7 +179,7 @@
             </div>
           </a>
 
-          <a href="">
+          <a href="borne_kilometrice">
             <div class="item-category">
               <img
                 class="item-image"
@@ -209,7 +190,7 @@
             </div>
           </a>
 
-          <a href="">
+          <a href="mijloace_auxiliare">
             <div class="item-category">
               <img
                 class="item-image"
@@ -222,7 +203,7 @@
             </div>
           </a>
 
-          <a href="">
+          <a href="benzi_reversibile">
             <div class="item-category">
               <img
                 class="item-image"
@@ -236,7 +217,7 @@
             </div>
           </a>
 
-          <a href="">
+          <a href="marcaje_longitudinale">
             <div class="item-category">
               <img
                 class="item-image"
@@ -247,7 +228,7 @@
             </div>
           </a>
 
-          <a href="">
+          <a href="marcaje_transversale">
             <div class="item-category">
               <img
                 class="item-image"
@@ -258,7 +239,7 @@
             </div>
           </a>
 
-          <a href="">
+          <a href="marcaje_diverse">
             <div class="item-category">
               <img
                 class="item-image"
@@ -269,7 +250,7 @@
             </div>
           </a>
 
-          <a href="">
+          <a href="marcaje_laterale">
             <div class="item-category">
               <img
                 class="item-image"
@@ -280,7 +261,7 @@
             </div>
           </a>
 
-          <a href="">
+          <a href="lucrari">
             <div class="item-category">
               <img
                 class="item-image"
@@ -293,18 +274,7 @@
             </div>
           </a>
 
-          <a href="">
-            <div class="item-category">
-              <img
-                class="item-image"
-                alt="item"
-                src="../Assets/Images/indicatorare-temporare.jpeg"
-              />
-              <p class="item-title">Indicatoare rutiere temporare</p>
-            </div>
-          </a>
-
-          <a href="">
+          <a href="semnale_politist">
             <div class="item-category">
               <img
                 class="item-image"

@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://www.codrutier.ro/storage/images/936dec6f64f1bbbf575c8c1c81a61626.png",
+    "title": "Cedează trecerea",
+    "description": "Se amplaseaza pe drumul public fara prioritate, la intersectia acestuia cu un drum public prioritar. La intalnirea acestui indicator, conducatorul auto este obligat sa reduca viteza si sa se asigure ca pe drumul prioritar nu circula autovehicule, si abia apoi poate sa patrunda in intersectie. Daca pe drumul prioritar circula alte autovehicule, conducatorul auto este obligat sa opreasca pentru a le acorda prioritate."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/eb60c2a8c7b91f448e778d15bb182d12.png",
+    "title": "Oprire",
+    "description": "Este instalat pe drumul public fara prioritate, la intersectia acestuia cu un drum public prioritar, cand vizibilitatea este redusa. Conducatorul de vehicul care intalneste acest indicator este obligat sa opreasca in locul cu vizibilitate maxima, fara a depasi coltul intersectiei, si sa acorde prioritate tuturor vehiculelor care circula pe drumul prioritar."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/59218f78810b266d529e2ef90adffa43.png",
+    "title": "Drum cu prioritate",
+    "description": "Se instaleaza la inceputul drumului cu prioritate sau inaintea intersectiilor cu un drum fara prioritate. Are rolul de a anunta conducatorul auto ca are prioritate in intersectiile in care va patrunde. Drumurile care intersecteaza drumul cu prioritate vor avea instalate unul dintre indicatoarele \"Oprire\" sau \"Cedeaza trecerea\". Cand este amplasat inaintea unei intersectii, acest indicator poate fi insotit si de un panou aditional care va preciza directia drumului cu prioritate."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/55c860cca6371ec972209a122f913222.png",
+    "title": "Sfârșitul drumului cu prioritate",
+    "description": "Se amplaseaza la 50-200 m de locul unde inceteaza semnificatia indicatorului \"Drum cu prioritate\", avand rolul de a informa conducatorul auto ca in urmatoarea intersectie in care va patrunde, toate drumurile vor fi de aceeasi categorie si se va aplica regula prioritatii de dreapta."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/26851965d851e225335237990c509b40.png",
+    "title": "Prioritate pentru circulația din sens invers",
+    "description": "Se monteaza pe sectoarele de drum ingustat unde nu au loc sa circule doua vehicule unul pe langa celalalt, fiind precedat de indicatorul \"Drum ingustat\". La intalnirea acestui indicator, conducatorul autovehiculului pierde prioritatea fata de toate autovehiculele care circula din sens opus. Acest indicator poate fi insotit si de un panou aditional pe care sunt precizate categoriile de autovehicule carora li se adreseaza acest indicator."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/b1e53889abcb33aae14bf6ad0526d318.png",
+    "title": "Prioritate față circulația din sens invers",
+    "description": "Montat pe sectoarele de drum ingustat unde nu au loc sa circule doua vehicule unul pe langa celalalt indicatorul din imagine este precedat de indicatorul \"Drum ingustat\". La intalnirea acestui indicator, conducatorul autovehiculului are prioritate fata de toate autovehiculele care circula din sens opus."
+  }
+]

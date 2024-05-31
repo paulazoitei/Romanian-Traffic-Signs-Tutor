@@ -1,0 +1,58 @@
+.sign-test {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: auto;
+  width: 100%;
+  row-gap: 2rem;
+  align-items: flex-start;
+  column-gap: 2rem;
+}
+.sign {
+  cursor: zoom-in;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.9s ease;
+}
+.sign img {
+  margin-top: 1rem;
+  width: 90%;
+}
+.sign p {
+  margin: 1.5rem;
+  font-size: 1.2rem;
+  visibility: hidden;
+  position: absolute;
+}
+
+.sign h3 {
+  visibility: hidden;
+  position: absolute;
+  margin: 1rem;
+  font-size: 2rem;
+}
+.sign.expanded {
+  cursor: zoom-out;
+  width: 600px;
+}
+.sign.expanded img {
+  width: 40%;
+}
+.sign.expanded p,
+.sign.expanded h3 {
+  visibility: visible;
+  position: relative;
+}
+h1 {
+  margin-top: 10rem;
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+}

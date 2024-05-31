@@ -1,0 +1,402 @@
+[
+  {
+    "url": "https://www.codrutier.ro/storage/images/c04fbaaf3c745540a2657a0a7d7deaaf.png",
+    "title": "Direcția și distanța până la telefonul pentru apel de urgență",
+    "description": "Direcția și distanța până la telefonul pentru apel de urgență"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/2fecf1d7fea4276bc27e57c5c8969c72.png",
+    "title": "Rovignietă",
+    "description": "Rovignietă"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/f1c8fcb53c0dc3abc7fa173e230184bc.png",
+    "title": "Trecere de pietoni",
+    "description": "Trecere pentru pietoni"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/188ed763b3777c8dadc48e5bd27d240c.png",
+    "title": "Trecere pentru pietoni",
+    "description": "Acest indicator se instaleaza in apropierea unei treceri pentru pietoni. Acesta poate fi precedat si de indicatorul \"Presemnalizare trecere pentru pietoni\"."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/f17c739ad3aded7e33c605bceee46320.png",
+    "title": "Limite generale de viteză",
+    "description": "Se instaleaza dupa trecerea frontierei unui stat. Are rolul de a informa conducatorul de vehicul care sunt limitele generale de viteza aplicabile diferitelor categorii de drumuri."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/bd972fb0a2c1c488ee1390ecea0f7d38.png",
+    "title": "Sens unic",
+    "description": "Se monteaza la intrarea pe drumurile cu sens unic. Terminarea sectorului cu sens unic se semnalizeaza cu indicatorul \"Circulatia in ambele sensuri\". Pe drumul cu sens unic este interzisa manevra de intoarcere. Depasirea se poate face si pe partea stanga; se poate opri sau stationa si pe stanga; este permis mersul inapoi cel mult 50 m; este permis virajul stanga sau dreapta; virajul la stanga presupune incadrarea pe banda de langa bordura din stanga."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/b34d3ecd644318e3d7db17171926390e.png",
+    "title": "Sens unic",
+    "description": "Se afla instalat pe drumurile cu sens unic, atunci cand intrarea se face dintr-un drum lateral. Sageata indica sensul in care este obligat sa vireze conducatorul auto."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/074fe39a53b2b57bd2dac1103d9aac6c.png",
+    "title": "Autostradă",
+    "description": "Conducatorul auto va intalni acest indicator la intrarea pe autostrada. La intalnirea acestui indicator conducatorii auto sunt obligati sa circule cu cel putin 50 km/h. Pe autostrada sunt interzise mersul inapoi, oprirea, stationarea, intoarcerea precum si circulatia sau imobilizarea voluntara pe banda de urgenta."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/83be4f126b1a17488c78a95b68fa31c4.png",
+    "title": "Sfârșit de autostradă",
+    "description": "Acest indicator se monteaza la iesirea de pe o autostrada."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/c44adbc9f886e6ab1435c5df5aa01a88.png",
+    "title": "Limite maxime de viteză pe autostradă, ân funcție de condițiile meteorologice",
+    "description": "Se afla instalat pe autostrada pentru a impune conducatorilor auto sa circule cu limite diferite de viteza, in functie de conditiile meteorologice."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/d33e8ea02e10d26d30c257613fbf8413.png",
+    "title": "Spital",
+    "description": "Este montat in apropierea spitalelor pentru informarea conducatorilor auto in legatura cu existenta unei unitati medicale. Poate fi insotit de un panou aditional pe care este inscriptionata distanta pana la spital."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/83594fdd152d1baebb6989b59211f98b.png",
+    "title": "Poliția",
+    "description": "Se amplaseaza in apropierea unui post de politie la care se pot declara accidentele de circulatie, precum si existenta obstacolelor intalnite pe drumul public. Pe indicator poate fi inscrisa si distanta pana la sediu."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/2e957fbdb99e78c86a90ba3e9c4e09db.png",
+    "title": "Post prim-ajutor",
+    "description": "Are rolul de a informa conducatorul auto ca in apropiere se afla un post de prim ajutor. Pe indicator poate fi inscrisa si distanta pana la respectivul punct."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/ad58e563da6c3b6600388cfe7232f470.png",
+    "title": "Pasarelă pentru pietoni",
+    "description": "Se amplaseaza in apropierea pasarelelor pentru pietoni. Pentru traversarea drumurilor din zona pietonii sunt obligati sa circule folosind pasarela."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/9ac55de19289aee54495611beacb0f4d.png",
+    "title": "Pasaj subteran pentru pietoni",
+    "description": "Se monteaza in apropierea unui pasaj subteran. Pentru traversarea drumurilor din zona pietonii sunt obligati sa circule prin pasaj."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/7ba4e8b6df89733b94c5974667ed3b4d.png",
+    "title": "Stație de autobuz",
+    "description": "Se instaleaza pe trotuar, foarte aproape de partea carosabila, in statiile de autobuz sau troleibuz."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/ee64022b4fe69fa60e71363549f2896e.png",
+    "title": "Stație de tramvai",
+    "description": "Se instaleaza atat pe trotuar (in cazul statiilor fara refugiu pentru pietoni), cat si in spatiile de refugiu (in cazul in care exista)."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/21f4e69fe46f66cc54c91f36e5acfefa.png",
+    "title": "Stație de taximetre",
+    "description": "Se monteaza in locurile special amenajate pentru stationarea taxiurilor."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/fc85e71ed8879e49a432a0861f0bd394.png",
+    "title": "Drum pentru autovehicule",
+    "description": "Se afla amplasat la intrarea pe drumurile pe care este permisa doar circulatia autovehiculelor."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/bb8dad5383f4c077f6add5f39b953c99.png",
+    "title": "Sfârșitul drumului pentru autovehicule",
+    "description": "Conducatorul auto va intalni acest indicator la iesirea de pe drumurile pe care este permisa doar circulatia autovehiculelor."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/fe7a64a8060b7b9ec57eeadb011e1d70.png",
+    "title": "Vulcanizare",
+    "description": "Este montat in apropierea unei vulcanizari. Pe indicator poate fi inscris si programul de functionare."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/7479643d4f6e10c79f42933b3dd06943.png",
+    "title": "Telefon",
+    "description": "Are rolul de a indica conducatorului auto ca in apropiere se afla un telefon public."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/2bef2d210e9b7e7f6b30f91572a1ae73.png",
+    "title": "Stație alimentare cu carburant",
+    "description": "Se instaleaza in apropierea unei statii de alimentare cu combustibili pentru autovehicule. Pe indicator poate fi inscris si programul de functionare."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/0fe7480e38e52dace5aead2492c029e1.png",
+    "title": "Stație pentru alimentare cu carburant, inclusiv benzină fără plumb",
+    "description": "Se instaleaza in apropierea unei statii de alimentare cu combustibili pentru autovehicule."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/30cf67f26e87f96b99c6ab5cf8f34cf5.png",
+    "title": "Stație de alimentare cu carburanți inclusiv benzină fără plumb și gaz petrolier lichefiat",
+    "description": "Se monteaza in apropierea unei statii de alimentare cu cu carburanti, incluziv benzina fara plumb si gaz petrolier lichefiat."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/e27e88f639c1b0dcf8987b686b7c6cca.png",
+    "title": "Hotel sau motel",
+    "description": "Hotel sau motel"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/d0f0cba56d9834ff5ac70d91e95619b1.png",
+    "title": "Restaurant",
+    "description": "Restaurant"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/923721e9e6beadc43ed625dbc2851dd7.png",
+    "title": "Bufet sau cofetărie",
+    "description": "Bufet sau cofetărie"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/e26a6b0e0aa528d6ca952885d5326a11.png",
+    "title": "Teren pentru camping (tabără turistică)",
+    "description": "Se monteaza in apropierea unui teren special amenajat pentru camping"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/f6bda6ff6e10b9ffa515da5deb4e3272.png",
+    "title": "Teren pentru caravane (tabără turistică)",
+    "description": "Acest indicator poate fi intalnit in apropierea unui teren special amenajat pentru stationarea autovehiculelor si rulotelor."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/c54839f5386a5fbc5fd51a621c7f8fa7.png",
+    "title": "Teren pentru caravane și camping",
+    "description": "Conducatorul auto va intalni acest indicator in apropierea unui teren special amenajat pentru stationarea autovehiculelor si rulotelor si pentru camping."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/4b7e456b264d94697d6b31190e3b7ed3.png",
+    "title": "Loc pentru popas",
+    "description": "Are rolul de a informa ca in apropiere se afla un teren special amenajat pentru popasuri."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/595d8e0111663575f4644174f2a81ac0.png",
+    "title": "Cabană pentru turiști",
+    "description": "Cabană pentru turiști"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/a2abed20db58846ddf7de63f89aa3caa.png",
+    "title": "WC public",
+    "description": "WC public"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/3c51da85e846a9f578751d8f4183bd50.png",
+    "title": "Service auto",
+    "description": "Conducatorul auto poate intalni acest indicator in apropierea unui service auto. Pe indicator poate fi inscris si programul de functionare."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/6b8cd9adce105833b7bf8ac4a2066bd8.png",
+    "title": "Parcare",
+    "description": "Are rolul de a informa conducatorul auto ca in apropiere se afla un spatiu destinat parcarii. Pe indicator pot fi inscriptionate anumite reguli stabilite de administratorul responsabil."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/b2471deb1202df13d56c4b445266dc5a.png",
+    "title": "Parcare",
+    "description": "Are rolul de a informa conducatorul auto ca in apropiere se afla un spatiu destinat parcarii. Pe indicator pot fi inscriptionate anumite reguli stabilite de administratorul responsabil."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/ad56d069502f093de8cbf2c669d0d4d2.png",
+    "title": "Parcare subterană sau în clădire",
+    "description": "Se instaleaza in apropierea unei parcari subterane sau in cladire."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/75bf53972aa500f4efefca5afa59c94b.png",
+    "title": "Complex de servicii",
+    "description": "Se afla amplasat in apropierea unui complex ce ofera conducatorilor auto diverse servicii (restaurant, hotel, telefon, service auto). Pe indicator se inscriptioneaza si distanta pana la respectivul complex."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/6c36565a5a2a89832636e3e1107f0161.png",
+    "title": "Zona rezidențială",
+    "description": "Se monteaza la intrarea in zonele rezidentiale. Sunt zone cu trafic mixt, atat pietonal cat si auto, ceea ce ii obliga pe conducatorii auto sa circule cu viteza de cel mult 20 km/h."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/32f9a760c17e4bdd585680f853ffae2b.png",
+    "title": "Sfârșitul zonei rezidențiale",
+    "description": "Se afla montat la iesirea din zonele rezidentiale."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/c36f5b196584d601d2a6383b8e261647.png",
+    "title": "Zonă cu viteză recomandată de 30 km/h",
+    "description": "In general se amplaseaza in zonele urbane, in care viteza inscrisa pe indicator este considerata ca fiind potrivita pentru circulatia in conditii de siguranta. Viteza inscrisa pe indicator nu este viteza minima si nici maxima."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/136883d65f64c6ff8f499f25b6993cf4.png",
+    "title": "Sfârșitul zonei cu viteză recomandată de 30 km/h",
+    "description": "Are rolul de a preciza sfarsitul zonei cu viteza recomandata."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/9d142ed7ba9479332e7a0a30a064acc0.png",
+    "title": "Zonă pietonală",
+    "description": "Se monteaza la intrarea in zonele pietonale. Acestea reprezinta una sau mai multe strazi rezervate pietonilor, unde accesul vehiculelor se face numai daca se locuieste in zona sau presteaza servicii publice si nu exista alta posibilitate de acces. Conducatorii auto sunt obligati sa circule cu viteza de cel mult 5 km/h."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/ba1e5f38cf6081e23c5b814cac732375.png",
+    "title": "Sfârșitul zonei pietonale",
+    "description": "Are rolul de a preciza sfarsitul zonei pietonale."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/79787fad19b2f52fcf33fd2729f60525.png",
+    "title": "Tunel",
+    "description": "Se monteaza la intrarea intr-un tunel. Pe indicator poate fi inscrisa si lungimea tunelului. Se aprind obligatoriu luminile de intalnire. Toate manevrele sunt interzise cu exceptia depasirii vehiculelor fara motor, motocicletelor fara atas si mopedelor, cand vizibilitatea este peste 20 m si latimea drumului cel putin 7 m."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/574648ee5fbee5efe409050b48ce40a7.png",
+    "title": "Sfârșit de tunel",
+    "description": "Indicatorul se instaleaza la iesirea dintr-un tunel, marcand terminarea acestuia."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/735da4021d60bb5b56b4205a257d3272.png",
+    "title": "Îmbarcare pe vagoane platformă de cale ferată",
+    "description": "Conducatorul auto va intalni acest indicator in zona de imbarcare pe vagoane platforma de cale ferata. La intalnirea acestui indicator conducatorul auto trebuie preventiv sa reduca viteza si sa circule cu atentie sporita."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/ef462b051599b6ef0dba811aeab18769.png",
+    "title": "Îmbarcare pe ferry-boat",
+    "description": "Conducatorul auto va intalni acest indicator in zona de imbarcare pe ferry-boat. La intalnirea acestui indicator conducatorul auto trebuie preventiv sa reduca viteza si sa circule cu atentie sporita."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/b49d0af27e1c802b1e6f78c500dedad8.png",
+    "title": "Port",
+    "description": "Se amplaseaza in apropierea unui port."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/615553738b2a73384593ad49136a21e5.png",
+    "title": "Gară",
+    "description": "Se amplaseaza in apropierea unei gari."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/fc5dde0b7ae54abdf93728b05f1577f4.png",
+    "title": "Autogară",
+    "description": "Se amplaseaza in apropierea unei autogari."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/297f9bdea4c2480cf824802e3bc4188a.png",
+    "title": "Închirieri auto",
+    "description": "Se amplaseaza in apropierea unui centru de inchirieri auto."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/8c0d7bb2e4286471ca458ca8bdff0571.png",
+    "title": "Plajă",
+    "description": "Se instaleaza in apropierea unei plaje."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/bcfef2a9c6e9f265e385470ef5041d11.png",
+    "title": "Zonă de vânătoare",
+    "description": "Se monteaza in apropierea unei zone de vanatoare. Pe indicator poate fi si o sageata care indica directia spre acesta zona."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/7d48d22993da426522172050d579d8c3.png",
+    "title": "Zonă de pescuit",
+    "description": "Se monteaza in apropierea unei zone de pescuit. Pe indicator poate fi si o sageata care indica directia spre acesta zona."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/0774ca0571f555075e43cb31a2a9d264.png",
+    "title": "Centru viticol",
+    "description": "Se instaleaza in apropierea unui centru viticol. Pe indicator poate fi scrisa si distanta in metri pana la aceste zone."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/bff534c65ae0ca21ba32137c5385b3e8.png",
+    "title": "Zona industrială",
+    "description": "Se instaleaza in apropierea unei zone industriale. Pe indicator poate fi scrisa si distanta in metri pana la aceste zone."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/3af92611904f4a47fd5370d161ea6790.png",
+    "title": "Poșta",
+    "description": "Acest indicator se monteaza la 200 m de o posta."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/4cbfddc1cb9dbe3cac192c05d8143ffb.png",
+    "title": "Apă potabilă",
+    "description": "Se monteaza la 200 m de o instalatie de apa potabila."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/997a4498fdc0936105372eedfd8799ff.png",
+    "title": "Loc de joacă pentru copii",
+    "description": "Se instaleaza in apropierea unui loc special amenajat pentru copii."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/4716beebcf8b955c71e241b4deb03ec0.png",
+    "title": "Stadion",
+    "description": "Indicatorul din imaginea alaturata se amplaseaza in apropierea unui stadion. Pe indicator poate fi inscrisa si denumirea stadionului."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/cba632ae4747f86d15c19a1dd0e1ef4a.png",
+    "title": "Supermarket",
+    "description": "Se amplaseaza in apropierea unui supermarket. Pe indicator poate fi inscriptionata si distanta la care se afla."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/594765581939ec69c1c368405d220fc8.png",
+    "title": "Acces internet",
+    "description": "Se amplaseaza in apropierea unui centru cu acces la internet. Pe indicator poate fi inscriptionata si distanta la care se afla."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/c45ea53fc67e262d0c13f313ba5c1d91.png",
+    "title": "Teatru",
+    "description": "Indicatorul din imaginea alaturata se amplaseaza in apropierea unui teatru. Pe indicator poate fi inscrisa si denumirea teatrului."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/3c5c7851747852da1091a6253f8f2d50.png",
+    "title": "Muzeu",
+    "description": "Indicatorul din imaginea alaturata se amplaseaza in apropierea unui muzeu. Pe indicator poate fi inscrisa si denumirea muzeului."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/d5f7d19c9ba339c2232452701b626423.png",
+    "title": "Cântar pentru autovehicule",
+    "description": "Se amplaseaza in apropierea unui cantar pentru autovehicule. Pe indicator poate fi inscriptionata si distanta la care se afla."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/d51da2ba2ed1ecdda565541a04cdcc42.png",
+    "title": "Control radar",
+    "description": "Se afla instalat in apropierea unui post de control al vitezei vehiculelor."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/bc6cadca03a5feab8f30e343624d3c01.png",
+    "title": "Informații rutiere",
+    "description": "Are rolul de a informa conducatorul auto care sunt frecventele radio din zona respectiva."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/b9ff60cdd2701b0a0bdef756f146b983.png",
+    "title": "Viteză recomandată",
+    "description": "Se amplaseaza pe drumurile publice in care viteza inscrisa pe indicator este considerata ca fiind optima pentru circulatia in conditii de siguranta si pentru asigurarea unui trafic fluent. Viteza mentionata este viteza recomandata, nu minima sau maxima."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/cd3c4cf91db657b82d74996c2503b165.png",
+    "title": "Punct de informare turistică",
+    "description": "Informeaza conducatorul ca in apropiere se afla un punct de informare turistica."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/88302a30d09be3bfc079fada604c8da7.png",
+    "title": "Denumirea străzii",
+    "description": "Denumirea străzii"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/b164ecaa96f84ec2a640a3d667ba5636.png",
+    "title": "Intrare stradă indicată",
+    "description": "Intrare stradă indicată"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/90f68dae7e10ef06f10a08763b88c9c9.png",
+    "title": "Numărul imobilului",
+    "description": ""
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/28968fb46ba0e3390c09a447d37755f8.png",
+    "title": "Monitorizare trafic",
+    "description": "Monitorizare trafic"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/30d331f5feab2a9a3688d21d84102d40.png",
+    "title": "Refugiu rezervat depanării",
+    "description": "Refugiu rezervat depanării"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/5e80b5271fc1c1f8e6adb920012d520a.png",
+    "title": "Presemnalizarea sediului Poliției autostrăzii",
+    "description": "Presemnalizarea sediului Poliției autostrăzii"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/bcb804c12b15b2e74b290ea788d206c2.png",
+    "title": "Distanța de siguranță între vehiculele pentru viteze de cel mult 60 km/h",
+    "description": "Distanța de siguranță între vehiculele pentru viteze de cel mult 60 km/h"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/c5c8f1b56045b18ca35e2c95614cfb35.png",
+    "title": "Distanța de siguranță între vehiculele pentru viteze mai maride 90 km/h",
+    "description": "Distanța de siguranță între vehiculele pentru viteze mai maride 90 km/h"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/616e974847b09d4c0a7ebc06a2506d45.png",
+    "title": "Acces pe bază de tichet",
+    "description": "Acces pe bază de tichet"
+  }
+]

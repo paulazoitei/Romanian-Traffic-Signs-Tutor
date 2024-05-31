@@ -1,0 +1,93 @@
+[
+  {
+    "url": "https://www.codrutier.ro/storage/images/27606c6ee1ea9fcd5916d7a8b5f292d4.png",
+    "title": "Înainte",
+    "description": "Indicatorul se monteaza cu cel mult 50 m inainte de o intersectie, obligand conducatorul auto sa circule pe directia indicata de sageata (nu poate vira stanga sau dreapta, nu poate intoarce). Daca actioneaza asupra unei singure benzi, atunci se va instala deasupra benzii respective. Acest indicator actioneaza doar in intersectia inaintea careia este instalat."
+  },
+
+  {
+    "url": "https://www.codrutier.ro/storage/images/a5f5917b6726b87b9941ee8223b3d763.png",
+    "title": "La dreapta",
+    "description": "Se instaleaza pe partea opusa intrarii intr-o intersectie sau suspendat in mijlocul intersectiei, obligand conducatorul auto sa vireze in directia indicata de sageata, dar fara a ocoli indicatorul (pana la indicator). Indicatorul actioneaza numai in intersectia inaintea careia este instalat. Efectuandu-se un viraj, este obligatorie reducerea vitezei la maxim 30 km/h in localitate, respectiv max. 50 km/h in afara localitatii."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/8386e7d8b5017d832720fae63f412bcc.png",
+    "title": "La dreapta",
+    "description": "Se amplaseaza inaintea intrarii intr-o intersectie, obligand conducatorul auto sa vireze pe directia indicata de sageata, dupa ocolirea indicatorului. Zona de actiune a acestui indicator o constituie intersectia inaintea careia este instalat. Efectuandu-se un viraj, este obligatorie reducerea vitezei la maxim 30 km/h in localitate, respectiv max. 50 km/h in afara localitatii."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/91422ed8cbb9e580b34a7746da92cbda.png",
+    "title": "Înainte sau la dreapta",
+    "description": "Conducatorul auto va intalni acest indicator inaintea intrarii intr-o intersectie, obligand conducatorul auto sa circule pe una din directiile indicate de sageti. Actioneaza doar in intersectia inaintea caruia este instalat."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/e87889915567e1d67a38129ae8735340.png",
+    "title": "Ocolire",
+    "description": "Indicatorul din imaginea alaturata se amplaseaza inaintea unui obstacol aflat pe partea carosabila, pe care conducatorul auto trebuie sa il ocoleasca in sensul indicat de sageata. Refugiile statiilor de tramvai sunt semnalizate cu astfel de indicatoare."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/bec4d884a825e77dd63daa4db2aeb3e8.png",
+    "title": "Ocolire",
+    "description": "Indicatorul din imaginea alaturata se amplaseaza inaintea unui obstacol aflat pe partea carosabila, pe care conducatorul auto poate sa il ocoleasca pe ambele parti. Refugiile statiilor de tramvai sunt semnalizate cu astfel de indicatoare."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/86abfe670b82ce08345b4e721fd43187.png",
+    "title": "Intersecție cu sens giratoriu",
+    "description": "Se amplaseaza inaintea unei intersectii cu sens giratoriu sau pe zona circulara din mijlocul intersectiei. Se circula in sensul indicat de sageti, ocolind insula, afara de situatia cand viram stanga. Oprirea si stationarea sunt interzise, depasirea este permisa, intoarcerea este permisa numai prin ocolirea insulei. La intalnirea acestui indicator, conducatorul auto este obligat sa acorde prioritate vehiculelor care circula in interiorul intersectiei."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/e9f489bff81562f07de1b0c7878463af.png",
+    "title": "Pistă pentru biciclete",
+    "description": "Are rolul de a preciza inceputul unei piste de biciclete pe care este permisa numai circulatia bicicletelor. Indicatoarul se monteaza si la intersectia pistei cu un drum public."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/1ad243cdfd43378673f38c9564113c9d.png",
+    "title": "Drum obligatoriu pentru categoria de vehicule",
+    "description": "Drum obligatoriu pentru categoria de vehicule"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/995e83ae70aa2fee0762fc717e7281b3.png",
+    "title": "Drum pentru pietoni",
+    "description": "Permite circulatia numai a pietonilor pe drumul inaintea caruia este instalat."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/822baf7345d2338144411ef0608a5e9b.png",
+    "title": "Delimitare piste pentru pietoni și biciclete",
+    "description": "Poate fi intalnit la inceputul unui sector de drum pe care este permisa circulatia numai a pietonilor si a bicicletelor, acestia fiind obligati sa circule numai pe pista specifica pentru categoria din care fac parte."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/1ee128cf157271a3ff9538b9dfa16e12.png",
+    "title": "Pistă comună pentru pietoni și bicicliști",
+    "description": "Pistă comună pentru pietoni și bicicliști"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/3fe9e2de8b50b057d60d92a40fe0abd5.png",
+    "title": "Viteză minimă obligatorie",
+    "description": "Se monteaza in zona in care se impune o viteza de circulatie minima. La intalnirea acestui indicator, conducatorul auto este obligat sa circule cu o viteza superioara celei inscriptionate pe indicator, dar mai mica decat cea maxima legala admisa pe sectorul de drum respectiv."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/279dac7ca256dd4a317c67f31eac4998.png",
+    "title": "Sfârșitul vitezei minime obligatorii",
+    "description": "Se instaleaza in zona in care se termina sectorul de drum cu viteza minima obligatorie."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/4c4f48f496b2dcdfcdba626969bb7217.png",
+    "title": "Lanțuri pentru zăpadă",
+    "description": "Se amplaseaza in zonele in care, pe timp de iarna, conducatorii autovehiculelor cu masa totala maxima autorizata mai mare de 3,5 t. au obligatia de a monta lanturi antiderapante daca partea carosabila este acoperita cu zapada, gheata sau polei."
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/9bd54daa22657a59ae21fe3e3ad86ea8.png",
+    "title": "Direcție obligatorie pentru autovehiculele care transportă mărfuri periculoase",
+    "description": "La intalnirea acestui indicator, vehiculele care transporta marfuri periculoase sunt obligate sa circule pe directia indicata de sageata: inainte"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/af3ab42dd46b002b9c14cb5fb705a65b.png",
+    "title": "Direcție obligatorie pentru vehicule care transportă mărfuri periculoase",
+    "description": "La intalnirea acestui indicator, vehiculele care transporta marfuri periculoase sunt obligate sa circule pe directia indicata de sageata: la dreapta"
+  },
+  {
+    "url": "https://www.codrutier.ro/storage/images/b4a4d06c506c5e4627902d45d1dc1f61.png",
+    "title": "Direcție obligatorie pentru vehicule care transportă mărfuri periculoase",
+    "description": "La intalnirea acestui indicator, vehiculele care transporta marfuri periculoase sunt obligate sa circule pe directia indicata de sageata: la stanga"
+  }
+]
