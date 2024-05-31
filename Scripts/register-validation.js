@@ -1,4 +1,4 @@
-/*document.getElementById('register-form').addEventListener('submit', function(event) {
+document.getElementById('register-form').addEventListener('submit', function(event) {
     let hasError = false;
 
     const username = document.getElementById('register-username').value.trim();
@@ -50,4 +50,4 @@
     if (hasError) {
         event.preventDefault();
     }
-}); */
+});

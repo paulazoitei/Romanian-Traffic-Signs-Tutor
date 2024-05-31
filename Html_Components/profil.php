@@ -17,7 +17,7 @@
   <body>
     <script src="../Scripts/accesare-cont.js"></script>
     <script src="../Scripts/responsive-navbar.js"></script>
-    <script src="../Scripts/profile-switch-false.js"></script>
+
     <div class="bg-image-container">
       <img src=".././Assets/Images/bodybg.jpg" class="bg-image" alt="bg-img" />
     </div>
@@ -94,8 +94,13 @@
           <p class="remaining">Puncte ramase pana la urmatorul rank : 50</p>
           <p class="admise">Total chestionare admise: 0</p>
           <p class="picate">Total chestionare picate: 0</p>
-          <div id="sign-out">Sign Out</div>
+
+            <form action="/php/Romanian-Traffic-Signs-Tutor/Public/auth/logout" method="post">
+                <button type="submit">Sign Out</button>
+            </form>
+
         </div>
+
       </div>
     </div>
 
