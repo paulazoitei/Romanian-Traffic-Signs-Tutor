@@ -13,106 +13,141 @@ class Auth extends Controller
     {
         if(empty($_POST["username"]))
         {
-            die("Username is required!");
+            $_SESSION['register_error'] = "Username is required!";
+            header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/auth");
+            exit();
         }
         if( ! filter_var($_POST["email"],FILTER_VALIDATE_EMAIL))
         {
-            die("Valid email is required");
+            $_SESSION['register_error'] = "Valid email is required";
+            header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/auth");
+            exit();
         }
 
         $isPasswordComplex = function($password) {
-
             $pattern = '/^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/';
             return preg_match($pattern, $password);
         };
 
         if (!$isPasswordComplex($_POST['password'])) {
-          die("Your password is not complex enough, it must contain at least 8 characters, at least one uppercase letter, one lowercase letter, one number and one special character.");
+            $_SESSION['register_error'] = "Your password is not complex enough, it must contain at least 8 characters, at least one uppercase letter, one lowercase letter, one number and one special character.";
+            header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/auth");
+            exit();
         }
 
         if($_POST["password"] !== $_POST["password_confirmation"])
         {
-         die("Passwords must match");
+            $_SESSION['register_error'] = "Passwords must match";
+            header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/auth");
+            exit();
         }
-        $password_hash=password_hash($_POST["password"],PASSWORD_DEFAULT);
+
+        $password_hash = password_hash($_POST["password"], PASSWORD_DEFAULT);
 
         $isValidPhoneNumber = function($phone) {
-
             $pattern = '/^\+?\d{10,15}$/';
             return preg_match($pattern, $phone);
         };
 
         if (!$isValidPhoneNumber($_POST['phone']))
-            {
-                die("Invalide phone number");
-            }
+        {
+            $_SESSION['register_error'] = "Invalid phone number";
+            header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/auth");
+            exit();
+        }
 
+        $mysqli = require __DIR__ . "/../database/database.php";
 
+        $sql = "INSERT INTO users (username, email, password, phone) VALUES (?, ?, ?, ?)";
 
-
-
-        $mysqli= require __DIR__ . "/../database/database.php";
-
-        $sql ="INSERT INTO users (username,email,password,phone)
-        VALUES(?,?,?,?)";
-
-        $stmt =$mysqli->stmt_init();
+        $stmt = $mysqli->stmt_init();
 
         if(! $stmt->prepare($sql))
         {
-            die("SQL error: " . $mysqli->error);
+            $_SESSION['register_error'] = "SQL error: " . $mysqli->error;
+            header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/auth");
+            exit();
         }
+
         $stmt->bind_param("ssss",
             $_POST["username"],
             $_POST["email"],
             $password_hash,
-            $_POST["phone"]);
-
-
+            $_POST["phone"]
+        );
 
         try {
-
             if ($stmt->execute()) {
-                echo "You have successfully registered";
+                $_SESSION['user_id'] = $stmt->insert_id;
+                $_SESSION['username'] = $_POST["username"];
+                header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/profil");
+                exit();
             } else {
                 throw new Exception($stmt->error, $stmt->errno);
             }
         } catch (Exception $e) {
             if ($e->getCode() == 1062) {
-                echo " Email already exists.";
+                $_SESSION['register_error'] = "Email already exists.";
             } else {
-                echo "Error: " . $e->getMessage();
+                $_SESSION['register_error'] = "Error: " . $e->getMessage();
             }
+            header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/auth");
+            exit();
         }
-
     }
+
 
     public function login()
     {
-        $is_invalid = false;
         if ($_SERVER["REQUEST_METHOD"] === "POST") {
+
+            if (empty($_POST["username"])) {
+                $_SESSION['login_error'] = "Username is required!";
+                header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/auth");
+                exit();
+            }
+
+            if (empty($_POST["password"])) {
+                $_SESSION['login_error'] = "Password is required!";
+                header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/auth");
+                exit();
+            }
+
             $mysqli = require __DIR__ . "/../database/database.php";
 
-            $sql = sprintf("SELECT * FROM users where username='%s'",
+            $sql = sprintf("SELECT * FROM users WHERE username='%s'",
                 $mysqli->real_escape_string($_POST["username"]));
             $result = $mysqli->query($sql);
             $user = $result->fetch_assoc();
 
             if ($user) {
                 if (password_verify($_POST["password"], $user["password"])) {
-
                     $_SESSION['user_id'] = $user['id'];
                     $_SESSION['username'] = $user['username'];
-
-
                     header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/profil");
                     exit();
-
+                } else {
+                    $_SESSION['login_error'] = "Incorrect password.";
+                    header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/auth");
+                    exit();
                 }
+            } else {
+                $_SESSION['login_error'] = "Username does not exist.";
+                header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/auth");
+                exit();
             }
-                $is_invalid = true;
-            }
-
         }
+    }
+
+    public function logout()
+    {
+
+        session_start();
+
+        session_destroy();
+
+        header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/auth");
+        exit();
+    }
 
 }
