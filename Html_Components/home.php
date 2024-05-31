@@ -14,8 +14,16 @@
     <title>RoTST</title>
   </head>
   <body>
+    <?php
+      $isAuthenticated = isset($_SESSION['user_id']) && isset($_SESSION['auth_token']) && isset($_SESSION['username']);
+
+     
+        echo "<script>";
+        echo "console.log('Utilizatorul este " . ($isAuthenticated ? "autentificat" : "neautentificat") . "');";
+        echo "</script>";
+        ?>
     <script src="../Scripts/responsive-navbar.js"></script>
-    <script src="../Scripts/traffic-signs-parse.js"></script>
+  
     <script src="../Scripts/accesare-cont.js"></script>
     <div class="bg-image-container">
       <img src=".././Assets/Images/bodybg.jpg" class="bg-image" alt="bg-img" />

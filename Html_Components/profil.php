@@ -88,14 +88,14 @@
       <div class="profile-container">
         <div class="profile">
           <img class="avatar" src="../Assets/Images/avatar.webp" alt="avatar" />
-          <p class="username">NumeUtilizator</p>
+          <p class="username"><?php echo $_SESSION['username']; ?></p>
           <p class="rank">Incepator</p>
           <p class="points">Puncte: 0</p>
           <p class="remaining">Puncte ramase pana la urmatorul rank : 50</p>
           <p class="admise">Total chestionare admise: 0</p>
           <p class="picate">Total chestionare picate: 0</p>
 
-            <form action="/php/Romanian-Traffic-Signs-Tutor/Public/auth/logout" method="post">
+            <form action="/php/Romanian-Traffic-Signs-Tutor/Public/auth/logout" method="post" id="logout">
                 <button type="submit">Sign Out</button>
             </form>
 

@@ -5,6 +5,21 @@
   align-items: center;
   justify-content: center;
 }
+#logout {
+  display: flex;
+}
+#logout button {
+  width: 7.5em;
+  height: 3em;
+  border-radius: 10px;
+  border: none;
+
+  cursor: pointer;
+}
+#logout button:hover {
+  background-color: rgb(183, 241, 255);
+  font-weight: bold;
+}
 .profile {
   width: 500px;
   display: flex;
