@@ -102,15 +102,17 @@
                 <div class="input-field">
                     <label for="register-username">Username:</label><br>
                     <input type="text" id="register-username" name="username" placeholder="ex: AlexDriver"><br>
-                    <div class="error-message" id="username-error"></div>
+
                     <br>
                 </div>
+                <div class="error-message" id="username-error"></div>
                 <div class="input-field">
                     <label for="email">Email:</label><br>
                     <input type="email" id="email" name="email" placeholder="Introdu un email valid..."><br>
-                    <div class="error-message" id="email-error"></div>
+
                     <br>
                 </div>
+                <div class="error-message" id="email-error"></div>
                 <div class="input-field">
                     <label for="register-password">Password:</label><br>
                     <input type="password" id="register-password" name="password" placeholder="Introdu o parola puternica..."><br>
@@ -120,14 +122,16 @@
                 <div class="input-field">
                     <label for="confirm-password">Confirm Password:</label><br>
                     <input type="password" id="confirm-password" name="password_confirmation" placeholder="Introdu din nou parola ta"><br>
-                    <div class="error-message" id="confirm-password-error"></div>
+
                     <br>
                 </div>
+                <div class="error-message" id="confirm-password-error"></div>
                 <div class="input-field">
                     <label for="phone">Phone number:</label><br>
                     <input type="text" id="phone" name="phone" placeholder="Introdu un numar de telefon..."><br>
-                    <div class="error-message" id="phone-error"></div>
+
                 </div>
+                <div class="error-message" id="phone-error"></div>
                 <?php if (isset($_SESSION['register_error'])): ?>
                     <div class="error-message">
                         <?php

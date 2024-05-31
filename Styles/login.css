@@ -42,7 +42,19 @@
   border-radius: 20px;
   margin-left: 3rem;
 }
-
+.error-message{
+  color:hotpink;
+  font-weight: bold;
+  margin-left:2rem;
+}
+.username-error,
+.email-error,
+.password-error,
+.confirm-password-error,
+.phone-error{
+  margin:0;
+  margin-bottom:2rem;
+}
 .register {
   margin-right: 3rem;
   background: rgb(67, 177, 214);
