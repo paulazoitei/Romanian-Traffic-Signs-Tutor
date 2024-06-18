@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -98,7 +97,7 @@
         <div class="separator"></div>
         <div class="register form-block">
             <p class="login-text">Register</p>
-            <form class="login-form" id="register-form" action="/php/Romanian-Traffic-Signs-Tutor/Public/auth/register" method="post">
+            <form class="login-form" id="register-form" method="post">
                 <div class="input-field">
                     <label for="register-username">Username:</label><br>
                     <input type="text" id="register-username" name="username" placeholder="ex: AlexDriver"><br>
