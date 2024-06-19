@@ -62,7 +62,7 @@ document
                 phone: phone,
             };
 
-            fetch('http://localhost/php/Romanian-Traffic-Signs-Tutor/Public/api/register', { // Înlocuiește cu URL-ul corect al API-ului tău
+            fetch('http://localhost/php/Romanian-Traffic-Signs-Tutor/Public/api/register', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

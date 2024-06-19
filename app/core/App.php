@@ -9,11 +9,17 @@ class App
     {
         $url = $this->parseUrl();
 
-        // Verificare pentru API
+
         if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_SERVER['REQUEST_URI'] === '/php/Romanian-Traffic-Signs-Tutor/Public/api/register') {
             require_once '../app/controllers/RegisterController.php';
             $controller = new RegisterController();
             $controller->register();
+            exit();
+        }
+        if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_SERVER['REQUEST_URI'] === '/php/Romanian-Traffic-Signs-Tutor/Public/api/login') {
+            require_once '../app/controllers/LoginController.php';
+            $controller = new LoginController();
+            $controller->login();
             exit();
         }
 
