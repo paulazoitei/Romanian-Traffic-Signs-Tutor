@@ -8,7 +8,28 @@ class App
     public function __construct()
     {
         $url = $this->parseUrl();
-
+         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            if ($_SERVER['REQUEST_URI'] === '/php/Romanian-Traffic-Signs-Tutor/Public/api/questions') {
+                require_once '../app/controllers/QuestionsController.php';
+                $controller = new QuestionsController();
+                $controller->create();
+                exit();
+            }
+        }
+          if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+            if ($_SERVER['REQUEST_URI'] === '/php/Romanian-Traffic-Signs-Tutor/Public/api/users') {
+                require_once '../app/controllers/UsersController.php';
+                $controller = new UsersController();
+                $controller->index();
+                exit();
+            }
+            if ($_SERVER['REQUEST_URI'] === '/php/Romanian-Traffic-Signs-Tutor/Public/api/questions') {
+                require_once '../app/controllers/QuestionsController.php';
+                $controller = new QuestionsController();
+                $controller->index();
+                exit();
+            }
+        }
 
         if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_SERVER['REQUEST_URI'] === '/php/Romanian-Traffic-Signs-Tutor/Public/api/register') {
             require_once '../app/controllers/RegisterController.php';

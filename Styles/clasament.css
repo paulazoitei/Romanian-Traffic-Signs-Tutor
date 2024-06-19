@@ -11,6 +11,12 @@
   color: rgb(239, 232, 104);
   margin-bottom: 2rem;
 }
+.no-overflow-top {
+  width: 700px;
+  min-height: 500px;
+  border-radius: 25px;
+  position: relative;
+}
 .top {
   width: 700px;
   min-height: 500px;
@@ -20,6 +26,8 @@
   -webkit-box-shadow: -9px 10px 28px -14px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -9px 10px 28px -14px rgba(0, 0, 0, 0.75);
   box-shadow: -9px 10px 28px -14px rgba(0, 0, 0, 0.75);
+  z-index: 1;
+  overflow: hidden;
 }
 .trophy {
   position: absolute;
@@ -27,17 +35,43 @@
   width: 170px;
   transform: rotate(-10deg);
   top: -30px;
-  left: -60px;
+  left: -80px;
   transition: all 0.3s ease-out;
+  z-index: 10;
 }
 .trophy:hover {
   transform: rotate(350deg);
 }
 .trophy:active {
-  top: -36px;
+  top: -32px;
+}
+.column-names {
+  font-weight: bold;
+}
+.entry,
+.column-names {
+  height: 4rem;
+  font-size: 1.2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.entry:nth-child(2) {
+  background-color: rgb(249, 255, 137);
+}
+.entry:nth-child(3) {
+  background-color: rgb(214, 214, 214);
+}
+.entry:nth-child(4) {
+  background-color: rgb(255, 194, 137);
+}
+.entry {
+  background-color: white;
 }
 @media (max-width: 768px) {
-  .top {
+  .top,
+  .no-overflow-top {
     width: 450px;
   }
 }
@@ -48,45 +82,42 @@
   }
 }
 @media (max-width: 768px) {
-  .top {
-    width: 90%; 
-    min-height: 400px; 
+  .top,
+  .no-overflow-top {
+    min-height: 400px;
   }
   .top-container {
-    margin-top: 4rem; 
+    margin-top: 4rem;
   }
   .top-title {
-    font-size: 3rem; 
+    font-size: 3rem;
+  }
+  .trophy {
+    display: none;
   }
 }
 
 @media (max-width: 600px) {
-  .top {
-    width: 100%; 
-    padding: 1rem; 
+  .top,
+  .no-overflow-top {
+    padding: 1rem;
   }
   .trophy {
-    width: 100px; 
-    top: 1rem; 
-    left: 1rem; 
-    transform: rotate(0deg); 
+    display: none;
   }
   .top-title {
-    margin-bottom: 1rem; 
+    margin-bottom: 1rem;
   }
   .top-container {
-    margin-top: 2rem; 
+    margin-top: 2rem;
   }
 }
 
-
 @media (max-width: 280px) {
   .top {
-    
-    min-height: 300px; 
+    min-height: 300px;
   }
   .top-title {
-    font-size: 2rem; 
+    font-size: 2rem;
   }
-
 }

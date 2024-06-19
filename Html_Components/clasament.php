@@ -14,72 +14,48 @@
     <title>Clasament</title>
   </head>
   <body>
+    <script>
+<?php
+
+if (isset($_SESSION['user_id'])) {
+    echo 'var uid = "' . $_SESSION['user_id'] . '";';
+}
+    else {
+      echo 'var uid = "";';
+    }
+
+?>
+</script>
+    <script src="../Scripts/clasament.js"></script>
     <script src="../Scripts/responsive-navbar.js"></script>
     <script src="../Scripts/accesare-cont.js"></script>
     <div class="bg-image-container">
       <img src=".././Assets/Images/bodybg.jpg" class="bg-image" alt="bg-img" />
     </div>
     <div class="container">
-      <div class="nav">
-        <div class="logo">
-          <a href="home">
-            <svg width="100" height="100" viewBox="0 0 100 100">
-              <image
-                href=".././Assets/Icons/logo-rot.svg"
-                width="100"
-                height="100"
-              />
-            </svg>
-          </a>
-        </div>
-        <div class="nav-content">
-          <ul class="nav-list">
-            <li class="item toDisplay">
-              <a href="chestionar">Chestionare</a>
-            </li>
-            <li class="item toDisplay">
-              <a href="clasament">Clasament</a>
-            </li>
-            <li class="dropdown toDisplay">
-              <a href="mediu_invatare"
-                >Mediu Invatare</a
-              >
-              <div class="dropdown-container">
-                <ul class="dropdown-list">
-                  <li class="dropdown-item">
-                    <a href="chestionar_practica">Chestionare de practica</a>
-                  </li>
-
-                  <li class="dropdown-item"><a href="legislatie">Legislatie</a></li>
-
-                  <li class="dropdown-item"><a href="semne_rutiere">Semne rutiere</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class="item toDisplay">
-              <a href="auth" id="profile-switcher">Accesare Cont</a>
-            </li>
-            <li class="menu">
-              <a href="" id="menu-button">
-                <svg width="50" height="50" viewBox="0 0 50 50">
-                  <image
-                    href=".././Assets/Icons/menu.svg"
-                    width="50"
-                    height="50"
-                  />
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
+       <?php include 'navbar.php'; ?>
       <div class="top-container">
         <p class="top-title">Clasament</p>
-        <div class="top">
+        <div class="no-overflow-top">
           <img src="../Assets/Images/trofeu.png" alt="trofeu" class="trophy" />
+          <div class="top" id="top">
+          
+          <div class="column-names">
+            <p class="place">Place</p>
+            <p class="user">User</p>
+            <p class="points">Points</p>
+          </div>
+         
         </div>
+        </div>
+        
       </div>
     </div>
+
+
+
+
+
     <footer class="about-section">
       <div class="despre-noi">
         <div class="follow-us">Follow us:</div>
