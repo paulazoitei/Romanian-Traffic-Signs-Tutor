@@ -83,7 +83,7 @@ class Auth extends Controller
                 'password' => $_POST['password']
             ];
 
-            $url = 'http://localhost:8080/php/Romanian-Traffic-Signs-Tutor/Public/api/login';
+            $url = 'http://localhost/php/Romanian-Traffic-Signs-Tutor/Public/api/login';
 
             $options = [
                 'http' => [
@@ -128,13 +128,17 @@ class Auth extends Controller
 
     public function logout()
     {
+    session_start();
 
-        session_start();
 
-        session_destroy();
+    $_SESSION = [];
 
-        header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/auth");
-        exit();
+
+    session_destroy();
+
+
+    header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/auth");
+    exit();
     }
 
 }
