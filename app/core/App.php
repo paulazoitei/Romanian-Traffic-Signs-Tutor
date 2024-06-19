@@ -23,6 +23,12 @@ class App
             exit();
         }
 
+        if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_SERVER['REQUEST_URI'] === '/php/Romanian-Traffic-Signs-Tutor/Public/api/forgot_password') {
+            require_once '../app/controllers/ForgotPasswordController.php';
+            $controller = new ForgotPasswordController();
+            $controller->reset();
+            exit();
+        }
         if (file_exists('../app/controllers/' . $url[0] . '.php')) {
             $this->controller = $url[0];
             unset($url[0]);

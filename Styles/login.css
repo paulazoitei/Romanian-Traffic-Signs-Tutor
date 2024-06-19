@@ -137,5 +137,26 @@
   color: white;
   cursor: pointer;
 }
+.forgot-password {
+  text-align: left;
+  margin-left:2rem;
+  margin-top: 1rem;
+}
+
+.forgot-password a {
+  color: white;
+  text-decoration: none;
+}
+
+.forgot-password a:active {
+  color: rgb(29, 98, 116);
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  cursor: pointer;
+  color: rgb(29, 98, 116);
+}
+
 
 

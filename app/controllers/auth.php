@@ -54,7 +54,7 @@ class Auth extends Controller
         $_SESSION['user_id'] = $response['user_id'];
         $_SESSION['username'] = $_POST["username"];
         header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/profil");
-        echo("dasdasd");
+
         exit();
     }
 
