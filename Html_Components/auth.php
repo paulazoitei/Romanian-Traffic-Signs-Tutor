@@ -37,6 +37,9 @@
                     <div id="login-password-error" class="error-message"></div>
                     <input type="password" id="password" name="password" placeholder="Introdu parola ta..." />
                 </div>
+                <div class="forgot-password">
+                    <a href="/php/Romanian-Traffic-Signs-Tutor/Public/forgot_password" id="forgot-password-link">Forgot Password?</a>
+                </div>
                 <?php if (isset($_SESSION['login_error'])): ?>
                     <div class="error-message">
                         <?php
