@@ -8,6 +8,13 @@ class App
     public function __construct()
     {
         $url = $this->parseUrl();
+         if($_SERVER['REQUEST_METHOD'] === 'DELETE' && $_SERVER['REQUEST_URI'] === '/php/Romanian-Traffic-Signs-Tutor/Public/api/users')
+         {
+                require_once '../app/controllers/UsersController.php';
+                $controller = new UsersController();
+                $controller->delete();
+                exit();
+         }
          if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             if ($_SERVER['REQUEST_URI'] === '/php/Romanian-Traffic-Signs-Tutor/Public/api/questions') {
                 require_once '../app/controllers/QuestionsController.php';
