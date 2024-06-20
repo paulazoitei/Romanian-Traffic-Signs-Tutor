@@ -50,6 +50,12 @@ class App
             $controller->reset();
             exit();
         }
+        if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_SERVER['REQUEST_URI'] === '/php/Romanian-Traffic-Signs-Tutor/Public/api/contact') {
+            require_once '../app/controllers/ContactController.php';
+            $controller = new ContactController();
+            $controller->contact();
+            exit();
+        }
         if (file_exists('../app/controllers/' . $url[0] . '.php')) {
             $this->controller = $url[0];
             unset($url[0]);

@@ -16,6 +16,7 @@
 <body>
   <script src="../Scripts/responsive-navbar.js"></script>
   <script src="../Scripts/accesare-cont.js"></script>
+
   <div class="bg-image-container">
     <img src=".././Assets/Images/bodybg.jpg" class="bg-image" alt="bg-img" />
   </div>
@@ -25,12 +26,16 @@
     
 
     <div class="contact-form-block">
-      <form class="contact-form">
+      <form class="contact-form"  id="contactForm">
         <h2 class="contact-text">Contact</h2>
         <div class="input_field">
           <label for="subject">Subiect:</label><br />
           <input type="text" id="subject" /> <br /><br />
         </div>
+          <div class="input_field">
+             <label for="email">Email:</label><br />
+              <input type="text" id="email"/><br/ ><br />
+          </div>
         <div class="input_field">
           <label for="message">Mesaj:</label><br />
           <textarea id="message" rows="7"></textarea>
@@ -70,7 +75,7 @@
       </a>
     </div>
   </footer>
-
+  <script src="../Scripts/contact.js"></script>
 </body>
 
 </html>

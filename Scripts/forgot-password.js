@@ -1,10 +1,10 @@
 
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("JavaScript loaded");  // Debug message to ensure JS is loaded
+
     const form = document.querySelector(".forgot_password_form");
     form.addEventListener("submit", function (event) {
         event.preventDefault();
-        console.log("Form submitted");  // Debug message to ensure event is triggered
+
         const email = document.getElementById("email").value.trim();
 
         if (email === "") {
