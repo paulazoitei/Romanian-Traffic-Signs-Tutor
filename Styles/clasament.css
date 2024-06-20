@@ -48,14 +48,17 @@
 .column-names {
   font-weight: bold;
 }
+
 .entry,
 .column-names {
   height: 4rem;
   font-size: 1.2rem;
   width: 100%;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .entry:nth-child(2) {
   background-color: rgb(249, 255, 137);
