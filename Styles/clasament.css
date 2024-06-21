@@ -124,3 +124,45 @@
     font-size: 2rem;
   }
 }
+.rss-button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 12rem;
+  height: 6rem;
+  column-gap: 1rem;
+  color: #fff;
+  background-color: #34a3db;
+  border: 2px solid #3498db;
+  border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.rss-button:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+.rss-button:active {
+  background-color: #1e6f99;
+  border-color: #1e6f99;
+  transform: scale(0.98);
+}
+.rss-hyperlink {
+  text-decoration: none;
+}
+#sound {
+  position: absolute;
+  top: 8rem;
+}
+@media (max-width: 1190px) {
+  #sound {
+    position: relative;
+  }
+}
