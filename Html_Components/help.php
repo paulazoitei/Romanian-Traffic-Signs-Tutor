@@ -19,8 +19,8 @@
     <script src="../Scripts/responsive-navbar.js"></script>
     <script src="../Scripts/help-questions.js"></script>
     <script src="../Scripts/accesare-cont.js"></script>
-    <script src="../Scripts/questions-creator.js"></script>
-    <script src="../Scripts/default-questions.js"></script>
+  
+   
     <div class="bg-image-container">
       <img src=".././Assets/Images/bodybg.jpg" class="bg-image" alt="bg-img" />
     </div>

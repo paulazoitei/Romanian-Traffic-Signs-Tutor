@@ -17,7 +17,7 @@
   <body>
     <script src="../Scripts/points.js"></script>
     <script src="../Scripts/responsive-navbar.js"></script>
-     <audio controls autoplay loop id="audio">
+     <audio controls autoplay id="audio">
   
             <source src=".././Assets/Sound/success.mp3" type="audio/mpeg">
             
