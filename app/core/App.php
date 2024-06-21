@@ -78,7 +78,12 @@ class App
                 $controller->getUserById($id);
                 exit();
             }
-         
+         if ($_SERVER['REQUEST_METHOD'] === 'GET' && $_SERVER['REQUEST_URI'] === '/php/Romanian-Traffic-Signs-Tutor/Public/api/statistics') {
+            require_once '../app/controllers/StatisticsController.php';
+            $controller = new StatisticsController();
+            $controller->getStatistics();
+            exit();
+        }
         if(file_exists('../app/controllers/' . $url[0] . '.php')) {
             $this->controller = $url[0];
             unset($url[0]);
