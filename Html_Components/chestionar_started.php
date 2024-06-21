@@ -14,6 +14,18 @@
     <title>Chestionar</title>
   </head>
   <body>
+     <script><?php
+
+    if (isset($_SESSION['user_id'])) {
+         echo 'var uid = "' . $_SESSION['user_id'] . '";';
+    }
+    else {
+      echo 'var uid = "";';
+    }
+
+        ?></script>
+     <script src="../Scripts/quiz.js"></script>
+    <script src="../Scripts/sound-control.js"></script>
     <script src="../Scripts/responsive-navbar.js"></script>
     <script src="../Scripts/background-options.js"></script>
     <script src="../Scripts/accesare-cont.js"></script>
@@ -25,9 +37,14 @@
 
       <div class="question-container">
         <div class="header">
-          <span class="information">Intrebari corecte:</span>
-          <span class="information">Intrebari gresite:</span>
-          <span class="information">Intrebari ramase:</span>
+           <audio controls autoplay loop id="audio">
+  
+            <source src=".././Assets/Sound/song.mp3" type="audio/mpeg">
+            
+          </audio>
+          <span class="information">Intrebari corecte: 0</span>
+          <span class="information">Intrebari gresite: 0</span>
+          <span class="information">Intrebari ramase: 0</span>
         </div>
         <div class="question-and-image">
           <div class="q-image-container">
@@ -45,15 +62,15 @@
               <form>
                 <label for="variant1" class="variant-container" id="v1cont">
                   <input type="checkbox" id="variant1" />
-                  Varianta 1
+                  <p class="variant">Varianta 1</p>
                 </label>
                 <label for="variant2" class="variant-container" id="v2cont">
                   <input type="checkbox" id="variant2" />
-                  Varianta 2
+                  <p class="variant">Varianta 2</p>
                 </label>
                 <label for="variant3" class="variant-container" id="v3cont">
                   <input type="checkbox" id="variant3" />
-                  Varianta 3
+                  <p class="variant">Varianta 3</p>
                 </label>
                 <input type="button" class="send" value="Trimitere Raspuns" />
               </form>
@@ -61,7 +78,12 @@
           </div>
         </div>
       </div>
+      <div id="sound">
+          <img src="../Assets/Images/sound-on.png" alt="toggle-sound" width="100" id="sound-icon">
+      </div>
     </div>
+    
+   
     <footer class="about-section">
       <div class="despre-noi">
         <div class="follow-us">Follow us:</div>

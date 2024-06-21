@@ -1,0 +1,472 @@
+[
+  {
+    "text": "Care este limita maximă de viteză pe autostrăzi în România?",
+    "variant_1": "100 km/h",
+    "variant_2": "130 km/h",
+    "variant_3": "150 km/h",
+    "correct_1": 0,
+    "correct_2": 1,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce înseamnă culoarea galbenă a semaforului?",
+    "variant_1": "Oprește-te",
+    "variant_2": "Să te pregătești să oprești",
+    "variant_3": "Poți trece cu atenție",
+    "correct_1": 0,
+    "correct_2": 1,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Care este primul lucru pe care ar trebui să-l faci în caz de accident?",
+    "variant_1": "Sună la poliție",
+    "variant_2": "Asigură-ți propria siguranță și a celorlalți participanți la trafic",
+    "variant_3": "Verifică starea vehiculelor implicate",
+    "correct_1": 0,
+    "correct_2": 1,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce înseamnă o linie continuă dublă pe carosabil?",
+    "variant_1": "Interzicerea depășirii",
+    "variant_2": "Limitare de viteză",
+    "variant_3": "Trecere de pietoni",
+    "correct_1": 1,
+    "correct_2": 0,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce indicator rutier anunță un loc de odihnă pentru șoferi?",
+    "variant_1": "Indicatorul A3",
+    "variant_2": "Indicatorul B7",
+    "variant_3": "Indicatorul C1",
+    "correct_1": 0,
+    "correct_2": 1,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Care este cea mai sigură metodă pentru a efectua o depășire?",
+    "variant_1": "Să te asiguri că nu vine nimeni din sens opus",
+    "variant_2": "Să semnalizezi clar intenția ta de a depăși",
+    "variant_3": "Să mărești viteza brusc",
+    "correct_1": 1,
+    "correct_2": 1,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce trebuie să faci dacă observi că autovehiculul din fața ta emite fum negru gros?",
+    "variant_1": "Ignoră situația dacă nu îți afectează vizibilitatea",
+    "variant_2": "Semnalizează șoferului respectiv printr-o claxonare",
+    "variant_3": "Anunță imediat poliția",
+    "correct_1": 0,
+    "correct_2": 0,
+    "correct_3": 1,
+    "image_url": ""
+  },
+  {
+    "text": "Care este semnificația semaforului cu lumina roșie intermitentă?",
+    "variant_1": "Poți trece dacă nu vin vehicule din sens opus",
+    "variant_2": "Obligă la oprire, dar poți trece în condiții de siguranță",
+    "variant_3": "Indică o defectare a semaforului",
+    "correct_1": 0,
+    "correct_2": 1,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce înseamnă o linie discontinuă dublă pe carosabil?",
+    "variant_1": "Obligă la oprire",
+    "variant_2": "Permite depășirea",
+    "variant_3": "Limitează viteza maximă",
+    "correct_1": 0,
+    "correct_2": 1,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce trebuie să faci dacă observi un accident rutier?",
+    "variant_1": "Te oprești și oferi primul ajutor",
+    "variant_2": "Semnalizezi pericolul pentru ceilalți participanți la trafic",
+    "variant_3": "Te grăbești să îți continui drumul",
+    "correct_1": 1,
+    "correct_2": 1,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce trebuie să faci dacă ai depășit viteza legală și poliția te oprește?",
+    "variant_1": "Refuzi să prezinți documentele",
+    "variant_2": "Recunoști greșeala și accepți sancțiunea",
+    "variant_3": "Începi o discuție agresivă cu agentul de poliție",
+    "correct_1": 0,
+    "correct_2": 1,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce semnificație are marcajul rutier de tip STOP?",
+    "variant_1": "Obligă la oprire totală",
+    "variant_2": "Permite oprirea doar dacă nu vin alte vehicule",
+    "variant_3": "Obligă la oprire, dar poți trece dacă nu vin alte vehicule",
+    "correct_1": 1,
+    "correct_2": 0,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce înseamnă o linie dublă continuă însoțită de o linie simplă continuă pe partea carosabilă pe care circuli?",
+    "variant_1": "Interzicerea depășirii doar pentru vehiculele din fața ta",
+    "variant_2": "Interzicerea depășirii pentru toate vehiculele",
+    "variant_3": "Permite depășirea pentru toate vehiculele",
+    "correct_1": 1,
+    "correct_2": 0,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Cum trebuie să procedezi într-o intersecție nesemaforizată?",
+    "variant_1": "Acorda prioritate vehiculelor care vin din dreapta",
+    "variant_2": "Treci primul dacă ai prioritatea",
+    "variant_3": "Intri în intersecție cu viteză mare",
+    "correct_1": 1,
+    "correct_2": 0,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Cum trebuie să acționezi când întâlnești un pieton care traversează strada regulamentar?",
+    "variant_1": "Îi dai prioritate de trecere",
+    "variant_2": "Ocolești pietonul pentru a nu îl pune în pericol",
+    "variant_3": "Nu îl bagi în seamă dacă este la distanță",
+    "correct_1": 1,
+    "correct_2": 0,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce trebuie să faci dacă observi că într-o intersecție semaforizată se stinge brusc semaforul?",
+    "variant_1": "Treci cu prudență, acordând prioritate vehiculelor care vin din dreapta",
+    "variant_2": "Stai până se rezolvă problema semaforului",
+    "variant_3": "Treci imediat, având prioritate",
+    "correct_1": 1,
+    "correct_2": 0,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Care este primul lucru pe care ar trebui să-l faci în cazul unui incendiu la bordul mașinii?",
+    "variant_1": "Sună la serviciul de pompieri",
+    "variant_2": "Oprește mașina într-un loc sigur și evacuează-te rapid",
+    "variant_3": "Încearcă să stinge incendiul folosind un extinctor",
+    "correct_1": 0,
+    "correct_2": 1,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce înseamnă marcajul rutier cu linie dublă continuă urmată de o linie simplă continuă pe partea carosabilă pe care circuli?",
+    "variant_1": "Interzicerea depășirii pentru toate vehiculele",
+    "variant_2": "Interzicerea depășirii doar pentru vehiculele din fața ta",
+    "variant_3": "Permite depășirea doar pentru vehiculele din fața ta",
+    "correct_1": 0,
+    "correct_2": 0,
+    "correct_3": 1,
+    "image_url": ""
+  },
+  {
+    "text": "Care este prima acțiune pe care trebuie să o faci înainte de a vira la stânga?",
+    "variant_1": "Să te asiguri că nu vin vehicule din sens opus",
+    "variant_2": "Să semnalizezi clar intenția ta de a vira la stânga",
+    "variant_3": "Să oprești și să verifici dacă ai prioritate",
+    "correct_1": 1,
+    "correct_2": 0,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce înseamnă un panou adițional cu simbolul unui copil pe bicicletă?",
+    "variant_1": "Indică apropierea unei zone cu risc de accidente",
+    "variant_2": "Anunță o pistă pentru bicicliști",
+    "variant_3": "Atenționează despre prezența bicicliștilor pe traseu",
+    "correct_1": 0,
+    "correct_2": 0,
+    "correct_3": 1,
+    "image_url": ""
+  },
+  {
+    "text": "Ce semnifică marcajul rutier de tip linie simplă continuă?",
+    "variant_1": "Interzicerea depășirii",
+    "variant_2": "Limitarea vitezei",
+    "variant_3": "Permite depășirea în condiții de siguranță",
+    "correct_1": 0,
+    "correct_2": 0,
+    "correct_3": 1,
+    "image_url": ""
+  },
+  {
+    "text": "Cum trebuie să te comporti atunci când întâlnești un animal care traversează strada?",
+    "variant_1": "Încetinești și acorzi prioritate animalului",
+    "variant_2": "Claxonezi puternic pentru a speria animalul",
+    "variant_3": "Ocolești animalul rapid pentru a nu întârzia",
+    "correct_1": 1,
+    "correct_2": 0,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce înseamnă indicatorul rutier de culoare albastră?",
+    "variant_1": "Avertizare",
+    "variant_2": "Obligare",
+    "variant_3": "Informare",
+    "correct_1": 0,
+    "correct_2": 0,
+    "correct_3": 1,
+    "image_url": ""
+  },
+  {
+    "text": "Ce trebuie să faci dacă ai străbătut o curbă fără să reduci viteza?",
+    "variant_1": "Continui drumul fără alte măsuri",
+    "variant_2": "Opriți imediat și verificați mașina",
+    "variant_3": "Verifici dacă ai pus în pericol pe cineva",
+    "correct_1": 0,
+    "correct_2": 0,
+    "correct_3": 1,
+    "image_url": ""
+  },
+  {
+    "text": "Ce trebuie să faci dacă un alt șofer îți dă prioritate?",
+    "variant_1": "Îi semnalezi mulțumirea cu o claxonare",
+    "variant_2": "Ignori gestul său",
+    "variant_3": "Îți continui drumul fără nicio reacție",
+    "correct_1": 0,
+    "correct_2": 0,
+    "correct_3": 1,
+    "image_url": ""
+  },
+  {
+    "text": "Ce semnifică marcajul rutier de tip linie dublă discontinuă?",
+    "variant_1": "Permite depășirea în condiții de siguranță",
+    "variant_2": "Obligă la oprire totală",
+    "variant_3": "Interzice depășirea",
+    "correct_1": 0,
+    "correct_2": 1,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce semnifică marcajul rutier de tip linie simplă discontinuă?",
+    "variant_1": "Interzicerea depășirii",
+    "variant_2": "Permite depășirea în condiții de siguranță",
+    "variant_3": "Limitarea vitezei",
+    "correct_1": 0,
+    "correct_2": 1,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce înseamnă un indicator rutier care are forma unui triunghi roșu?",
+    "variant_1": "Interdicție",
+    "variant_2": "Obligare",
+    "variant_3": "Avertizare",
+    "correct_1": 0,
+    "correct_2": 0,
+    "correct_3": 1,
+    "image_url": ""
+  },
+  {
+    "text": "Cum trebuie să acționezi dacă ai trecut peste o groapă de pe carosabil?",
+    "variant_1": "Opriți imediat și verifici dacă ai afectat vehiculul",
+    "variant_2": "Încetinești și semnalizezi pericolul pentru ceilalți",
+    "variant_3": "Ocolești zona afectată pentru a nu te opri",
+    "correct_1": 0,
+    "correct_2": 1,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce înseamnă semnificația unui triunghi reflectorizant roșu aflat pe partea din spate a unui vehicul?",
+    "variant_1": "Semnalizează prezența unui vehicul lent",
+    "variant_2": "Indică o coloană oficială",
+    "variant_3": "Avertizează despre transportul de materiale periculoase",
+    "correct_1": 0,
+    "correct_2": 1,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce semnifică semnalul acustic dat de un alt șofer în trafic?",
+    "variant_1": "Îți indică că ești prioritar",
+    "variant_2": "Indică un pericol iminent",
+    "variant_3": "Te avertizează că depășești limita de viteză",
+    "correct_1": 0,
+    "correct_2": 0,
+    "correct_3": 1,
+    "image_url": ""
+  },
+  {
+    "text": "Care este prima acțiune pe care trebuie să o faci înainte de a vira la dreapta?",
+    "variant_1": "Să te asiguri că nu vin vehicule din stânga",
+    "variant_2": "Să verifici dacă ai prioritate de trecere",
+    "variant_3": "Să reduci viteza și să semnalizezi clare intenția de virare",
+    "correct_1": 1,
+    "correct_2": 0,
+    "correct_3": 1,
+    "image_url": ""
+  },
+  {
+    "text": "Ce semnifică marcajul rutier cu linie simplă continuă însoțită de o linie dublă discontinuă pe partea carosabilă pe care circuli?",
+    "variant_1": "Interzicerea depășirii doar pentru vehiculele din fața ta",
+    "variant_2": "Obligă la oprire",
+    "variant_3": "Interzicerea depășirii pentru toate vehiculele",
+    "correct_1": 1,
+    "correct_2": 0,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce înseamnă un panou adițional cu simbolul unei rămâneri de urgență?",
+    "variant_1": "Indică o zonă de parcare temporară",
+    "variant_2": "Avertizează despre apropierea unei zone cu restricții",
+    "variant_3": "Indică o locație de urgență unde poți opri în caz de necesitate",
+    "correct_1": 0,
+    "correct_2": 0,
+    "correct_3": 1,
+    "image_url": ""
+  },
+  {
+    "text": "Ce semnifică semnalul sonor dat de un autovehicul care se apropie de tine din spate?",
+    "variant_1": "Îți cere să îi faci loc",
+    "variant_2": "Îți indică un pericol iminent",
+    "variant_3": "Te atenționează să nu oprești brusc",
+    "correct_1": 0,
+    "correct_2": 1,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Cum trebuie să acționezi atunci când întâlnești o coloană oficială în misiune de intervenție?",
+    "variant_1": "Opriți imediat și așteaptă semnalul de a trece",
+    "variant_2": "Acorda prioritate de trecere și încetinești",
+    "variant_3": "Îți continui drumul fără nicio reacție",
+    "correct_1": 0,
+    "correct_2": 1,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce semnifică marcajul rutier de tip linie dublă continuă?",
+    "variant_1": "Interzicerea depășirii",
+    "variant_2": "Permite depășirea în condiții de siguranță",
+    "variant_3": "Limitarea vitezei",
+    "correct_1": 1,
+    "correct_2": 0,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce semnifică un panou adițional cu simbolul unui tractor?",
+    "variant_1": "Indică apropierea unei zone cu risc de accidente",
+    "variant_2": "Atenționează despre prezența tractoarelor pe traseu",
+    "variant_3": "Avertizează despre limitarea vitezei maxime admise",
+    "correct_1": 0,
+    "correct_2": 1,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Care este prima acțiune pe care trebuie să o faci înainte de a vira la dreapta într-o intersecție semaforizată?",
+    "variant_1": "Oprești și acorzi prioritate pietonilor",
+    "variant_2": "Te asiguri că nu vin vehicule din stânga",
+    "variant_3": "Să semnalizezi intenția de a vira la dreapta",
+    "correct_1": 0,
+    "correct_2": 0,
+    "correct_3": 1,
+    "image_url": ""
+  },
+  {
+    "text": "Ce înseamnă un panou adițional cu simbolul unei stații de alimentare?",
+    "variant_1": "Indică apropierea unei stații de alimentare",
+    "variant_2": "Avertizează despre limitarea vitezei maxime admise",
+    "variant_3": "Atenționează despre risc crescut de accidente",
+    "correct_1": 1,
+    "correct_2": 0,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce semnifică semnalul sonor continuu dat de un vehicul care se apropie de tine din față?",
+    "variant_1": "Îți cere să îi faci loc",
+    "variant_2": "Îți indică un pericol iminent",
+    "variant_3": "Te atenționează să încetinești",
+    "correct_1": 0,
+    "correct_2": 1,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Care este semnificația unui triunghi reflectorizant alb-roșu aflat pe partea din spate a unui vehicul?",
+    "variant_1": "Indică o coloană oficială",
+    "variant_2": "Avertizează despre transportul de materiale periculoase",
+    "variant_3": "Semnalizează prezența unui vehicul lent",
+    "correct_1": 0,
+    "correct_2": 0,
+    "correct_3": 1,
+    "image_url": ""
+  },
+  {
+    "text": "Ce semnifică semnalul sonor repetat dat de un autovehicul care se apropie de tine din spate?",
+    "variant_1": "Îți cere să îi faci loc",
+    "variant_2": "Indică o depășire iminentă",
+    "variant_3": "Te avertizează să nu oprești brusc",
+    "correct_1": 0,
+    "correct_2": 0,
+    "correct_3": 1,
+    "image_url": ""
+  },
+  {
+    "text": "Care este semnificația unui triunghi reflectorizant roșu aflat pe partea din față a unui vehicul?",
+    "variant_1": "Indică o coloană oficială",
+    "variant_2": "Avertizează despre transportul de materiale periculoase",
+    "variant_3": "Semnalizează prezența unui vehicul lent",
+    "correct_1": 0,
+    "correct_2": 1,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce trebuie să faci dacă un șofer îți acordă prioritate într-o intersecție?",
+    "variant_1": "Îi semnalezi mulțumirea cu o claxonare",
+    "variant_2": "Îl ignori și îți continui drumul",
+    "variant_3": "Oprești și aștepți până trece complet",
+    "correct_1": 1,
+    "correct_2": 0,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce înseamnă un panou adițional cu simbolul unei școli?",
+    "variant_1": "Indică apropierea unei școli",
+    "variant_2": "Avertizează despre limitarea vitezei maxime admise",
+    "variant_3": "Atenționează despre risc crescut de accidente",
+    "correct_1": 1,
+    "correct_2": 0,
+    "correct_3": 0,
+    "image_url": ""
+  },
+  {
+    "text": "Ce semnifică un triunghi reflectorizant alb-roșu pe partea din față a unui vehicul?",
+    "variant_1": "Indică o coloană oficială",
+    "variant_2": "Avertizează despre transportul de materiale periculoase",
+    "variant_3": "Semnalizează prezența unui vehicul lent",
+    "correct_1": 0,
+    "correct_2": 0,
+    "correct_3": 1,
+    "image_url": ""
+  }
+]

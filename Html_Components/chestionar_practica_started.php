@@ -15,6 +15,9 @@
     <title>Chestionar</title>
   </head>
   <body>
+      
+    <script src="../Scripts/quiz-practice.js"></script>
+     <script src="../Scripts/sound-control.js"></script>
     <script src="../Scripts/responsive-navbar.js"></script>
     <script src="../Scripts/background-options.js"></script>
     <script src="../Scripts/accesare-cont.js"></script>
@@ -26,6 +29,11 @@
 
       <div class="question-container">
         <div class="header">
+          <audio controls autoplay loop id="audio">
+  
+            <source src=".././Assets/Sound/song.mp3" type="audio/mpeg">
+            
+          </audio>
           <span class="information">Intrebari corecte:</span>
           <span class="information">Intrebari gresite:</span>
         </div>
@@ -43,23 +51,26 @@
             </div>
             <div class="question-form">
               <form>
-                <label for="variant1" class="variant-container" id="v1cont">
+               <label for="variant1" class="variant-container" id="v1cont">
                   <input type="checkbox" id="variant1" />
-                  Varianta 1
+                  <p class="variant">Varianta 1</p>
                 </label>
                 <label for="variant2" class="variant-container" id="v2cont">
                   <input type="checkbox" id="variant2" />
-                  Varianta 2
+                  <p class="variant">Varianta 2</p>
                 </label>
                 <label for="variant3" class="variant-container" id="v3cont">
                   <input type="checkbox" id="variant3" />
-                  Varianta 3
+                  <p class="variant">Varianta 3</p>
                 </label>
                 <input type="button" class="send" value="Trimitere Raspuns" />
               </form>
             </div>
           </div>
         </div>
+      </div>
+       <div id="sound">
+          <img src="../Assets/Images/sound-on.png" alt="toggle-sound" width="100" id="sound-icon">
       </div>
     </div>
     <footer class="about-section">

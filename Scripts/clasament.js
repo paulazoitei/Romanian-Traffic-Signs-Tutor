@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     .then((res) => res.json())
     .then((res) => {
       users = res;
-      users.sort((a, b) => b.points - a.points);
+      //users.sort((a, b) => b.points - a.points);
     });
 
   users.sort((a, b) => b.points - a.points);

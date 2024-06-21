@@ -7,6 +7,7 @@
     <link rel="stylesheet" href=".././Styles/navstyle.css" />
     <link rel="stylesheet" href=".././Styles/body.css" />
     <link rel="stylesheet" href=".././Styles/clasament.css" />
+     <link rel="stylesheet" href=".././Styles/question.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Raleway"
       rel="stylesheet"
@@ -27,8 +28,15 @@ if (isset($_SESSION['user_id'])) {
 ?>
 </script>
     <script src="../Scripts/clasament.js"></script>
+    <script src="../Scripts/sound-control.js"></script>
     <script src="../Scripts/responsive-navbar.js"></script>
     <script src="../Scripts/accesare-cont.js"></script>
+    
+     <audio controls autoplay loop id="audio">
+  
+            <source src=".././Assets/Sound/clasament.mp3" type="audio/mpeg">
+            
+          </audio>
     <div class="bg-image-container">
       <img src=".././Assets/Images/bodybg.jpg" class="bg-image" alt="bg-img" />
     </div>
@@ -49,6 +57,9 @@ if (isset($_SESSION['user_id'])) {
         </div>
         </div>
         
+      </div>
+       <div id="sound">
+          <img src="../Assets/Images/sound-on.png" alt="toggle-sound" width="100" id="sound-icon">
       </div>
     </div>
 

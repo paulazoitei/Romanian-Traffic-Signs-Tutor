@@ -8,6 +8,14 @@ class App
     public function __construct()
     {
         $url = $this->parseUrl();
+        if ($_SERVER['REQUEST_METHOD'] === 'PUT' && preg_match("/\/php\/Romanian-Traffic-Signs-Tutor\/Public\/api\/users\/(\d+)/", $_SERVER['REQUEST_URI'], $matches)) {
+            $id = $matches[1];
+            error_log("Routing PUT request to UsersController for user ID: $id");
+            require_once '../app/controllers/UsersController.php';
+            $controller = new UsersController();
+            $controller->update($id);
+            exit();
+        }
          if($_SERVER['REQUEST_METHOD'] === 'DELETE' && $_SERVER['REQUEST_URI'] === '/php/Romanian-Traffic-Signs-Tutor/Public/api/users')
          {
                 require_once '../app/controllers/UsersController.php';
@@ -63,7 +71,15 @@ class App
             $controller->contact();
             exit();
         }
-        if (file_exists('../app/controllers/' . $url[0] . '.php')) {
+         if (preg_match("/\/php\/Romanian-Traffic-Signs-Tutor\/Public\/api\/users\/(\d+)/", $_SERVER['REQUEST_URI'], $matches)) {
+                $id = $matches[1];
+                require_once '../app/controllers/UsersController.php';
+                $controller = new UsersController();
+                $controller->getUserById($id);
+                exit();
+            }
+        
+        if(file_exists('../app/controllers/' . $url[0] . '.php')) {
             $this->controller = $url[0];
             unset($url[0]);
         }

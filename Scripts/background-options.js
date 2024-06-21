@@ -11,8 +11,12 @@ document.addEventListener("DOMContentLoaded", function () {
   let v3Toggle = false;
   let selectColor = "#42c9a8";
   let originalColor = "rgb(33, 177, 193)";
+
   variant1.addEventListener("click", (e) => {
     e.preventDefault();
+    if (variant1.style.backgroundColor === originalColor) {
+      v1Toggle = false;
+    } else v1Toggle = true;
     if (v1Toggle === false) {
       variant1.style.backgroundColor = selectColor;
     } else {
@@ -24,6 +28,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   variant2.addEventListener("click", (e) => {
     e.preventDefault();
+    if (variant2.style.backgroundColor === originalColor) {
+      v2Toggle = false;
+    } else v2Toggle = true;
+    console.log(v2Toggle);
     if (v2Toggle === false) {
       variant2.style.backgroundColor = selectColor;
     } else {
@@ -35,6 +43,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   variant3.addEventListener("click", (e) => {
     e.preventDefault();
+    if (variant3.style.backgroundColor === originalColor) {
+      v3Toggle = false;
+    } else v3Toggle = true;
     if (v3Toggle === false) {
       variant3.style.backgroundColor = selectColor;
     } else {
