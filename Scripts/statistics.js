@@ -21,6 +21,8 @@ document.addEventListener("DOMContentLoaded", function () {
           data.quizSuccessRate + "%";
         document.getElementById("number-of-questions").textContent =
           data.numberOfQuestions;
+        document.getElementById("number-of-max-rank").textContent=
+            data.numberMaxRank;
       }
     })
     .catch((error) => {

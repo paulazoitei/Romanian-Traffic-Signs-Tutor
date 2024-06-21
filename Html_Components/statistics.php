@@ -7,7 +7,6 @@
     <link rel="stylesheet" href=".././Styles/style.css" />
     <link rel="stylesheet" href=".././Styles/navstyle.css" />
     <link rel="stylesheet" href=".././Styles/body.css" />
-    <link rel="stylesheet" href=".././Styles/contact.css" />
     <link rel="stylesheet" href=".././Styles/statistics.css"/>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
     <title>RoTST</title>
@@ -46,6 +45,11 @@
                 <h2>Numarul de intrebari de pe site</h2>
                 <p id="number-of-questions">0</p>
             </div>
+            <div class="stat-item">
+                <h2>Numarul utilizatorilor care au  rank-ul maxim</h2>
+                <p id="number-of-max-rank">0</p>
+            </div>
+
         </div>
     </div>
 </div>
