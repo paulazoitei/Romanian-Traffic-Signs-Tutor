@@ -18,13 +18,15 @@ class StatisticsController
         $totalPoints = $this->getTotalPoints();
         $quizSuccessRate = $this->getQuizSuccessRate();
         $numberOfQuestions=$this->getNumberOfQuestions();
+        $numberMaxRank=$this->getNumberOfMaxRank();
 
         echo json_encode([
             "totalUsers" => $totalUsers,
             "totalAdmins" => $totalAdmins,
             "totalPoints" => $totalPoints,
             "quizSuccessRate" => $quizSuccessRate,
-            "numberOfQuestions" => $numberOfQuestions
+            "numberOfQuestions" => $numberOfQuestions,
+            "numberMaxRank" => $numberMaxRank
         ]);
     }
 
@@ -49,7 +51,7 @@ class StatisticsController
         $sql = "SELECT AVG(points) as total FROM users";
         $result = $this->mysqli->query($sql);
         $row = $result->fetch_assoc();
-        return $row['total'];
+        return round($row['total'], 2);
     }
     private function getQuizSuccessRate()
     {
@@ -73,5 +75,16 @@ class StatisticsController
         return $row['count'];
 
     }
+    private function getNumberOfMaxRank()
+    {
+
+       $sql="SELECT COUNT(*) as count from users where points>=3000 ";
+       $result = $this->mysqli->query($sql);
+       $row = $result->fetch_assoc();
+       return $row['count'];
+
+        }
+
+
 
 }
