@@ -1,7 +1,7 @@
 //let filename = "../data/trecere-cale-ferata.json";
 let filenames = [
   "avertizare",
-  "benzi-reversibile",
+
   "borne-kilometrice",
   "informare",
   "informare-turistica",
@@ -45,9 +45,9 @@ filenames.map((file) => {
           wrongAnswer1 = chooseAnswer(data);
           wrongAnswer2 = chooseAnswer(data);
         } while (
-          sign === wrongAnswer1 ||
-          wrongAnswer1 === wrongAnswer2 ||
-          sign === wrongAnswer2
+          sign.title === wrongAnswer1.title ||
+          wrongAnswer1.title === wrongAnswer2.title ||
+          sign.title === wrongAnswer2.title
         );
         let placedwr1 = false;
         let randomPlacement = Math.floor(Math.random() * 3);
