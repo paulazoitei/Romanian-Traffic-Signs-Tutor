@@ -25,21 +25,21 @@
     <div class="login-or-register">
         <div class="login form-block">
             <p class="login-text">Login</p>
+
             <form class="login-form" action="/php/Romanian-Traffic-Signs-Tutor/Public/auth/login" method="post">
                 <div class="input-field">
                     <label for="username">Username:</label><br />
-                    <div id="login-username-error" class="error-message"></div>
                     <input type="text" id="username" name="username" placeholder="Introdu username-ul tau..." />
                     <br /><br />
                 </div>
                 <div class="input-field">
                     <label for="password">Password:</label><br />
-                    <div id="login-password-error" class="error-message"></div>
                     <input type="password" id="password" name="password" placeholder="Introdu parola ta..." />
                 </div>
                 <div class="forgot-password">
                     <a href="/php/Romanian-Traffic-Signs-Tutor/Public/forgot_password" id="forgot-password-link">Forgot Password?</a>
                 </div>
+                <div id="login-error-container" class="error-message"></div> <!-- Moved error message container here -->
                 <?php if (isset($_SESSION['login_error'])): ?>
                     <div class="error-message">
                         <?php
@@ -53,6 +53,7 @@
                 </div>
 
             </form>
+
         </div>
         <div class="separator"></div>
         <div class="register form-block">
@@ -95,7 +96,7 @@
                     <div class="error-message">
                         <?php
                         echo $_SESSION['register_error'];
-                        unset($_SESSION['register_error']); // Clear error after displaying
+                        unset($_SESSION['register_error']);
                         ?>
                     </div>
                 <?php endif; ?>

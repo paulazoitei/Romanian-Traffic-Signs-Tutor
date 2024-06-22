@@ -64,6 +64,7 @@ class Auth extends Controller
         $this->key = file_get_contents(__DIR__ . '/../config/secret_key.txt');
     }
 
+
     public function login() {
         if ($_SERVER["REQUEST_METHOD"] === "POST") {
             if (empty($_POST["username"])) {
@@ -97,34 +98,49 @@ class Auth extends Controller
             $result = @file_get_contents($url, false, $context);
 
             if ($result === FALSE) {
-                $error = error_get_last();
-                $_SESSION['login_error'] = 'Request failed: ' . $error['message'];
-                header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/auth");
+                $http_response_header = isset($http_response_header) ? $http_response_header : [];
+                $http_code = $this->get_http_response_code($http_response_header);
+
+                if ($http_code === 401) {
+                    echo json_encode(['error' => 'Username or password are incorrect!']);
+                    http_response_code(401);
+                } else {
+                    echo json_encode(['error' => 'Request failed']);
+                    http_response_code(500);
+                }
                 exit();
             }
 
             $response = json_decode($result, true);
 
             if (isset($response['error'])) {
-                $_SESSION['login_error'] = $response['error'];
-                header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/auth");
+                echo json_encode(['error' => $response['error']]);
+                http_response_code(401);
                 exit();
             }
 
             $_SESSION['auth_token'] = $response['token'];
 
-            // Decode the token to extract user_id and username
             $decoded = JWT::decode($response['token'], new Key($this->key, 'HS256'));
             $_SESSION['user_id'] = $decoded->sub;
             $_SESSION['username'] = $decoded->username;
 
-
-            header("Location: /php/Romanian-Traffic-Signs-Tutor/Public/profil");
-
-
-            exit();
+            echo json_encode(['token' => $response['token']]);
+            http_response_code(200);
         }
     }
+
+    private function get_http_response_code($http_response_header) {
+        if (!empty($http_response_header) && is_array($http_response_header)) {
+            $parts = explode(' ', $http_response_header[0]);
+            if (count($parts) > 1) {
+                return intval($parts[1]);
+            }
+        }
+        return 0;
+    }
+
+
 
     public function logout()
     {
