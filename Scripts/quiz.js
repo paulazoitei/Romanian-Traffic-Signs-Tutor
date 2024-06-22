@@ -155,11 +155,14 @@ document.addEventListener("DOMContentLoaded", async function () {
             },
             body: JSON.stringify(requestBody),
           }
-        ).then((res) => console.log(res));
+        )
+          .then((res) => console.log(res))
+          .then(() => {
+            localStorage.setItem("points", String(localPoints));
 
-        localStorage.setItem("points", String(localPoints));
+            window.location.href = "fail";
+          });
 
-        window.location.href = "fail";
         return true;
       }
 
@@ -189,11 +192,15 @@ document.addEventListener("DOMContentLoaded", async function () {
             },
             body: JSON.stringify(requestBody),
           }
-        ).then((res) => console.log(res));
+        )
+          .then((res) => console.log(res))
+          .then(() => {
+            localStorage.setItem("points", String(localPoints));
 
-        localStorage.setItem("points", String(localPoints));
+            window.location.href = "success";
+          })
+          .catch((err) => console.log(err));
 
-        window.location.href = "success";
         return true;
       }
 
