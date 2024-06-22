@@ -1,6 +1,3 @@
-
-
-
 .statistics-container {
   padding: 20px;
   text-align: center;
@@ -27,7 +24,6 @@
   margin: 15px;
   box-sizing: border-box;
   height: auto;
-
 }
 
 .stat-item h2 {
@@ -41,7 +37,23 @@
   font-weight: bold;
   color: #007bff;
 }
+#downloadChart {
+  width: 9rem;
+  font-size: 1rem;
+  margin-top: 2rem;
+  font-weight: bold;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+#downloadChart:hover {
+  background-color: rgb(190, 255, 253);
+}
+#downloadChart:active {
+  background-color: rgb(149, 206, 204);
 
+  transform: scale(0.92);
+}
 @media (max-width: 1024px) {
   .stat-item {
     width: 45%;
@@ -71,5 +83,3 @@
     align-items: center;
   }
 }
-
-

@@ -15,7 +15,7 @@
 <script src="../Scripts/responsive-navbar.js"></script>
 <script src="../Scripts/accesare-cont.js"></script>
 <script src="../Scripts/statistics.js"></script> <!-- Adaugă acest script -->
-
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <div class="bg-image-container">
     <img src=".././Assets/Images/bodybg.jpg" class="bg-image" alt="bg-img" />
 </div>
@@ -49,7 +49,13 @@
                 <h2>Numarul utilizatorilor care au  rank-ul maxim</h2>
                 <p id="number-of-max-rank">0</p>
             </div>
-
+            <div class="stat-item">
+    <h2>Distribuția rankurilor utilizatorilor</h2>
+    <canvas id="rankChart"></canvas>
+    <button id="downloadChart">Download Chart
+        <img src=".././Assets/Images/download_black.png" width="20px">
+    </button>
+</div>
         </div>
     </div>
 </div>
