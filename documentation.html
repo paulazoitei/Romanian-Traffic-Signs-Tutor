@@ -89,7 +89,7 @@
         <li>O pagina destinata semnelor rutiere din Romania</li>
         <li>Utilizatorul poate accesa legislatia rutiera curenta</li>
         <li>Realizarea de chestionare de practica folosite ca antrenament pentru cele oficiale</li>
-        <li>Realizarea de chestionare oficiale prin intermediul carora utilizatorul
+        <li>Daca este autentificat ,utilizatorul poate accesa  chestionarele oficiale prin intermediul carora
           acumuleaza puncte,intrebari corecte si intrebari gresite
         </li>
         <li>Vizualizarea clasamentului, unde se afla utlizatorii cei mai sarguinciosi,care 
@@ -105,6 +105,20 @@
         <li>
           Accesarea sectiunii about, in cazul in care utilizatorul doreste sa vada o scurta descriere a aplicatiei.
         </li>
+      <li>
+          Daca utilizatorul este are un cont pe site si a uitat parola ,poate obtine una noua
+          prin accesarea sectiunii Forgot Password
+      </li>
+      <li>
+          Daca utilizatorul are cont de admin,acesta poate sterge utilizatori din baza de date
+      </li>
+      <li>
+          Daca utilizatorul are cont de admin,acesta poate adauga intrebari noi
+      </li>
+      <li>
+          Descarcarea clasamentului ca flux de date RSS
+      </li>
+
     </ul>
     
 </section>
@@ -133,105 +147,483 @@
   </p>
 </section>
 </section>
+
+<section id="interfaces">
+    <h3> Interfețele aplicației</h3>
+
+    <section id="user_interface">
+        <h4>Interfața utilizatorului</h4>
+        Mai jos, puteti observa prezentarea generala a fiecarei pagini de pe site precum si functionalitatile
+              oferite de acesta:
+                <ul>
+
+                    <li id="nav-bar"><b>Bara de navigație</b></li>
+                    <li style="list-style: none">
+                        <ul>
+                            <li>Prin intermediul acesteia utilizatorul poate naviga catre majoritatea paginilor din aplicatie,
+                            ea se afla pe toate paginile</li>
+
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/nav-bar.png"  alt="nav-bar" width=800
+                            ></li>
+                        </ul>
+                    </li>
+                    <li id="footer"><b>Footer-ul</b></li>
+                    <li style="list-style: none">
+                        <ul>
+                            <li>Prin intermediul acestuia utilizatorul poate naviga catre paginile About,Help,Contact si poate accesa retelele sociale ale detinatorilor site-ului,
+                                acesta se afla pe toate paginile</li>
+
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/footer.png"  alt="nav-bar" width=800
+                            ></li>
+                        </ul>
+                    </li>
+
+                    <li id="login-register-page"><b>Pagina de autentificare si inregistrare</b></li>
+                    <li style="list-style: none">
+                        <ul>
+                            <li>Pagina are rolul de  a inregistra  si de a autentifica utilizatorii in aplicatie.</li>
+                            <li>Pentru a se înregistra, utilizatorul trebuie să completeze câmpurile <b>Username</b>, <b>Email</b>,
+                                <b>Password</b>, <b>Confirm Password</b> și <b>Phone number</b> urmând să acționeze butonul <b>Register in</b> .Mai mult, câmpurile <b>Email</b> și <b>Username</b>
+                                trebuie să fie <b>unice</b>.</li>
+                            <li>Pentru a se autentifica, utilizatorul trebuie să completeze câmpurile de "Username" și "Password" cu
+                                credențiale <b>valide</b>, urmând să acționeze butonul <b>Connect</b>.
+                            </li>
+                            <li> În cazul în care utilizatorul și-a uitat parola, acesta poate să o reseteze selectând opțiunea de
+                                <b> Forgot Password? </b> </li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/login-register.png" alt="login-register" width=800 height="400">
+                            </li>
+                        </ul>
+                    </li>
+
+
+
+                    <li id="forgot_password-page"><b>Pagina de Forgot Password</b></li>
+                    <li style="list-style: none">
+                        <ul>
+                            <li> Pagina are rolul de a trimite pe email-ul pe care l-a completat
+                            utilizatorul in form, o noua parola, cu care acesta se va putea autentifica de acum inainte.</li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/forgot_password.png" alt="forgot-password" width=800 height="400"></li>
+                        </ul>
+                        <ul>
+                            <li> Dupa ce utilizatorul  completeaza cu un mail si actioneaza butonul <b>Trimite</b>, va fi atentionat ca o noua parola a fost trimisa
+                                pe mail-ul sau.
+                            </li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/atentionare_forgot_password.png" alt="atentionare_forgot-password" width=275 height="150"></li>
+                        </ul>
+                    </li>
+
+                    <li id="home-page"><b> Pagina de acasă</b></li>
+                    <li style="list-style: none">
+                        <ul>
+                            <li>In aceasta pagina se afla o scurta descriere a aplicatiei si o mica indrumare pentru utilizator.</li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/home_page.png" alt="home_page" width=800 height="400">
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li id="mediu_invatare"><b>Pagina Mediu  Invatare</b></li>
+                    <li style="list-style: none">
+                        <ul>
+                            <li>Rolul acestei pagini este acela de a redirecta utilizatorul spre una din paginile : Chestionare de practica,
+                            Legislatie sau Semne rutiere</li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/mediu_invatare.png" alt="mediu_invatare" width=800>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="legislatie"><b>Pagina aferenta legislatiei</b></li>
+                    <li style="list-style: none">
+                        <ul>
+                            <li>Aceasta pagina cuprinde legislatia rutiera structurata pe capitole. </li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/legislatie.png" alt="legislatie" width=800 height="400">
+
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>In momentul in care utilizatorul da click pe unul din capitole acesta se extinde. </li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/legislatie_extend.png" alt="legislatie_extend" width=800 height="400">
+
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li id="signs"><b>Pagina cu semnele de circulație</b></li>
+                    <li style="list-style: none">
+                        <ul>
+                            <li>Aceasta pagina este dedicata categoriilor de semne rutiere. </li>
+                            <li> Pentru a putea vedea semnele dintr-o anumite categorie utilizatorul va da click pe o categorie si va fi redirectionat pe alta pagina. </li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/categorii_semne.png" alt="streetSigns" width=800></li>
+
+                        </ul>
+                        <ul>
+
+                            <li> Pe aceasta pagina sunt semnele de circulatie dintr o anumita categorie,iar cand utilizatorul va da click pe unul din ele,acesta
+                            se va extinde si in partea de jos va fi o explicatie, unde este cazul.</li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/semn_rutier.png" alt="streetSigns" width=800></li>
+
+                        </ul>
+
+                    </li>
+
+
+
+                    <li id="tests-practice"><b>Pagina cu chestionare de practica</b></li>
+                    <li style="list-style: none">
+                        <ul>
+                            <li>Pagina ofera chestionare pentru antrenament in urma carora punctajul utilizatorului nu va fi afectat. </li>
+                            <li>Initial, utilizatorul va fi redirectionat catre o pagina cu o mica descriere a chestionarelor de practica iar dupa ce va da click
+                            pe start va fi redirectionat catre chestionar.</li>
+                            <li> Pentru acest tip de chestionare nu exista limita de timp,raspunsuri corecte sau raspunsri gresite.
+                            </li>
+                            <li>Întrebările au 3 variante de răspuns, cu cel puțin unul corect la fiecare. Pentru a rezolva, se va(vor) bifa
+                                răspunsul(urile) corect(e) și se va apăsa butonul <b>Trimite răspunsul</b>.
+                            </li>
+                            <li>
+                                Utilizatorul va avea contorizat cate raspunsuri corecte si gresite are. Daca acesta nu alege nicio varianta de raspuns
+                                din cele disponibile, atunci va fi atentionat.
+                            </li>
+
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/chestionare_practica.png" alt="chestionare_started" width=800
+                            ></li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/atentionare_chestionar_practica.png" alt="chestionar_practica_atentionare" width=800
+                            ></li>
+                        </ul>
+                    </li>
+
+
+                    <li id="help"><b>Pagina de Help</b></li>
+                    <li style="list-style: none">
+                        <ul>
+                            <li> Pe aceasta pagina se gasesc raspunsuri la niste intrebari pe care utilizatorii le pot avea frecvent. Cand utilizatorul
+                            da click pe o intrebare ,aceasta se extinde oferind raspunsul aferent.</li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/help_extend.png" alt="help_page_extend" width=800>
+                        </ul>
+
+
+                    <li id="profile"><b>Pagina de profil</b></li>
+                    <li style="list-style: none">
+                        <ul>
+                            <li>Pe aceasta pagina se gasesc informatii referitoare la un utilizator .</li>
+
+                                <img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/profile.png" alt="profile" width=800 >
+
+                            <li>
+                                Dupa ce utilizatorul se va autentifica, acesta va fi redirectat catre pagina de profil.Aici, va vedea daca este admin sau nu,rank-ul
+                                pe care il are in aplicatie, in functie de punctele obtinute la chestionarele oficiale,punctele necesare pentru a ajunge la rank-ul urmator,
+                                numarul chestionarelor reusite ,picate si pozitia sa in clasament.
+                            </li>
+
+                            <li>Mai mult, utilizatorul va avea la dispoziție un buton <b>Sign out</b> prin care poate ieși din cont si va fi redirectat pe pagina de
+                                login si register.
+                            </li>
+
+
+                        </ul>
+                    </li>
+
+                    <li id="about"><b>Pagina About</b></li>
+                    <li style="list-style: none">
+                        <ul>
+                            <li>Pe aceasta pagina se gaseste o descriere scurta si succinta a aplicatiei,aceasta sectiune poate fi accesata
+                            de pe butonul About situat la nivelul footer-ului.</li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/about.png" alt="about_page" width=800 >
+                            </li>
+
+                        </ul>
+                    </li>
+
+
+                    <li id="contact"><b>Pagina Contact</b></li>
+                    <li style="list-style: none">
+                        <ul>
+                            <li>In cadrul acestei pagini, utilizatorul completeaza un formular cu un subiect,adresa sa de mail si mesajul/reclamatia
+                            pe care vrea sa o transmita celui care se ocupa de managementul aplicatiei.Aceasta pagina poate fi accesata  din footer.
+                            Cand utilizatorul actioneaza butonul <b>Trimite</b>, pe adresa de mail a aplicatiei, va fi trimis mesajul cu subiectul aferent
+                            si adresa de email, astfel incat managerul sa poata da reply utilizatorului.</li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/contact.png" alt="contact_page" width=800 >
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li id="chestionare_oficiale"><b>Pagina cu chestionare oficiale</b></li>
+                    <li style="list-style: none">
+                        <ul>
+                            <li>Pagina ofera chestionare pentru antrenament in urma carora punctajul utilizatorului va fi schimbat si anume:+0.5 puncte
+                            pentru un raspuns corect si -0.5 puncte pentru un raspuns gresit.</li>
+                            <li>Initial, utilizatorul va fi redirectionat catre o pagina cu o mica descriere a chestionarelor oficiale iar dupa ce va da click
+                                pe start va fi redirectionat catre chestionar.</li>
+                            <li> Daca utilizatorul va face mai mult de 4 greseli atunci chestionarul se va opri si chestionarul va fi picat si punctajul lui va fi scazut
+                                cu -7.5 puncte.Pentru a avea un chestionar reusit el trebuie sa acumuleze 22 de raspunsuri corecte si sunt maxim 26 de intrebari.Daca
+                                chestionarul este reusit, acesta va fi notificat si in plus va avea si punctajul obtinut.
+                            </li>
+                            <li>Întrebările au 3 variante de răspuns, cu cel puțin unul corect la fiecare. Pentru a rezolva, se va(vor) bifa
+                                răspunsul(urile) corect(e) și se va apăsa butonul <b>Trimite răspunsul</b>.
+                            </li>
+                            <li>
+                                Utilizatorul va avea contorizat cate raspunsuri corecte si gresite are. Daca acesta nu alege nicio varianta de raspuns
+                                din cele disponibile atunci va fi atentionat.
+                            </li>
+
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/chestionare_oficiale.png" alt="chestionare_started" width=800
+                            ></li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/atentionare_chestionar_practica.png" alt="chestionar_practica_atentionare" width=800
+                            ></li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/respins.png" alt="respins" width=800
+                            ></li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/admis.png" alt="admis" width=800
+                            ></li>
+                        </ul>
+                    </li>
+
+
+
+                    <li id="admin"><b>Pagina de Admin</b></li>
+                    <li style="list-style: none">
+                        <ul>
+                            <li>Aceasta pagina este destinata utilizatorilor care au distinctia de administrator in aplicatie. </li>
+
+                            <li>Un admin poate adauga o noua intrebare pentru ca aceasta sa fie folosita pentru chestionare.Acesta trebuie sa specifice
+                            enuntul ,variantele ,variantele corecte si un url pentru imagine.</li>
+
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/admin_first.png" alt="admin_first" width=800 >
+                            </li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/admin_second.png" alt="admin_first" width=800 >
+                            </li>
+                            <li>Un admin poate sterge un anumit utilizator din baza de date specificand username-ul acestuia.</li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/admin_delete.png" alt="admin_delete" width=800 >
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li id="statistics"><b>Pagina de Statistici</b></li>
+                    <li style="list-style: none">
+                        <ul>
+                            <li>In cadrul acestei pagini pot fi vazute cateva statistici cu privire la aplicatie.In partea de jos exista un pie chart
+                            cu rank-urile utilizatorilor ,de altfel acesta poate fi descarcati prin butonul <b>Download chart</b></li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/statistics.png" alt="statistics_page" width=800 >
+                            </li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/statistics_pie_chart.png" alt="statistics_pie" width=800 >
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li id="clasament"><b>Pagina Clasament</b></li>
+                    <li style="list-style: none">
+                        <ul>
+                            <li>In cadrul acestei pagini, se gaseste clasamentul utilizatorilor, realizat pe baza punctajului obtinut in urma chestionarelor oficiale.
+                            In acest clasament se gasesc doar cei de pe primele 10 locuri, acesta poate fi de asemenea descarcat si ca un flux de date RSS.</li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/clasament.png" alt="clasament" width=800 >
+                            </li>
+                            <li style="list-style: none" class="pictures"><img src="../Romanian-Traffic-Signs-Tutor/Assets/Images/RSS.png" alt="RSS" width=800 >
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+    </section>
+
+                <section id="hardware-interface">
+
+                    <h4> Interfața Hardware</h4>
+                    <p>
+                        Dupa modul cum a fost conceput, acest produs nu necesita interfete hardware.
+                    </p>
+                </section>
+
+                <section id="software-interface">
+                    <h4> Interfața Software</h4>
+                    <p>
+                        Cerințele minime de software includ un browser funcțional, compatibil cu HTML5 și cu JavaScript.
+                        Design-ul arhitectural al aplicatiei este MVC(Model - View - Controller) pentru a modulariza aplicatia si a usura scrierea de cod.
+                    </p>
+                    <h5>MySQL Database</h5>
+                    <p>
+                   Cu ajutorul acestei baze de date se stocheaza utilizatorii in tabelul users, cu informatiile aferente lor (username,parola criptata,
+                    puncte,acumulate,chestionare picate etc.)   si intrebarile  in tabela questions care au mai multe caracateristici(enunt,variante corecte,imagine etc.)
+                    </p>
+
+                </section>
+
+                <section id="communication-interface">
+                    <h4> Interfața de comunicare</h4>
+                    <p>
+                        Aplicația necesită o conexiune la internet. Standardul de comunicare care va fi utilizat este HTTP.
+                    </p>
+                </section>
+</section>
 <section id="source-code">
-  <h2>Gestionarea Codului</h2>
-  <p>
-      Pentru gestionarea codului sursa al proiectului s-a folosit <a href="https://github.com" target="_blank">GitHub</a>.
-      Ambii membrii din echipa au realizat commituri in repository-ul proiectului. S-au utilizat branch-uri de catre 
-      fiecare membru al echipei pentru a lucra la feature-uri diferite si pentru evitarea conflictelor de cod in cadrul aplicatiei git.
-  </p>
-  <p>
-      Dupa finalizarea proiectului acesta va fi facut public iar codul sursa al acestuia va putea fi vizualizat 
-      <a href="https://github.com/paulazoitei/Romanian-Traffic-Signs-Tutor" target="_blank">aici.</a>
-  </p>
+    <h2>Gestionarea Codului</h2>
+    <p>
+        Pentru gestionarea codului sursa al proiectului s-a folosit <a href="https://github.com" target="_blank">GitHub</a>.
+        Ambii membrii din echipa au realizat commituri in repository-ul proiectului. S-au utilizat branch-uri de catre
+        fiecare membru al echipei pentru a lucra la feature-uri diferite si pentru evitarea conflictelor de cod in cadrul aplicatiei git.
+    </p>
+    <p>
+        Dupa finalizarea proiectului acesta va fi facut public iar codul sursa al acestuia va putea fi vizualizat
+        <a href="https://github.com/paulazoitei/Romanian-Traffic-Signs-Tutor" target="_blank">aici.</a>
+    </p>
+</section>
+<section id="securitate-protectie">
+    <h2>Securitate</h2>
+   <section>
+       <h2>SQL Injection</h2>
+       <p>
+            Toate datele sunt introduse in baza de date prin intermediul unor prepared statements, care asigura prevenirea SQL Injection.
+       </p>
+       <h2>JWT</h2>
+       <p>
+           Autorizarea utilizatorilor se face pe baza standardului JWT.Token-ul generat este salvat in Local storage.
+       </p>
+   </section>
+    <h2>Protectia datelor</h2>
+    <p>
+        Aplicația va asigura confidențialitatea parolelor utilizatorilor prin criptarea lor.
+    </p>
+
 </section>
 
 
+        <section id="system-features">
 
-<section id="system-features">
- 
-  <h2>Functionalitati</h2>
-  <section id="login">
-      <h3>Autentificarea</h3>
-      <p>
-          Utilizatorul se poate autentifica in cadrul paginei Accesare Cont, in sectiunea de login, unde va trebui sa introduca
-          username-ul si parola si sa apese butonul de "submit" ,daca datele de logare sunt corecte,va fi redirectionat
-          pe pagina Home. Pentru a putea realiza aceste operatiuni el trebuie sa aiba un cont creat anterior.
-      </p>
-  </section>
-  <section id="register">
-      <h3>Inregistrarea</h3>
-      <p>
-          Pentru a se inregistra, utilizatorul trebuie sa completeze un formular cu datele sale personale
-          (nume, prenume, email, parola, confirmare parola) si sa apese butonul de "submit". In cazul in care
-          fiecare dintre aceste date este valida (numele de utilizator nu a mai fost folosit,email-ul are
-          un format valid,cele doua parole coincid), utilizatorul va avea un cont nou creat si va ramane pe aceeasi
-          pagina unde sa afla si login-ul.
-      </p>
-  </section>
+          <h2>Functionalitati</h2>
 
-  <section id="general-functionalities">
-      <h3>Chestionare,legislatie,semne rutiere,clasament</h3>
-      <p>
-          Utilizatorul va putea putea accesa sectiunea mediu de invatare, unde va gasi legislatia rutiera curenta,
-           pentru fiecare topic va da click si i se va intinde o sectiune cu informatii despre acel topic. Tot in cadrul mediului
-           de invatare, user-ul va putea accesa sectiunea semne rutiere, unde va gasi o lista cu semnele de circulatie din Romania, impartite
-           pe categorii si le va putea accesa pe fiecare in parte. 
-      </p>
-      <p>
-        Acesta va putea accesa si sectiunea chestionare de practica, in urma
-           carora nu va acumula puncte si nu va fi penalizat pentru raspunsuri gresite. Chestionarele de practica sunt o forma de antrenament
-           pentru cele oficiale, pe baza carora utilizatorul va obtine puncte , va fi penalizat pentru raspunsuri gresite si va concura
-           in clasament, pe baza acestui punctaj cu ceilalti utilizatori ai aplicatiei. Utilizatorul va putea accesa si sectiunea clasament
-           pentru a-si vedea pozitia in clasamentul general, dupa ce a acumulat un numar considerabil de puncte.
-      </p>
-  </section>
+            <section id="management">
+                <h4> Gestionarea contului</h4>
+
+                <h5 id="management-1"> Descriere și generalități</h5>
+                Un utilizator se poate înregistra alegându-și un username,o parola si un numar de telefon.
+                Acesta se poate  autentifica având nevoie doar de username și de parolă.
+                <h5 id="management-2"> Actualizarea informațiilor</h5>
+                <ul>
+                    <li>
+                        Atunci cand un utilizator este creat,datele lui sunt introduse in baza de date in tabela users.De altfel,daca utilizatorul
+                        doreste sa-si schimbe parola, noua ei valoare criptata va fi acutalizata in baza de date.
+                    </li>
+                </ul>
+                <h5 id="management-3"> Condiții de funcționare</h5>
+                <ul>
+                    <li>
+                        Pentru a se autentifica, utilizatorul are nevoie de un cont care este înregistrat în baza de date.
+                    </li>
+                </ul>
+
+            </section>
+
+            <section id="administrator">
+                <h4> Secțiunea Admin</h4>
+                <h5 id="administrator-1"> Descriere și generalități</h5>
+                Secțiunea <b>Admin</b> este destinată utilizatorilor ce au drepturi de <b>administrator</b> și
+                oferă facilități pe care un utilizator normal nu le are(stergerea utilizatorilor din baza de date,adaugarea intrebarilor in baza de date).
 
 
-  
-  <section id="user-interface" role="doc-introduction">
-      <h2>Interfata si Motivatie</h2>
-      <p>
-          Interfata este intuitiva, astfel utilizatorul poate naviga usor prin aplicatie si sa gaseasca
-          paginile dorite din navbar, respectiv din footer. De asemenea, pentru a oferi un aspect placut 
-          aplicatiei s-a folosit un design minimalist, cu culori pastelate si un contrast bun intre ele. S-a folosit
-          fontul Raleway pe toate paginile pentru un design modern si simplist.
-      </p>
-      <p>
-          Pentru functionarea chestionarelor (selectarea raspunsurilor), afisarea raspunsurilor pentru componentele Help si Legislatie si pentru ca meniul de
-           navigatie sa fie responsive am folosit Javascript, ceea ce ofera site-ului flexibilitate si un design atractiv.
-            Pentru structurarea elementelor din fiecare pagina s-a folosit "display:flex", pentru un design placut si responsive
-            al paginii .
-  
-      </p>
-      <p>
-          Fiecare fisier css corespunde unei pagini separate, astfel se evita suprascrierea stilurilor, insa exista
-          si cateva fisiere css cu scop global (style.css,body.css,navbar.css).
-      </p>
-      <p>
-        Pentru a realiza acest lucru, cand layout-ul atinge o latime minima, se restructureaza
-        astfel incat latimea paginii sa corespunda cu latimea ecranului.
-          Aplicatia  este responsive, astfel ea este disponibila si poate fi vizualizata usor pe majoritatea device-urilor 
-          cum ar fi: tablete, telefoane mobile chiar si pe un telefon ca Samsung Galaxy Fold.
-      </p>
-  </section>
+                <h5 id="administrator-2"> Actualizarea informațiilor</h5>
+                <ul>
+                    <li>
+                        În momentul în care adminul adaugă o întrebare , informațiile despre acestea sunt introduse  în baza de  date.
+                    </li>
+
+                </ul>
+                <h5 id="administrator-3"> Condiții de funcționare</h5>
+                <ul>
+                    <li>
+                        Utilizatorul trebuie să fie autentificat.
+                    </li>
+                    <li>
+                        Utilizatorul trebuie să dețină drepturi de admin.
+                    </li>
+                </ul>
+            </section>
+            <section id="logout">
+                <h4> Secțiunea de Logout</h4>
+                <h5 id="logout-1"> Descriere și generalități</h5>
+
+                Butonul de <b>Sign out</b> deconecteaza utilizatorul din cadrul contului si il duce pe pagina de autentificare si inregistrare.
+
+                <h5 id="logout-2"> Actualizarea informațiilor</h5>
+                <ul>
+                    <li>
+                        Tokenul de autentificare este eliminat, prin intermediul JWT.
+                    </li>
+                </ul>
+
+                <h5 id="logout-3"> Condiții de funcționare</h5>
+                <ul>
+                    <li>
+                        Utilizatorul trebuie să fie autentificat.
+                    </li>
+
+                </ul>
+            </section>
+
+            <section id="other">
+                <h4> Alte funcționalități</h4>
+                <h5 id="other-1"> Descriere și generalități</h5>
+                Fluxul de date RSS poate fi descarcat de pe pagina Clasament si ofera clasamentul cu cei mai sarguinciosi
+                utilizatori ai aplicatiei.
+
+
+                <h5 id="other-2"> Actualizarea informațiilor</h5>
+                <ol>
+                    <li>
+                        Datele care sunt folosite in fluxul RSS sunt extrase  din baza de date ,mai exact se realizeaza
+                        o sortare descrescatoare a utilizatorilor pe baza campului points.
+                    </li>
+
+                </ol>
+
+
+            </section>
+
+
+          <section id="user-interface" role="doc-introduction">
+              <h2>Interfata si Motivatie</h2>
+              <p>
+                  Interfata este intuitiva, astfel utilizatorul poate naviga usor prin aplicatie si sa gaseasca
+                  paginile dorite din navbar, respectiv din footer. De asemenea, pentru a oferi un aspect placut
+                  aplicatiei s-a folosit un design minimalist, cu culori pastelate si un contrast bun intre ele. S-a folosit
+                  fontul Raleway pe toate paginile pentru un design modern si simplist.
+              </p>
+              <p>
+                  Pentru functionarea chestionarelor (selectarea raspunsurilor), afisarea raspunsurilor pentru componentele Help si Legislatie si pentru ca meniul de
+                   navigatie sa fie responsive am folosit Javascript, ceea ce ofera site-ului flexibilitate si un design atractiv.
+                    Pentru structurarea elementelor din fiecare pagina s-a folosit "display:flex", pentru un design placut si responsive
+                    al paginii .
+
+              </p>
+              <p>
+                  Fiecare fisier css corespunde unei pagini separate, astfel se evita suprascrierea stilurilor, insa exista
+                  si cateva fisiere css cu scop global (style.css,body.css,navbar.css).
+              </p>
+              <p>
+                Pentru a realiza acest lucru, cand layout-ul atinge o latime minima, se restructureaza
+                astfel incat latimea paginii sa corespunda cu latimea ecranului.
+                  Aplicatia  este responsive, astfel ea este disponibila si poate fi vizualizata usor pe majoritatea device-urilor
+                  cum ar fi: tablete, telefoane mobile chiar si pe un telefon ca Samsung Galaxy Fold.
+              </p>
+          </section>
+        </section>
 </section>
 
-<section id="resure">
-  <h2>Resurse </h2>
-  <ul>
-      <li>https://www.codrutier.ro/semne-de-circulatie</li>
-      <li>https://www.drpciv-romania.ro/Code/Applications/web/index.cgi?action=codulrutier</li>
-      <li>https://w3c.github.io/scholarly-html/#abstract-etc</li>
-      <li>https://www.w3schools.com/html/default.asp</li>
-      <li>https://www.w3schools.com/css/default.asp</li>
-      <li>https://www.w3schools.com/js/default.asp</li>
-  </ul>
-</section>
- 
+
+        <section id="resure">
+          <h2>Resurse </h2>
+          <ul>
+              <li>https://www.codrutier.ro/semne-de-circulatie</li>
+              <li>https://www.drpciv-romania.ro/Code/Applications/web/index.cgi?action=codulrutier</li>
+              <li>https://w3c.github.io/scholarly-html/#abstract-etc</li>
+              <li>https://www.w3schools.com/html/default.asp</li>
+              <li>https://www.w3schools.com/css/default.asp</li>
+              <li>https://www.w3schools.com/js/default.asp</li>
+              <li>https://stackoverflow.com/</li>
+              <li>https://www.w3schools.com/php/</li>
+              <li>https://www.w3schools.com/MySQL/default.asp</li>
+          </ul>
+        </section>
 
 
 
 
-  </body>
-</html>
+
+          </body>
+        </html>

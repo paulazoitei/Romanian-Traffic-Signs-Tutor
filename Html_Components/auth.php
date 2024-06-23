@@ -49,7 +49,7 @@
                     </div>
                 <?php endif; ?>
                 <div class="submit-container">
-                    <input type="submit" class="submit-button" id="submit-login" />
+                    <input type="submit" class="submit-button" id="submit-login" value="Connect" />
                 </div>
 
             </form>
@@ -101,7 +101,7 @@
                     </div>
                 <?php endif; ?>
                 <div class="submit-container">
-                    <input type="submit" class="submit-button" id="submit-register" value="Trimite">
+                    <input type="submit" class="submit-button" id="submit-register" value="Register in">
                 </div>
             </form>
         </div>
