@@ -76,7 +76,14 @@ class RegisterController
             }
         } catch (Exception $e) {
             if ($e->getCode() == 1062) {
-                echo json_encode(["error" => "Email already exists."]);
+                $errorMessage = $e->getMessage();
+                if (strpos($errorMessage, 'email') !== false) {
+                    echo json_encode(["error" => "Email already exists."]);
+                } elseif (strpos($errorMessage, 'username') !== false) {
+                    echo json_encode(["error" => "Username already exists."]);
+                } else {
+                    echo json_encode(["error" => "Duplicate entry"]);
+                }
                 http_response_code(409);
             } else {
                 echo json_encode(["error" => "Error: " . $e->getMessage()]);

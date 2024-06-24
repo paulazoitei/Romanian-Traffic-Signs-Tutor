@@ -39,7 +39,7 @@
                 <div class="forgot-password">
                     <a href="/php/Romanian-Traffic-Signs-Tutor/Public/forgot_password" id="forgot-password-link">Forgot Password?</a>
                 </div>
-                <div id="login-error-container" class="error-message"></div> <!-- Moved error message container here -->
+                <div id="login-error-container" class="error-message"></div>
                 <?php if (isset($_SESSION['login_error'])): ?>
                     <div class="error-message">
                         <?php
@@ -56,55 +56,51 @@
 
         </div>
         <div class="separator"></div>
+
         <div class="register form-block">
             <p class="login-text">Register</p>
             <form class="login-form" id="register-form" method="post">
                 <div class="input-field">
                     <label for="register-username">Username:</label><br>
                     <input type="text" id="register-username" name="username" placeholder="ex: AlexDriver"><br>
-
+                    <div id="username-error" class="error-message"></div>
                     <br>
                 </div>
-                <div class="error-message" id="username-error"></div>
+                <div id="username-error-container" class="error-message"></div> <!-- Added container -->
+
                 <div class="input-field">
                     <label for="email">Email:</label><br>
                     <input type="email" id="email" name="email" placeholder="Introdu un email valid..."><br>
-
+                    <div id="email-error" class="error-message"></div>
                     <br>
                 </div>
-                <div class="error-message" id="email-error"></div>
+                <div id="email-error-container" class="error-message"></div> <!-- Added container -->
+
                 <div class="input-field">
                     <label for="register-password">Password:</label><br>
                     <input type="password" id="register-password" name="password" placeholder="Introdu o parola puternica..."><br>
-                    <div class="error-message" id="password-error"></div>
+                    <div id="password-error" class="error-message"></div>
                     <br>
                 </div>
                 <div class="input-field">
                     <label for="confirm-password">Confirm Password:</label><br>
                     <input type="password" id="confirm-password" name="password_confirmation" placeholder="Introdu din nou parola ta"><br>
-
+                    <div id="confirm-password-error" class="error-message"></div>
                     <br>
                 </div>
-                <div class="error-message" id="confirm-password-error"></div>
                 <div class="input-field">
                     <label for="phone">Phone number:</label><br>
                     <input type="text" id="phone" name="phone" placeholder="Introdu un numar de telefon..."><br>
-
+                    <div id="phone-error" class="error-message"></div>
+                    <br>
                 </div>
-                <div class="error-message" id="phone-error"></div>
-                <?php if (isset($_SESSION['register_error'])): ?>
-                    <div class="error-message">
-                        <?php
-                        echo $_SESSION['register_error'];
-                        unset($_SESSION['register_error']);
-                        ?>
-                    </div>
-                <?php endif; ?>
                 <div class="submit-container">
                     <input type="submit" class="submit-button" id="submit-register" value="Register in">
                 </div>
             </form>
         </div>
+
+
     </div>
 </div>
 <footer class="about-section">
